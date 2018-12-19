@@ -1,0 +1,40 @@
+:Base Speeeeed.hlp>main
+:Title Speeeeedヘルプ
+:Index Speeeeedヘルプ =Speeeeed.hlp
+1 目次 =CONTENT
+1 始めに
+2 ソフト紹介 =SOFT_INFO
+2 動作環境 =REQUIREMENTS
+2 インストール =INSTALL
+1 使用方法
+2 メイン画面 =MAIN_VIEW
+2 基本操作 =USING_WAY
+2 置換えを行うファイルを登録 =REGIST_FILE
+2 右クリックメニュー =R_CLICK
+2 置換えリスト =REPLACE_LIST
+1 設定
+2 設定画面 =SETTING_VIEW
+2 フィルタ設定 =FILTER
+2 終了通知音 =NOTIFY_SOUND
+2 使用する置換えリスト =USE_REPLACE_LIST
+2 置換えをBREGEXP.DLLに任せる =USE_BREGEXP
+1 機能説明
+2 補助機能 =ASSIST
+2 エスケープシーケンス =ESCAPE_SEQUENCE
+2 拡張エスケープシーケンス =ESCAPE_SEQUENCE_EX
+2 正規表現検索 =REGULAR_EXPRESSION
+2 全自動置換 =AUTO_REPLACE
+2 コマンドラインからの起動 =COMMANDLINE
+2 置換え結果ログ =REPLACE_LOG
+2 バージョン情報ダイアログ =ABOUT_DIALOG
+1 置換えリストエディタ
+2 編集画面 =EDIT_VIEW
+2 メニュー =EDITOR_MENU
+2 リスト編集 =LIST_EDIT
+2 データ形式 =DATA_FORM
+1 その他
+2 著作権 =COPYRIGHT
+2 免責等 =RESPONSIBILITY
+2 サポート =SUPPORT
+2 最後に =LAST
+

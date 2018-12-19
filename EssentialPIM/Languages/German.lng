@@ -1,0 +1,2162 @@
+﻿; This file is stored in UTF-8 encoding
+
+[Info]
+; LanguageName - language name in its own language 
+LanguageName=Deutsch
+; LanguageID - primary language ID. See:
+; http://msdn.microsoft.com/en-us/library/cc195085.aspx
+LanguageID=07
+ProgramVersion=6.55
+TranslatorName=Texter
+TranslatorURL=http://www.essentialpim.com/forum/memberlist.php?mode=viewprofile&u=7080
+Letters=abcdefghijklmnopqrstuvwxyz
+; The above string is for the Letter Bar in Contacts.
+; Former Transaltors in thankful honor: till 5.81 Ralph, till 4.5.3 Karl Barth
+
+[Texts]
+1=Deutsche Lokalisierung:
+10=OK
+11=Abbrechen
+12=&Hinzufügen
+13=&Löschen
+14=< &Zurück
+15=&Weiter >
+16=&Beenden
+17=Entfernen
+18=&Laden...
+19=&Speichern...
+20=&Bearbeiten
+21=&Bearbeiten...
+22=Übernehmen
+23=Einfügen
+24=Fortsetzen
+25=&Ja
+26=&Nein
+27=Ja|Nein
+30=Zurück
+31=Weiter
+32=Hinzufügen
+33=Bearbeiten
+34=Löschen
+35=Umbenennen
+36=&Eigenschaften...
+37=Details...
+39=&Erweitert...
+40=&Durchsuchen...
+41=Schließen
+42=&Hilfe
+43=Aufwärts
+44=Abwärts
+45=&Öffnen
+46=H&inzufügen
+47=&Einstellungen
+48=&Speichern && Neu
+49=&Abweisen
+50=&Alle abweisen
+51=&Jetzt erneuern
+52=&Schlüssel eingeben
+53=Auswählen
+54=Ändern...
+55=Alle deaktivieren
+56=Alle aktivieren
+57=Standardeinst.
+
+80=Fehler
+81=Warnung
+82=Bestätigen
+83=Information
+
+88=Passwort &merken für
+89=10 Minuten|1 Stunde|1 Tag
+90=Passwort eingeben
+91=&Passwort:
+92=Passwort &bestätigen:
+93=Falsches Passwort!
+94=Passwort &speichern
+95=&Verschlüsselungs-Algorithmus:
+96=AES (Rijndael), 128 bit|AES (Rijndael), 256 bit|Single DES|Triple DES|Blowfish, 448 bit|Twofish, 128 bit|Twofish, 256 bit|Square
+97=&Benutzer:
+98=Bitte warten, Datenbank wird verschlüsselt...
+99=Bitte warten, Datenbank wird entschlüsselt...
+
+;--- Main Menu ---
+100=&Datei
+101=&Neu
+102=Ö&ffnen...
+103=&Speichern
+104=Speichern &unter...
+105=S&chließen
+106=Mit &Passwort schützen...
+107=&Import
+108=&Export
+109=&Beenden
+110=&Bearbeiten
+111=Rückgängig
+112=Wiederholen
+113=Ausschneiden
+114=Kopieren
+115=Einfügen
+116=Alles auswählen
+117=Suchen...
+118=Als Link kopieren
+120=&Ansicht
+121=Kalender
+122=Aufgaben
+123=Notizen
+124=Kontakte
+125=EPIM Heute
+126=Papierkorb
+127=Mail
+128=Passwörter
+130=Einfügen
+131=Neuer Termin...
+132=Neue Aufgabe...
+133=Neue Notiz...
+134=Neuer Kontakt...
+135=Symbol...
+136=Bild...
+137=Hyperlink...
+138=Datum und Zeit...
+139=E-Mail-Konto...
+140=Format
+141=Bild
+143=Bild in Datei speichern...
+144=Tabelle
+145=Tabelle einfügen...
+146=Nach oben ausrichten
+147=Zentrieren
+148=Nach unten ausrichten
+149=Zeile einfügen
+150=Spalte einfügen
+151=Zeile löschen
+152=Spalte löschen
+153=Zellen teilen...
+154=Zellen verbinden
+155=&Extras
+156=Optionen...
+158=Sprache
+159=Windows Mobile
+160=&Hilfe
+161=Inhalt
+162=E-Mail-Support
+163=Webseite
+164=Lizenzvereinbarung
+165=Registrierung...
+166=Neue Version suchen
+167=Über...
+168=S&ynchronisation
+169=Newsletter bestellen
+170=Outlook...
+171=Outlook Express...
+176=Druckvorschau
+177=Drucken...
+178=Seite einrichten...
+180=Wiederherstellen
+181=Minimieren
+182=Über EssentialPIM
+183=&Datenbankverwaltung...
+189=iPod...
+190=Datei ist bereits geöffnet!
+191=Wollen Sie die Änderungen speichern?
+192=Freie Aktualisierungen bis:
+193=EssentialPIM %s kann die Datei %s von EssentialPIM %d.%d nicht öffnen. Die neueste Version von EssentialPIM erhalten Sie unter www.EssentialPIM.com.
+194=Die Testversion erlaubt maximal 2000 Einträge. Das Limit ist erreicht. Besuchen Sie unsere Website, um EssentialPIM Pro Portable zu kaufen.
+195=Registriert für: Test (noch %s Tage)
+196=Registriert für: %s
+197=Datenbank schließen und eine neue Datenbank anlegen? 
+198=Laufwerk wurde entfernt, EssentialPIM konnte nicht auf das Medium speichern.
+199=Datenbank kann nicht geöffnet werden. Sie ist bereits von einer weiteren Programminstanz geöffnet oder vom Betriebssystem gesperrt.
+
+;--- Contact Module ---
+200=&Suchen:
+201=Alle Kontakte|Meine Kontakte|Gesammelte Adressen
+202=Kontakt...
+203=Ausgewählte(n) Kontakt(e) löschen?
+204=Per E-Mail senden
+205=Buchstabenleiste
+206=Meine Kontakte
+207=Gesammelte Adressen
+208=Alle Felder
+209=Suchen in:
+210=Aufkleber drucken...
+211=Umschläge drucken...
+212=Neuer Kontakt
+10212=Neuen Kontakt zu aktueller Gruppe hinzufügen
+213=Neue Gruppe
+10213=Neue Untergruppe zu aktueller Gruppe hinzufügen
+214=E-Mail an Kontakt...
+215=Zur Bearbeitung Schreibschutz entfernen.
+220=Neuer Kontakt...
+221=Löschen
+222=Bearbeiten...
+223=Felder auswählen...
+224=Jahre
+226=Notizen
+227=Hinzufügen
+228=Bearbeiten
+10229=Ausgewählte Kontakt(e)/Gruppe(n) löschen
+10228=Kontakt/Gruppe bearbeiten
+229=Löschen
+230=Bild
+231=Neue Gruppe...
+232=Mitgliedschaft
+233=Gruppen
+234=Baum ausblenden
+10234=Baum ausblenden
+235=Ausgewählte Gruppen löschen?|(Gruppenmitglieder werden nicht gelöscht)
+236=Rundmail verschicken...
+237=Kopieren
+238=Privat
+239=Öffentlich|Privat|Benutzerdefiniert
+240=Status:
+242=Status
+
+;--- Contact Fields ---
+251=Vorname
+252=Nachname
+253=Mobiltelefon
+254=Telefon
+255=E-Mail
+256=Anschrift
+257=Ort
+258=Bundesland
+259=Postleitzahl
+260=Land
+261=ICQ
+262=MSN
+263=AOL
+264=Homepage
+265=Geburtstag
+266=Zweiter Vorname
+267=Mädchenname
+268=E-Mail (mobil)
+269=Spitzname
+271=Firma
+272=Position
+273=Fax (Firma)
+274=Telefon (Firma)
+275=E-Mail (Firma)
+276=Website (Firma)
+277=Anschrift (Firma)
+278=Ort (Firma)
+279=Bundesland (Firma)
+280=Postleitzahl (Firma)
+281=Land (Firma)
+282=Mobiltelefon (Firma)
+283=Yahoo!
+284=Gadu-Gadu
+285=Jabber
+286=Skype
+287=Abteilung
+288=Fax
+289=Autotelefon
+290=Sprechfunkgerät
+291=Privat-Telefon 2
+292=Pager
+293=Büro (Firma)
+294=Anschrift 2
+295=Ort 2
+296=Bundesland 2
+297=Postleitzahl 2
+298=Land 2
+299=E-Mail 2
+300=Telefon 2
+301=Private Homepage
+302=Homepage 2
+303=FTP
+304=Blog
+305=Profil (Webseite)
+306=Firmentelefon
+307=Haupttelefon
+308=Fax 2
+309=Tel. Sekretariat
+
+;--- Contact Group Fields ---
+330=Gruppenname
+331=Telefon
+332=Fax
+333=E-Mail
+334=Homepage
+335=Anschrift
+336=Stadt
+337=Bundesland
+338=Postleitzahl
+339=Land
+
+;--- Customize Field List ---
+350=Felder auswählen
+352=&Ausgeblendet
+353=&Sichtbar
+354=Wählen Sie die anzuzeigenden Spalten aus
+
+;--- Notes Module (partially re-used in To Do Module) ---
+400=Neuer Haupteintrag
+10400=Neuer Eintrag auf oberster Ebene
+401=Notiz...
+402=Baum einklappen
+403=Baum ausklappen
+10402=Alle Zweige des Baums einklappen
+10403=Alle Zweige des Baums ausklappen
+404=Sortieren nach
+405=Name
+406=Änderungsdatum
+407=Automatisch sortieren
+408=Ausgewählte Notiz(en) löschen?
+409=Diese Notiz und alle Unternotizen löschen?
+410=Neue Notiz
+411=Gesuchte Zeichenfolge wurde nicht gefunden.
+412=Hinzufügen
+413=Bearbeiten
+414=Umbenennen
+415=Löschen
+10412=Notiz hinzufügen
+10413=Notiz bearbeiten
+10415=Notiz(en) löschen
+416=STRG+Klick, um Link zu folgen
+417=&Text
+418=Eigenschaften
+419=Seite
+420=Baum
+421=Umbenennen...
+422=Die ausgewählte Seite enthält Daten. Trotzdem löschen?
+423=Konnte "%s" nicht finden! Vom Anfang fortsetzen?
+424=Absatz...
+425=Tabelleneigenschaften...
+426=Hyperlink einfügen...
+427=Neuer Baum
+428=Neue Notizseite
+429=Icon hinzufügen
+430=Ausgewähltes Icon löschen?
+431=Hyperlink kopieren
+432=<Standard>
+433=<Formatvorlage bearbeiten...>
+434=<Neue Formatvorlage...>
+435=Beispiel-Formatvorlage
+436=Sie können die Standard-Formatvorlage nicht ändern
+437=Wählen Sie eine Formatvorlage
+438=Rechtschreibprüfung...
+439=Empfang
+440=Neuer Nachbareintrag
+10440=Neuen Eintrag auf gleicher Ebene hinzufügen
+441=Neue Notiz als Nachbar
+442=Zum Wörterbuch hinzufügen
+443=Wort ignorieren
+444=Als Text einfügen
+445=Format kopieren
+446=Eigenschaften
+10446=Eigenschaften der Notiz ändern
+447=Hyperlink bearbeiten...
+
+;--- Editor (Notes) ---
+450=Fett
+451=Kursiv
+452=Unterstreichen
+469=Suchen...
+475=Durchstreichen
+10450=Fett
+10451=Kursiv
+10452=Unterstreichen
+10455=Textfarbe
+10456=Hintergrundfarbe
+10457=Tiefgestellt
+10458=Hochgestellt
+10459=Linksbündig
+10460=Zentriert
+10461=Rechtsbündig
+10462=Blocksatz
+10463=Einzug verkleinern
+10464=Einzug vergrößern
+10465=Nummerierte Liste
+10466=Aufzählungszeichen
+10467=Bild einfügen
+10468=Tabelle einfügen
+10469=Suchen und Ersetzen
+10470=Hyperlink einfügen
+10471=Füllfarbe
+10473=Rückgängig
+10474=Wiederholen
+10475=Durchstreichen
+10476=Datum und Zeit einfügen
+10477=Symbol einfügen
+10478=Horizontale Linie einfügen
+479=Horizontale Linie...
+480=Schriftart
+481=Schriftfarbe...
+
+;--- Search and Replace (Notes) ---
+500=Suchen und Ersetzen
+501=&Suchtext:
+502=A&lle Notizen
+503=&Unternotizen einschließen
+504=&Ersetzen durch:
+505=&Suchbereich
+507=Suchen &in
+508=Inhalt und Titel|Inhalt|Titel
+509=&Weitersuchen
+510=E&rsetzen
+511=&Alle ersetzen
+512=%d Ersetzungen
+513=Suche
+514=Suche&n
+515=Er&setzen
+
+;--- Insert Table ---
+550=Tabelle einfügen
+551=Tabellengröße:
+552=&Spalten:
+553=&Zeilen:
+554=Zellen teilen
+555=Teilen in:
+
+;--- Insert/Edit Hyperlink ---
+570=Hyperlink
+571=&Text:
+573=&Art der Verknüpfung:
+574=&Verknüpfung mit EPIM-Eintrag
+575=I&nternet-Link
+576=&Dateiverknüpfung
+577=EPIM-Eintrag:
+578=&Adresse:
+579=Datein&ame:
+580=Te&st
+581=&Suchen in:
+582=Alle Module
+583=Suchen in
+
+;--- Contact Editor Dialog ---
+601=&Persönlich
+602=Firm&a
+603=&Bemerkungen
+604=&Neues Feld
+605=F&eld ändern
+606=Feld &löschen
+607=B&ild
+609=Gruppe
+610=&Gruppendetails
+611=&Mitglieder
+612=Erinnerung vor
+614=Löschen des Feldes entfernt es aus der Datenbank. Dies betrifft alle Benutzer. Enthaltene Daten gehen verloren. Fortsetzen?
+615=Dieses Feld enthält Daten. Wollen Sie es wirklich aus allen Einträgen dieses Moduls löschen?
+
+;--- Edit Members ---
+630=&Kontakte auswählen
+631=&Neuer Kontakt
+632=&Entfernen
+
+;--- Select Members ---
+640=Kontakte auswählen
+641=&Alle Kontakte:
+642=Au&sgewählte Kontakte:
+
+;--- Add New Field ---
+650=Neues Feld
+651=Feld bearbeiten
+652=Name:
+653=&Eigenschaften
+654=Typ:
+655=In der Fußleiste des Kalenders anzeigen
+657=&Als Termin mit Kategorie anzeigen:
+660=Werte:
+661=Ja/Nein|Ein/Aus|Wahr/Falsch
+662=Wert hinzufügen
+663=&Wert:
+664=Werte bearbeiten
+665=Wert &1:
+666=Wert &2:
+
+;--- Modify Style ---
+700=Formatvorlage bearbeiten
+701=Name:
+702=Basiert auf:
+703=Schriftart
+704=Absatz
+705=Formatvorlage löschen
+706=Es existiert bereits eine Formatvorlage mit gleichen Einstellungen: "%s"
+707=Name der Formatvorlage eingeben:
+708=Formatvorlage hinzufügen
+
+;--- Check Spelling ---
+720=Rechtschreibprüfung
+721=Ignorieren
+722=Alle ignorieren
+723=Ändern
+724=Alle ändern
+727=Nicht im Wörterbuch:
+728=Ändern in:
+729=Installierte Wörterbücher:
+730=Wörterbücher herunterladen
+731=Wörterbücher...
+732=Wörterbücher
+733=Rechtschreibprüfung erfolgreich abgeschlossen.
+
+;---
+800=Bearbeiten...
+801=Hinzufügen...
+802=Löschen
+803=Heute
+10803=Heute
+804=Gehe zu
+805=Ansicht
+806=Tag
+807=Woche
+808=Monat
+809=Jahr
+810=Ansichten
+811=Voriger Tag
+812=Nächster Tag
+813=Vorige Woche
+814=Nächste Woche
+815=Voriger Monat
+816=Nächster Monat
+817=Datum...
+818=Zeitraster
+819=60 Minuten
+820=30 Minuten
+821=15 Minuten
+822=10 Minuten
+823=5 Minuten
+824=Tag
+825=Woche
+826=Monat
+827=Jahr
+828=Aktionen
+829=Gehe zu...
+10824=Tagesansicht
+10825=Wochenansicht
+10826=Monatsansicht
+10827=Jahresansicht
+10829=Gehe zu Datum
+830=Hinzufügen
+831=Bearbeiten
+832=Löschen
+10830=Termin hinzufügen
+10831=Termin bearbeiten
+10832=Termin(e) löschen
+833=Ende
+834=Text
+835=Ausgewählte(n) Termin(e) löschen?
+836=Gehe zu Datum...
+837=%d Termin(e)|%d Geburtstage(e)
+839=Dauer
+840=Gehe zu
+841=&Datum:
+842=&Von:
+843=&bis:
+844=Wiederkehr
+845=Erinnerung(en)
+846=Zeige Termin
+847=Erinnerung in
+848=Datum/Zeit|Titel
+849=5 Minuten|10 Minuten|15 Minuten|30 Minuten|45 Minuten|1 Stunde|2 Stunden|3 Stunden|4 Stunden|6 Stunden|12 Stunden|1 Tag|2 Tagen|3 Tagen|1 Woche
+
+;--- Appointment Data ---
+851=&Termin
+852=&Beginn:
+853=&Ende:
+854=&Dauer:
+855=Ganztägig
+856=Exk&lusiv
+857=&Priorität:
+858=&Kategorie:
+859=Fortschritt:
+860=Te&xt:
+862=Stunde(n)
+864=Termin...
+865=Höchste|Hoch|Mittel|Keine|Niedrig|Niedrigste|Unbekannt
+866=&Erinnerung
+867=Zur Begi&nnzeit
+868=&Vor Beginn
+869=Minute(n)|Stunde(n)|Tag(e)
+870=Wiederholung
+871=&Alle
+872=Tage|Wochen|Monate
+873=Endet am
+874=---
+875=Keine|Wichtig|Geschäftlich|Persönlich|Urlaub|Pflicht|Reise|Vorbereitung||Jahrestag|Anruf|Feiertag
+876=&Wiederholung
+877=Keine Kategorie
+
+;--- Advanced Appointment Data ---
+880=Erweiterte Termineigenschaften
+881=&Klang
+882=K&ein Klang
+883=&Standardklang
+884=Klang&datei
+885=&Nachricht
+887=&Standardnachricht
+888=&Benutzerdefiniert
+889=&Programm starten
+
+;---
+890=Diese Zeitspanne ist von einem exklusiven Termin besetzt - es ist kein weiterer Termin in dieser Zeit möglich.
+891=Diese Zeitspanne ist von einem anderen Termin besetzt - exklusive Termine können nur in freie Zeitspannen gelegt werden.
+892=Als erledigt markieren
+
+;---
+899=Kein
+
+900=Minuten|Stunden|Tage
+901=Minute|Stunde|Tag
+
+;---
+950=Serientermin öffnen
+951=Dies ist ein Serientermin. Nur diesen Termin oder ganze Terminserie öffnen?
+952=Diesen Termin öffnen
+953=Terminserie öffnen
+
+;---
+1000=Speichere Kontakte...
+1001=Speichere Notizen...
+1002=Speichere Kalender...
+1003=Speichere Aufgaben...
+1004=Speichere Nachrichten...
+1005=Speichere Passwörter...
+1010=Importiere Kontakte...
+1011=Importiere Notizen...
+1012=Importiere Kalender...
+1013=Importiere Aufgaben...
+1014=Importiere Nachrichten...
+1020=Exportiere Kontakte...
+1021=Exportiere Notizen...
+1022=Exportiere Kalender...
+1023=Exportiere Aufgaben...
+1025=Exportiere Nachrichten...
+1026=Kontakt|Kontaktgruppe|Notiz|Termin|Aufgabe|Anhang|Notizseite|Nachricht|Nachrichtenordner|Mail-Konto|Passworteintrag|Passwortgruppe|Notizbaum|Aufgabenliste
+1030=Synchronisiere Kontakte...
+1031=Synchronisiere Notizen...
+1032=Synchronisiere Kalender...
+1033=Synchronisiere Aufgaben...
+1034=Initialisiere Synchronisation
+1035=Synchronisiere Nachrichten...
+1036=Synchronisiere Passwörter...
+1037=Benutzername oder Passwort sind falsch.
+1038=Synchronisiere...
+1039=Synchronisations-Status
+
+1050=Kontakt|Kontakte
+1052=Notiz|Notizen
+1053=Termin|Termine
+1054=Aufgabe|Aufgaben
+1057=Nachricht|Nachrichten
+1060=Passwort|Passwörter
+
+;---
+1100=iCal-Import
+1101=Kalender importieren
+1102=Aufgaben importieren
+1106=Diese Datei kann nicht importiert werden, weil Teile davon nicht mit iCal kompatibel sind. Wenden Sie sich an den Hersteller der Software.
+
+;--- Open file for import/export ---
+1150=Datei auswählen
+1151=&Lokal
+1152=&URL
+
+;--- Resolve Conflict ---
+1200=Konflikt lösen
+1201=Die folgenden Einträge wurden nach der letzten Synchronisation sowohl online als auch in EssentialPIM geändert. Welche Einträge sollen ersetzt werden, um den Konflikt zu lösen?
+1202=Die folgenden Einträge wurden nach der letzten Synchronisation sowohl in Outlook als auch in EssentialPIM geändert. Welche Einträge sollen ersetzt werden, um den Konflikt zu lösen?
+1203=Typ|Desktop Computer|Aktion|Mobiles Gerät
+1204=Die folgenden Einträge wurden nach der letzten Synchronisation sowohl auf dem mobilen Gerät als auch am Desktop PC geändert. Welche Einträge sollen ersetzt werden, um den Konflikt zu lösen?
+1205=Synchronisieren
+1206=Typ|Desktop Computer|Aktion|MS Outlook
+1207=Vorschau
+1208=Typ|EssentialPIM|Aktion|%s
+
+;--- Templates ---
+1300=Als Vorlage speichern
+1301=Als Vorlage speichern...
+1302=Vorlage:
+1303=Vorlage
+1304=Es gibt bereits eine Vorlage mit diesem Namen. Soll sie überschrieben werden?
+1305=Vorlagen
+1306=&Nicht Standard
+
+;--- Options ---
+1400=Optionen
+1401=In Systemablage &minimieren
+1402=&Automatisch mit Windows starten
+1403=&Papierkorb beim Verlassen leeren
+1404=Allgemein
+1405=Zeige private Einträge
+1406=Private Einträge exportieren/synchronisieren
+1407=Automatisches Speichern
+1408=Automatisch speichern all&e:
+1409=&Minuten
+1410=Automatisch speichern beim Minimieren.
+1411=Beim S&chließen minimieren
+1412=Backup
+1413=&Backup aktivieren
+1414=Backup-&Ordner
+1415=&Datenbank-Ordner
+1416=&Windows Temp-Verzeichnis
+1417=Au&sgewählter Ordner
+1418=Backup-&Intervall:
+1419=Backup starten
+1420=EPIM Heute
+1422=&Terminvorschau:
+1423=Aufgaben &ohne Datum anzeigen
+1424=Anzahl der gesicherten Backups
+1425=Bitte warten, Backup läuft...
+1426=Backup beendet
+1427=&Erledigte Aufgaben ausblenden
+1429=&Hintergrundfarbe:
+1430=Zeige nur Werktage
+1431=&Schriftart:
+1432=Folgende &Ordner anzeigen:
+1433=Raster in &Hauptansicht anzeigen
+1434=Raster in &Detailansicht anzeigen
+1435=Trennungslinie
+1436=Senkrecht|Waagerecht
+1437=Benutzerdefiniert...
+1438=&Icons neben Namen der Notiz anzeigen
+1439=Nur eine Kopie von EssentialPIM gleichzeitig erlauben
+1440=&Portable Features
+1441=&Verknüpfen mit %s Dateien
+1442=Tastenkombination für ausgewählten Befehl:
+1443=Tastenkombinationen speichern
+1444=&Desktop
+1445=&Schnellstart
+1446=&Startmenü
+1447=%s ausführen
+1448=&Anzahl von Tagen in Wochenansicht:
+1449=Tastenkombinationen
+1451=&Raster anzeigen
+1452=Module
+1453=Synchronisation
+1454=&Zeige Kategorien als:
+1455=Manuell gesetzte Daten in Tabellenansicht merken
+1456=Bitte wählen Sie einen Untereintrag aus der Liste.
+1457=&Papierkorb leeren
+1458=&Einträge automatisch löschen nach
+1459=Zeige Termine/Aufgaben folgender Kategorien:
+1460=Sicherheit
+1461=Passwortschutz
+1462=&Beim Minimieren Datenbank sperren
+1463=&Automatische Sperrung nach
+1464=Diese Optionen sind nur wirksam, wenn der Passwortschutz im Menü Datei aktiviert ist.
+1465=&Datenbankverlauf beim Verlassen löschen
+1466=Klebezettel
+1467=Standard&farbe:
+1468=Standard&breite:
+1469=Standard&höhe:
+1470=Löschen erlauben
+1471=&Synchronisierungsoptionen
+1472=Folgende Module synchronisieren:
+1473=&Konfliktlösung
+1474=Bei Konflikt (Daten wurden auf dem mobilen Gerät und auf dem Computer geändert):
+1475=Manuelle Auswahl|Immer Daten auf dem mobilen Gerät ersetzen|Immer Daten auf diesem Computer ersetzen
+1476=Tage voraus
+1477=Tage zurück
+1478=Erledigte &Termine ausblenden
+1479=Nachrichten sofort senden
+1480=Outlook
+1481=Bei Konflikt (Daten wurden in EPIM und in Outlook geändert):
+1482=Manuelle Auswahl|Immer Daten in Outlook ersetzen|Immer Daten in EPIM ersetzen
+1483=Wählen Sie die anzuzeigenden Module aus
+1484=&Ordner...
+1485=Palm
+1486=&Palm Sync aktivieren
+1487=&Zu synchronisierende Datenbank
+1488=&Zuletzt geöffnete Datei
+1489=Ordner auswählen
+1490=Schließen Sie EPIM vor der Synchronisierung mit Ihrem Palm
+1491=D&aten-Passwort:
+1492=&Standardformat für Nachrichten
+1493=&Antwort auf Nachrichten im gleichen Format senden
+1494=Hintergrundfarbe|Farben|Namen|Farben und Namen
+1495=Google
+1496=Login Information:
+1497=Proxy
+1498=&Host:
+1499=&Port:
+
+;--- Key Bindings ---
+1500=Global
+1501=In Systemablage minimieren
+1502=Fokus auf Suchfeld
+1503=Zum nächsten Modul wechseln
+1506=Zwischen Modulen umschalten
+1507=Kalender-Modul
+1508=Aufgaben-Modul
+1509=Kontakte-Modul
+1510=Gruppe hinzufügen
+1511=Gruppen ausblenden
+1512=Notizen-Modul
+1513=Passwort-Modul
+1514=Private Einträge ein-/ausblenden
+1515=Erledigte ein-/ausblenden
+1516=E-Mail-Modul
+1517=Tabellenansicht
+1518=Baumansicht
+1519=Listenansicht
+1520=Gesamtansicht
+
+;--- Options (cont.) ---
+1550=Prüfen, ob EPIM das Standard-Mailprogramm ist
+1551=Rechtschreibung
+1552=&Rechtschreibprüfung während der Eingabe für:
+1553=&Markiere Nachricht als gelesen nach
+1554=Synchronisierungsänderungen sind erst nach dem Neustart von EPIM wirksam.
+1555=&Automatisch nach Updates suchen
+1556=&Jetzt überprüfen
+1557=Karteireiter '&Alle' anzeigen
+1558=Zeige l&eere Felder in Vorschau (Persönlich/Firma)
+1559=&Letzten aktiven Karteireiter für jeden Kontakt merken
+1560=&Papierkorb nicht verwenden. Einträge sofort löschen.
+1561=Einträge werden in den Papierkorb verschoben, auch wenn dieser unsichtbar ist. Um Einträge direkt zu löschen, wählen Sie unter Extras -> Optionen -> Papierkorb die entsprechende Option.
+1562=Arbeitszeit
+1563=&Zeige nur Arbeitsstunden
+1564=&Stundenraster automatisch skalieren
+1565=Arbeitswoche:
+1566=&Erster Tag der Woche:
+1567=Nur Arbeitstage anzeigen
+1568=Datums- und Zeitformate
+1569=Verwende Systemeinstellungen
+1570=Vorschau:
+1571=&Synchronisiere Kontaktnamen als:
+1572=Vorname Nachname|Nachname Vorname
+1573=Icons für Passwort&gruppen anzeigen
+1574=Passwörter in &Hauptansicht unmaskiert anzeigen
+1575=&Erweiterte Logausgaben
+1576=Für neue Einträge Passwort automatisch &generieren
+
+;--- Import CSV ---
+1600=CSV-Import
+1601=Nicht importieren
+1602=Importieren als:
+1603=Trennzeichen
+1604=%d Spalten nicht zugewiesen. Diese Spalten werden beim Import ignoriert. Fortsetzen?
+1605=Erste Zeile enthält Spaltennamen
+1606=Achtung! Datumsfelder sollten in folgendem Format vorliegen: %s.
+
+;--- Select Modules to import/export ---
+1650=Folgende Module importieren:
+1651=Folgende Module exportieren:
+
+;--- Import/Export ---
+1700=Import von Outlook
+1701=Export nach Outlook
+1702=Import von Outlook Express
+1703=Export nach Outlook Express
+1704=Import beendet
+1705=Export beendet
+1706=Importiert:
+1707=Exportiert:
+1711=Outlook ist installiert. Wollen Sie jetzt Daten aus Outlook importieren? Sie können den Datenimport jederzeit über das Menü Datei-> Import nachholen.
+1712=Outlook Express ist installiert. Wollen Sie jetzt Daten aus Outlook Express importieren? Sie können den Datenimport jederzeit über das Menü Datei-> Import nachholen.
+1713=Es wurde keine Outlook-Installation gefunden. Falls Sie eine 64-bit-Version von Outlook installiert haben, klicken Sie bitte auf OK, um ein kostenloses Programm zur Synchronisation von EssentialPIM mit 64-bit-Outlook herunterzuladen. Ansonsten klicken Sie bitte auf Abbrechen.
+1714=Import aus CSV-Datei
+1715=iCal-Import
+1716=In Ordner speichern
+1717=Synchronisation abgeschlossen.
+1718=Ihr Gerät wurde nicht erkannt. Kontrollieren Sie die Kabelverbindung.
+1719=Synchronisation abgebrochen.
+1720=Letzte Änderung:
+1721=Pfad:
+1722=Import von vCard
+1723=Bitte wählen Sie die bevorzugte Importmethode:
+1724=Nachrichten importieren
+1725=Ausgewählt
+1726=Vorgang nicht ausführbar. Es wurde keine Outlook-Installation auf diesem Computer gefunden.
+1727=%d Gruppe(n)
+1728=Dargestellt
+1729=Importiere Datei(en) als separate Notiz(en) in Baum
+1730=Importiere Datei(en) als separate Notiz(en) unter den ausgewählten Eintrag
+1731=Importiere Datei(en) innerhalb des ausgewählten Eintrags in verschiedene Seiten
+1732=Legen Sie ein E-Mail Konto an, um diese Funktion zu aktivieren
+1733=%d Nachricht(en)
+1734=iPod auswählen
+1737=Datei %s nicht gefunden.
+1738=Import abgebrochen.
+1739=Export abgebrochen.
+1741=Auf diesem Rechner ist Outlook installiert. Möchten Sie EPIM jetzt mit Outlook synchronisieren? Falls Sie jetzt nicht synchronisieren oder importieren wollen, können Sie dies später aus dem Menü Datei -> Synchronisieren nachholen.
+
+;---
+1751=&Alle angezeigten
+1752=Au&sgewählte
+1753=&Alle angezeigten|a&usgewählten
+1754=&Von:
+1755=&Bis:
+1756=Zu exportierende Kontakte
+1757=Zu exportierende Notizen
+1758=Zu exportierende Aufgaben
+1759=L&eere Felder nicht drucken
+1760=&Alle (incl. aller Tabs)|Alle a&ngezeigten|A&usgewählte
+1761=&Ausgewählte Termine
+1762=Felder...
+1763=&Alle Blätter inkludieren
+1764=Felder auswählen
+1765=Au&sgewählte Notizen
+1766=Ausgewählter &Text
+1767=Zu exportierende Nachrichten
+1768=&Alle Nachrichten im gewählten Ordner|A&usgewählte Nachrichten
+1770=Inklusive Titel
+1771=&Gruppennamen ausdrucken
+1772=Nur ausgewählte Gruppe
+1773=&Alle|A&usgewählte
+
+;---
+1780=Zu exportierende Termine
+1782=Terminansicht
+1783=Tag|Woche|Monat
+1784=Termindatum
+1785=&Hintergrundfarben drucken
+
+;---
+1791=&Alle
+1792=&Aktuelle(r)
+1793=Tag|Woche|Monat|Jahr
+1794=Kategorien...
+1795=Kategorien wählen
+
+;--- Appointment/To Do Repetition Dialog ---
+1800=Terminserie
+1801=Serienmuster
+1802=&Täglich
+1803=&Wöchentlich
+1804=&Monatlich
+1805=&Jährlich
+1806=Alle
+1807=Tage
+1808=Alle
+1809=Wochen am
+1810=An T&ag
+1811=alle
+1812=Monate
+1813=J&eden
+1814=ersten|zweiten|dritten|vierten|letzten
+1815=im
+1816=Wiederholungsbereich
+1817=Startdatum:
+1818=Endet &nach
+1819=Wiederholung(en)
+1820=Endet &am
+1821=Einige Monate haben weniger als %d Tage. In diesen Monaten fällt der Termin auf den Monatsletzten.
+1822=&Kein Enddatum
+1823=&Neuen Termin anlegen
+1824=Tag(e) nach Erledigung
+1825=Woche(n) nach Erledigung
+1826=Monat(e) nach Erledigung
+1827=Jahr(e) nach Erledigung
+1828=Aufgabenserie
+1829=Jeden W&erktag
+
+;--- To Do Module (partially re-used in Notes Module) ---
+1900=Neuer Haupteintrag
+1901=Fälligkeit
+1902=Betreff
+1903=Fortschritt
+1904=Bearbeiten...
+1905=Neuer Haupteintrag...
+1906=Hinzufügen
+11906=Aufgabe hinzufügen
+1907=Bearbeiten
+1908=Löschen
+1909=Als Termin speichern
+11907=Aufgabe bearbeiten
+11908=Aufgabe löschen
+11909=Als Termin speichern
+1910=Datum und Zeit auswählen
+1911=Ausgewählte Aufgabe(n) löschen?
+1912=Notizen
+1913=Fertig
+1914=Erledigt
+1915=Priorität
+1916=Kategorie
+1917=Zugewiesene Kontakte
+1918=Beginn
+1919=Tabelle
+11919=Tabellenansicht
+1920=Baumansicht
+11920=Baumansicht
+1921=Neuer Untereintrag
+11921=Neuen Eintrag als Kind einfügen
+1922=Tiefer
+11922=Eintrag in tiefere Ebene verschieben
+1923=Höher
+11923=Eintrag in höhere Ebene verschieben
+1924=Filter
+1925=Erledigt
+1926=Liste
+1928=Erledigte Aufgaben ausblenden
+1929=Ausblenden
+11929=Erledigte Aufgaben ausblenden
+1930=Ausgewählte Aufgaben und Unteraufgaben löschen?
+1931=Ganztägiger Termin
+1932=Zeige Kategorien
+1933=Alle auswählen
+1934=Keine auswählen
+1935=Neuer Untereintrag...
+1936=Aufwärts
+1937=Abwärts
+11936=Eintrag nach oben verschieben
+11937=Eintrag nach unten verschieben
+1938=Ort
+1939=Auswählen...
+1940=Neue Liste
+1941=Im Kalender anzeigen
+1942=Gehe zu Aufgaben
+1943=Tiefer/Höher
+1944=Aufwärts/Abwärts
+1945=Aufgabe...
+1946=Listenansicht
+1947=Gesamtansicht
+11946=Flache Liste
+11947=Alle Aufgabenlisten in einem Baum
+1948=Herkunftsliste
+1949=Gruppierung
+
+;--- To Do Editor Dialog ---
+1951=&Aufgabe
+1952=&Betreff:
+1953=Aufgabe wiederholen (nur Pro)
+1956=&Notizen:
+1957=&Fälligkeit:
+1959=&Verantwortlich
+1960=Ort:
+1961=Benutzerdefinierte &Felder
+
+;--- Filter ---
+1980=(Alle)
+1981=(Leere)
+1982=Suchen
+
+;--- Edit Category List ---
+2000=Kategorien
+2001=Diese Kategorie wird von Terminen/Aufgaben verwendet. Wenn Sie diese Kategorie löschen, kann sie Terminen oder Aufgaben nicht mehr zugewiesen werden. Trotzdem löschen?
+2002=Farbe...
+
+;--- EPIM Today Module ---
+2200=Heute
+2201=Ganztägiges Ereignis
+2202=Mehrtägiges Ereignis
+2203=Aufgaben
+2204=Gestern
+2205=Jahrestage
+2206=Nachrichten
+
+;--- EPIM Today Actions ---
+2220=Neuer Termin
+2221=Neue Aufgabe
+2222=Neue Notiz
+2223=Neuer Kontakt
+2224=Neues Passwort
+12220=Neuer Termin
+12221=Neue Aufgabe
+12222=Neue Notiz
+12223=Neuer Kontakt
+12224=Neuer Passwort-Eintrag
+
+;---
+2300=Anh&änge
+2301=Die Datei "%s" wurde geändert. Neue Version in Datenbank Übernehmen?
+2302=Datei hinzufügen|Verknüpfung hinzufügen
+2303=Datei/Verknüpfung aus der Datenbank löschen?
+2304=Anhänge
+2305=Bitte warten, Daten werden geladen...
+2306=Ansicht
+2307=Große Symbole
+2308=Kleine Symbole
+2309=Anhang entfernen?
+2310=Sortieren nach
+2311=Details
+12312=Ansicht ändern
+2313=Entschlüsseln und öffnen
+2314=Entschlüsseln und speichern unter...
+2315=Die verschlüsselte Datei wurde verändert. Änderungen können nicht in die EPIM-Datenbank geschrieben werden.
+
+;--- Popup "Database Management" ---
+2400=Datenbankverwaltung
+2401=Datei:
+2402=Anzahl:
+2403=Diese Datenbank wurde geöffnet mit:
+2404=Datenbankgröße: %f MB
+2407=Veraltete Links suchen
+2408=Die Datenbank enthält %d Link(s) zu nicht mehr existierenden Dateien.
+2409=Termine|Aufgaben|Notizen|Kontakte|Nachrichten|Passwort-Einträge|Gelöschte Einträge
+2410=Synchronisationsdaten entfernen
+2411=Datenbank in Dropbox verschieben
+2412=Von Dropbox trennen
+2413=Entfernen Sie die Synchronisationsdaten nur dann, wenn Sie die Synchronisation komplett zurücksetzen wollen.
+2415=Optimieren
+2416=Optimieren Sie die Datenbank, um die Ausführung von EssentialPIM zu beschleunigen.
+2417=Bitte warten, Datenbank wird optimiert...
+2418=Die Datenbank wird in Dropbox gelöscht und lokal gespeichert.
+2419=Fortsetzen
+2420=Welche Synchronisationsdaten sollen gelöscht werden:
+2421=EPIM Synchronizer
+
+;--- Note Info ---
+2500=Notiz
+2501=&Name:
+2502=Einfügen >
+2503=Icon:
+2504=&Auswählen
+2505=Datum
+2506=Zeit
+2507=Datum und Zeit
+2510=Icon auswählen
+
+;---
+2601=Dieses Fenster nicht mehr zeigen.
+2602=Wollen Sie Ihre EPIM-Datenbank und die zugehörigen Backups auf dem Laufwerk behalten? Wenn Sie mit "Nein" antworten, wird die Datenbank für immer gelöscht.
+2603=Keine Datenbank geöffnet. Öffnen Sie eine existierende Datenbank mit Doppelklick in diesem Fenster oder erstellen Sie eine neue über Datei -> Neu.
+2604=Folgende Tastenkombination konnte nicht registriert werden: %s. Sie wird von anderen Programmen benutzt. Bitte ändern Sie die Tastenfolge in Extras -> Optionen -> Tastenkombinationen.
+2605=EssentialPIM ist nicht das Standard-Mailprogramm. Wollen Sie EPIM als Standard-Mailprogramm verwenden?
+2606=Bei jedem Start von EssentialPIM überprüfen.
+2607=Ihre Kopie von EssentialPIM Pro wurde kürzlich erweitert. Sie müssen Ihre Datenbank aktualisieren. Bitte melden Sie sich als SYSDBA (Administrator) an. Die Datenbank wird automatisch für alle Benutzer aktualisiert.
+2608=Die Konsistenz Ihrer Datenbank muss überprüft werden. Ein Backup wird durchgeführt. Fortsetzen?
+2609=Die Datenbank ist möglicherweise beschädigt. Trotzdem öffnen?
+2614=Es gibt keine neuen Updates.
+2616=Die Sicherung Ihrer Datenbank ist gescheitert. Entweder ist nicht genug Speicherplatz auf dem Backup-Laufwerk verfügbar oder die Konsistenz der Datenbank muss überprüft werden. Bitte starten Sie EssentialPIM sofort neu, um die Datenbank erneut zu prüfen und zu sichern. 
+2617=Ihre Datenbank benötigt eine Konsistenzprüfung.|Bitte warten, Prüfung läuft...
+2618=Auf Laufwerk %s ist nicht genug Speicherplatz für diese Operation vorhanden.|Bitte erhöhen Sie den freien Speicherplatz und klicken Sie auf OK, um fortzufahren.
+2624=Anmelden...
+2625=Abmelden
+2626=PGP Konfigurations-Assistent...
+2627=PGP Schlüsselverwaltung...
+2628=Kann die Datenbank nicht finden.|Falls Sie die Datenbank verschoben haben, drücken Sie auf Abbrechen und benutzen Sie Datei->Öffnen, um die Datenbank an der neuen Stellen zu öffnen.|Ansonsten drücken Sie auf Ok, damit EssentialPIM erneut versucht, die Datenbank zu öffenen.
+
+2701=%s Termin kann nicht importiert werden, weil die Zeitspanne bereits von folgendem exklusiven Termin besetzt ist:
+2702=Wollen Sie den Import des neuen Termins überspringen oder die Exklusivität des bereits vorhandenen Termins entfernen und den neuen Termin importieren?
+2703=&Termin überspringen
+2704=Alle übers&pringen
+2705=Termin &importieren
+2706=Alle i&mportieren
+
+;---
+2800=Eintragungstyp
+2801=Erstellungsdatum
+2802=Änderungsdatum
+2803=Löschdatum
+2804=Wiederherstellen
+2805=Löschen
+2806=Papierkorb leeren
+12804=Einträge wiederherstellen
+12805=Permanent löschen
+12806=Papierkorb leeren
+2807=Ausgewählte Einträge permanent löschen?
+2808=Alle Einträge aus dem Papierkorb werden dauerhaft gelöscht, sind Sie sicher?
+2809=%d Einträge
+2810=Ort
+
+;---
+2901=&Nachricht
+2902=An (&Name):
+2903=An (&E-Mail):
+2904=&Betreff:
+2905=&Text|&Anhänge
+2906=&Vorschau
+2907=An:
+2908=Betreff:
+2909=&Empfänger
+2910=Feld einfügen
+2911=Empfänger hinzufügen/entfernen...
+2912=Empfänger hinzufügen/entfernen
+2913=Rundmail verschicken...
+
+;---
+3000=Baum auswählen
+3001=Baum auswählen, um ausgewählte Notizen wiederherzustellen
+3002=&Neuer Baum:
+3010=Liste auswählen
+3011=Liste auswählen, um ausgewählte Aufgaben wiederherzustellen
+3012=&Neue Liste:
+3020=Notiz auswählen
+3021=Notiz auswählen, um ausgewählte Seiten wiederherzustellen
+3022=&Neue Notiz:
+
+;---
+3100=Dies ist ein ganztägiges Ereignis. Es kann sich auch über mehrere Tage erstrecken.
+3101=Mehrere Termine können gleichzeitig stattfinden.
+3102=Die Priorität von Terminen kann in sieben Stufen definiert werden. Dieser Termin hat hohe Priorität, erkennbar am Ausrufezeichen.
+3103=Und dieser hat niedrige Priorität, erkennbar an dem senkrechten blauen Streifen.
+3105=Hier ein zu 100% erledigter Termin.
+3106=Termine können einfach verschoben oder kopiert werden. Verschieben Sie z.B. diesen Termin auf eine andere Zeit.
+3109=Diese Aufgabe ist mit einem <a href="%s">Testkontakt</a> verknüpft. <a href="%s">Hier klicken</a>, um der Verknüpfung zu folgen.
+3110=Aufgaben können als <b>erledigt</b> gekennzeichnet werden. Diese Aufgabe ist bereits erledigt.
+3111=<i>Jeder Aufgabe kann eine bestimmte <b>Hintergrundfarbe</b> vor- oder benutzerdefinierte Farbe zugewiesen werden.</i>
+3112=<i>Dies ist eine <b>wiederkehrende</b> Aufgabe. Sie wurde für jeden dritten Tag der kommenden drei Wochen definiert und automatisch wiederholt.</i>
+3120=Test|Kontakt|+1190-009-003||me@server.com|Street 12|Town||123456|Country
+3121=Firma|Verkaufsmanager||+118-0002-003
+3122=Löschen Sie diesen Testkontakt durch Drücken der "Entf"-Taste auf der Tastatur oder durch Klicken auf die Schaltfläche "Löschen" rechts oben.
+3123=Neue Gruppe
+3124=Gruppen können hierarchische Struktur haben
+3125=Zweite Gruppe
+3141=Notizen
+3142=Erledigte Aufgabe
+3145=<font color="#0000FF">Testaufgabe mit Fälligkeit</font>
+3146=<u>Aufgabe</u> mit <b>Erinnerung</b>
+3147=Unteraufgabe (<a href="%s">Verknüpfung mit einer Notiz</a>)
+3160=Notizbaum
+3161=Notiztext. Sie können Tabellen, Bilder und "Rich Text" importieren.|In der Pro-Version können mehrere Notizbäume und mehrere Blätter für jede Notiz existieren. Strukturieren Sie Informationen auf vielfältige Arten.
+3162=Zusätzliche Seite
+3163=Unternotiz
+3164=Zweiter Baum
+
+;--- View ---
+3200=Statuszeile
+3201=Navigation
+3202=Erinnerungsfenster
+3203=Kategorien bearbeiten...
+3204=&Gehe zu
+3205=A&ktionen
+3206=Suchen und Ersetzen...
+3207=Neue Unternotiz
+3208=Neue Gruppe...
+3209=Aufgabenleiste
+3210=Notiz
+3211=Kontakt
+3212=EPIM-Datendatei
+3213=Navigations-Optionen...
+3214=Erweiterte Suche...
+3215=Support-Forum
+3216=Anhänge verwalten...
+3217=Vorschau
+3218=EPIM-Datendatei in Dropbox
+3219=Aus Dropbox öffnen...
+3220=In Dropbox speichern
+
+;---
+3300=Mit Server verbinden
+3301=&Server:
+3302=&Datenbank:
+3303=Zugangsdaten
+3304=Computer mit laufendem Server auswählen.
+3311=Benutzer...
+3312=Mit Datenbank &verbinden...
+3320=Für die Verbindung zum EPIM-Server benötigen Sie eine Netzwerk-Lizenz.
+3321=Passwort kann nicht geändert werden. Folgende Benutzer sind angemeldet: %s. Um das Passwort zu ändern, müssen die Benutzer abgemeldet werden.
+3322=Benutzerkennung oder Passwort sind falsch. Kontaktieren Sie Ihren EPIM-Administator.
+3323=Benutzen Sie die Windows-Werkzeuge zum Kopieren der Datenbank. Um mit Dateien auf Netzlaufwerken zu arbeiten, benötigen Sie das EPIM-Netzwerk-Paket und die Netzwerk-Lizenz.
+3324=Bitte warten, Backup wird wieder hergestellt...
+
+;---
+3400=Benutzerverwaltung
+3401=Benutzer
+3402=Verbundene Benutzer
+
+;---
+3450=Benutzer-Info
+3451=Der SYSDBA-Benutzername kann nicht geändert werden, während man damit angemeldet ist.
+3452=Darf Kategorien bearbeiten
+3453=Darf Kontaktfelder bearbeiten
+3454=Darf Notiz-&Icons bearbeiten
+3455=&Standard Zugriff
+3456=Nur lesen
+3457=Zugriff auf Daten aller Benutzer
+
+;---
+3460=Benutzer auswählen
+3461=&Alle Benutzer:
+3462=&Ausgewählte Benutzer:
+3463=Alle derzeitigen und &neue Benutzer
+
+;---
+3500=Druckvorschau
+3501=Drucken
+3502=Vergrößern
+3503=Verkleinern
+3504=Vollbild
+3505=Vorschaubilder
+3506=Seite einrichten
+3507=Erste Seite
+3508=Vorige Seite
+3509=Nächste Seite
+3510=Letzte Seite
+3511=Seitenbreite|Ganze Seite
+3512=Seite %d von %d
+3513=Drucken...
+3514=Sofortdruck
+
+;--- Paragraph Settings ---
+3600=Absatz
+3601=&Ausrichtung
+3602=Linksbündig|Rechtsbündig|Zentriert|Blocksatz
+3603=Einzug
+3604=&Links:
+3605=&Rechts:
+3606=&Erste Zeile:
+3607=Eingezogen|Hängend
+3608=Abstand
+3609=&Vor:
+3610=&Nach:
+3611=Zeilenab&stand:
+3612=Einfach|1,5 Zeilen|Doppelt|Mehrfach
+3613=&bei:
+3614=Beispiel
+3615=Franz jagt im völlig verwahrlosten Taxi quer durch Bayern.
+
+;--- Insert Date and Time ---
+3651=&Format:
+
+;--- Insert Symbol ---
+3660=Symbol einfügen
+3661=&Schriftart:
+
+;--- Table Properties ---
+3700=Tabelleneigenschaften
+3701=Tabelle
+3702=&Breite:
+3703=Prozent|Pixel
+3704=&Füllfarbe:
+3705=Zeilen
+3706=Vertikale Ausrichtung:
+3707=Oben|Zentriert|Unten
+3708=Zellen
+3709=&Bevorzugte Breite:
+3710=&Mindesthöhe:
+3711=Pixel
+3712=Oben|Zentriert|Unten|Standard
+3713=&Rahmenfarbe:
+3714=Auto
+3715=Transparent
+3716=Benutzerdefiniert
+
+;--- Print Dialog ---
+3800=Drucker
+3801=&Name:
+3802=Ort:
+3803=In Datei
+3804=In Datei
+3805=Kopien
+3806=&Kopienanzahl:
+3807=&Sortieren
+3808=Druckvorlage
+3809=Tagesansicht|Wochenansicht|Wochenarbeitsplan|Monatsansicht|Jahresansicht|Jahresarbeitsplan
+3810=Druckbereich
+3811=&Von:
+3812=&Bis:
+3813=Druckoptionen
+3814=Tabe&llenansicht
+3815=A&dresskarten
+3816=Drucke &Feldbezeichnungen
+3817=Drucke Übersc&hriften
+3818=Ausdruck für Organizer:
+3819=A5|Klassisch
+3820=Datum von:
+3821=Datum bis:
+3822=Zeit von:
+3823=Zeit bis:
+
+;---
+3900=Bei Google anmelden
+3902=&E-Mail:
+3903=Zugangsdaten für Google fehlen. Bitte geben Sie diese unten ein, um mit der Synchronisation fortzufahren. (Sie können diese später in Extras -> Optionen -> Synchronisation -> Google ändern.)
+
+;--- Sticky Note ---
+4000=Klebezettel
+4001=Transparenz
+4002=Klebezettel und Notizeintrag in EPIM werden gelöscht. Fortfahren?
+14003=Einstellungen
+14004=Im Vordergrund
+14005=Verkleinern/Vergrößern
+14006=In EPIM bearbeiten
+14007=Löschen
+14008=Schließen
+
+;---
+4104=Jetzt kaufen!
+4105=Jetzt bestellen
+4108=Die Sicherung erfolgt alle 24 Stunden. Die letzten drei Sicherungen der Datenbank werden aufgehoben. Mit der Pro-Version können Sie die Anzahl der Sicherungen und deren Abstände selbst definieren. <a href="http://www.essentialpim.com/?r=products&pr=profeatures#6">Mehr erfahren</a>.
+4109=Upgrade auf EssentialPIM Pro ausführen!
+4110=Diese und andere Funktionen sind in EssentialPIM Pro nutzbar, erhältlich für nur $39.95. Mehr erfahren?
+4111=Diese und andere Funktionen sind in EssentialPIM Pro nutzbar, erhältlich für nur $39.95. Jetzt bestellen?
+4112=Sie haben %s vor mehr als einem Jahr gekauft. Ihre einjährige Lizenz für Gratis-Updates für %s ist abgelaufen.|Sie können die Lizenz erneuern und freie Updates für ein weiteres Jahr für nur %s (US) erwerben.||Sie können eine ältere Version frei weiter nutzen. Besuchen Sie www.essentialpim.com/vv für ältere Versionen.
+4113=Jetzt für nur %s erneuern! (Inkl. 1 Jahr freie Updates)
+4114=Lifetime
+4115=Auf unbefristete Lizenz erneuern! (Nur %s)
+
+;--- Synchronization Wizard ---
+4200=Synchronisations-Assistent
+4201=Synchronisiere mit:
+4202=&Online-Dienst:
+4203=&CalDav-Server
+4204=&SyncML-Server
+4205=Datenbankdatei
+4206=&Server-URL:
+4207=Name der &Synchronisation:
+4208=Synchronisation automatisch durchführen:
+4209=Bei Programm&start
+4210=Bei V&erlassen des Programms
+4212=Um den Namen Ihres Yahoo-Kalenders herauszufinden, klicken Sie im Yahoo-Kalender auf: Options -> Share Calendar (Teilen). Notieren Sie die dort aufgelisteten Namen. Weitere Aktionen sind auf dieser Seite nicht notwendig.
+4214=Jetzt &synchronisieren
+4215=Synchronisation|Status|Fortschritt
+4217=Quelle auswählen
+4218=Zugangsdaten und Module
+4220=Gerät verbinden
+4221=Datenquelle:
+4222=Das Gerät wird in 3 einfachen Schritten verbunden. Danach merkt sich EPIM die Einstelungen:||- Stellen Sie sicher, dass sich PC und iOS-Gerät im selben Netzwerk befinden.|- Installieeren Sie <a href="http://itunes.apple.com/app/essentialpim/id537150179?ls=1&mt=8">iOS EssentialPIM</a> aus dem App Store.|- Starten Sie iOS EssentialPIM und wählen Sie dort "PC Sync".||Drücken Sie den "Start"-Button auf dem iOS-Gerät.||Falls dies nicht funktioniert:|- Stellen Sie sicher, dass iTunes auf dem PC installiert ist.|- Prüfen Sie, dass sich das iOS-Gerät und der PC in demselben (WLAN-)Netz befinden.|- Ändern Sie ggf. die Portnummer: <b>%d</b> <a href=ChangePort>Ändern!</a>||<a href="http://www.essentialpim.com/help/troubleshooting_ios_synchroniz.htm">Troubleshooting guide</a>|<a href="mailto:ma@essentialpim.com">Email support</a>
+4223=Synchronisiere alle
+4224=2-Way: EPIM und %s gegenseitig synchronisieren|1-Way: EPIM nach %s übernehmen (EPIM -> %s)|1-Way: %s nach EPIM übernehmen (%s -> EPIM)
+4225=Gelöschte Einträge automatisch auf Gegenseite löschen
+4226=&Synchronisation löschen
+4227=Achtung: Die erste Synchronisation dauert möglicherweise länger. Alle folgenden Synchronisationen werden wesentlich schneller sein.
+4228=Optionen
+4229=Kalender (mit Google Calendar)|Aufgaben (mit Google Tasks)|Notizen (mit Google Docs)|Kontakte (mit Google Contacts)
+4230=Outlook PST-Datei
+4231=Exchange-Server
+4232=Synchronisation hinzufügen
+4233=Assistent...
+4234=Windows Mobile...
+4235=Das Passwort-Modul von iOS EPIM erfordert ein Master-Passwort zum Schutz der Daten. Um Passwörter zu synchronisieren, setzen Sie bitte das Master-Passwort im Passwort-Modul von iOS EPIM und tragen es oben ein.
+4236=Das Passwort-Modul von Android EssentialPIM erfordert ein Master-Passwort zum Schutz der Daten. Um Passwörter zu synchronisieren, setzen Sie bitte das Master-Passwort im Passwort-Modul von Android EPIM und tragen es oben ein.
+4237=Sämtliche Daten auf %s werden gelöscht und durch die Daten von %s ersetzt. Sie sollten sich absolut sicher sein, da es ansonsten zu Datenverlusten kommen kann!
+
+;--- Synchronize with Android, iPhone/iPad, and LinkedIn ---
+4238=Das iOS-Gerät %s möchte mit EPIM synchronsieren. Fortfahren?|Danach können Sie mit dem nächsten Schritt des Assistenten fortfahren.
+4239=Auf %s Kalendereinträge für alle EPIM-Kategorien erzeugen
+4240=Synchronisation bearbeiten
+4241=Bitte geben Sie Ihr Master-Passwort für das Passwörter-Modul des Geräts ein.
+4243=Die Synchronisation beginnt, sobald Sie auf "Beenden" klicken. Alle weiteren Synchronisationen sollten dann von Ihrem Android-Gerät gestartet werden.
+4244=Zugangsberechtigung
+4245=Module auswählen
+4246=&Master-Passwort:
+4247=Bitte geben Sie Ihr Master-Passwort für Passwörter-Modul auf Android ein.
+4248=Um die Synchronisation durchzuführen, starten Sie zukünftig bitte zuerst EssentialPIM auf Ihrem PC und starten dann die Synchronisation mit "PC Sync"->"Connect" auf dem Android-Gerät.
+4249=Ihr PC-Name:
+4250=Die EssentialPIM-App auf Android ist veraltet. Bitte besuchen Sie den <a href=https://play.google.com/store/apps/details?id=com.astonsoft.android.essentialpim>Google Play Store</a> und installieren Sie das Update, bevor Sie mit der Synchronisation fortfahren.
+4251=Sie müssen EPIM Zugriff auf Ihr LinkedIn-Konto gewähren. Hierzu sind die folgenden Schritte notwendig:|1. Klicken Sie auf den folgenden Link: <a href=oauth>Mein LinkedIn-Konto</a>|2. Melden Sie sich an und klicken Sie auf "OK, Allow it".|3. Tragen Sie den angezeigten Code unten ein:
+4252=Portnummer ändern
+4253=&Port:
+4254=Kann den Server nicht starten, da der Port bereits belegt ist. Bitte ändern Sie die Portnummer in Extras -> Optionen -> Synchronisation.
+4255=Bitte geben Sie das Master-Passwort für das Passwort-Modul auf dem iPhone/iPad ein.
+4256=PC EPIM
+4257=Android-Gerät
+4258=iOS-Gerät
+4259=IP-Adresse und Portnummer:
+4260=Bitte geben Sie den PC-Namen ein (oder verbinden Sie manuell über das Menü). Bitte erlauben Sie dem Assistenten die Verbindung und setzen Sie dann die Einrichtung fort.
+4262=2-Way: EPIM und iOS-Gerät gegenseitig synchronisieren|1-Way: EPIM nach iOS-Gerät übernehmen (EPIM -> iOS)|1-Way: iOS-Gerät nach EPIM übernehmen (iOS -> EPIM)
+4263=Bitte installieren Sie jetzt auf Ihrem Android-Gerät die EssentialPIM-App aus dem <a href="https://play.google.com/store/apps/details?id=com.astonsoft.android.essentialpim">Google Play Store</a>.||Stellen Sie sicher, dass Ihr Gerät mit demselben Netzwerk verbunden ist, wie Ihr PC, und starten Sie EssentialPIM auf dem Gerät. Die App sollte Ihren PC erkennen und den Namen anzeigen.
+4264=Zur EPIM-Cloud anmelden
+4265=Falls dies nicht funktioniert:|Folgen Sie dem <a href="http://www.essentialpim.com/help/troubleshooting2.htm">Troubleshooting guide</a>|oder schicken Sie eine E-Mail an den <a href="mailto:epimsupport@essentialpim.com">EPIM-Support</a>.
+4266=Synchronisation mit %s erlauben?
+
+;--- Dropbox-Assistent ---
+4300=Dropbox-Assistent
+4301=Dropbox-Zugangsdaten
+4302=EPIM Zugriff auf Dropbox erlauben.
+4303=Bitte gewähren Sie EPIM im folgenden Browser-Fenster den Zugriff auf Dropbox und fahren Sie dann mit der Konfiguration fort.
+4304=&Datenbankname:
+4305=Erlauben
+4306=Bitte geben Sie den Dateinamen für die neue Dropbox-Datenbank an oder übernehmen Sie den Vorschlag.
+4307=Die Datei wird im Dropbox-Verzeichnis "Apps\EssentialPIM Databases" gespeichert.
+
+4350=Verbinde mit Dropbox...
+4352=Vergleiche Dateien...
+4356=Sende Datenbank
+4357=Empfange Datenbank
+4360=Autorisierung bestätigen
+4361=Die Dropbox-Datei wurde geändert. Überschreiben?
+4362=EssentialPIM überträgt ihre Datenbank zu Dropbox.
+4363=Dropbox-Datei wurde geändert!
+4364=EPIM konnte die Datei nicht aus Dropbox laden und arbeitet auf der neuesten lokalen Kopie. Bitte überprüfen Sie Ihre Internetverbindung und starten Sie EPIM neu.
+4365=EPIM konnte die Datei nicht an Dropbox senden. Bitte überprüfen Sie Ihre Internetverbindung und starten Sie EPIM neu. Bis dahin wird die Datenbank lokal gespeichert.
+4366=Bitte Dropbox-Datei wählen
+4367=Bitte gewähren Sie EPIM im folgenden Browser-Fenster den Zugriff auf Dropbox und klicken Sie dann auf OK.
+4368=Verbindung zu Dropbox nicht möglich. Die wahrscheinlichste Ursache sind fehlerhafte Zugangsdaten. Bitte versuchen Sie es erneut.
+4369=EssentialPIM-Ordner ist leer.
+4370=Lade...
+4371=Eine Datenbank mit diesem Namen besteht bereits auf dem Server. Bitte benennen Sie die Datei um, um Datenverlust zu vermeiden.
+4372=Datenbank erfolgreich von Dropbox getrennt.
+4373=Verbindung zu Dropbox nicht möglich. Sie arbeiten vorerst mit einer lokalen Kopie der Datenbank.|Beim nächsten Start wird EssentialPIM sich erneut mit Dropbox verbinden.
+
+;--- Schlüsselverwaltung ---
+4400=Schlüsselverwaltung
+4401=Neuer Schlüssel...
+4402=Schlüssel importieren...
+4403=Öffentlichen Schlüssel exportieren...
+4405=Öffentlichen Schlüssel in Zwischenablage kopieren
+4406=Öffentlichen Schlüssel aus Zwischenablage importieren
+4407=Schlüssel löschen
+4408=Schlüssel signieren
+4409=Schlüssel widerrufen
+4410=Sind Sie sicher, dass dieser Schlüssel als ungültig erklärt werden soll?
+4411=Eigenschaften...
+4412=Nachricht an diesen Empfänger
+4413=Öffentlichen Schlüssel verschicken
+4414=&Fremde Schlüssel anzeigen
+4415=Es konnten keine Schlüssel aus der gewählten Datei importiert werden.
+4416=Wollen Sie den öffentlichen Schlüssel "%s" wirklich löschen?
+4417=WARNUNG! Sie löschen den privaten Schlüssel "%s". Die hierfür verschlüsselten Nachrichten können dann nicht mehr gelesen werden!|Sind Sie sich absolut sicher, dass das Schlüsselpaar löschen wollen? 
+4418=Öffentlichen Schlüssel kopieren
+4419=Signieren...
+4420=Widerrufen...
+4422=Kann Schlüssel "%s" nicht signieren. Er ist bereits durch einen anderen Schlüssel signiert.
+4423=Zugehörige Email-Adressen...
+4424=Zugehörige Email-Adressen
+4425=Zugehörige Email-Adresse
+4426=Email-Adresse hinzufügen:
+4427=PGP-Nachricht entschlüsseln
+4428=Bitte geben Sie das Passwort für den privaten Schlüssel "%s" ein, um die Nachricht zu entschlüsseln:
+4429=Nachricht mit PGP signieren
+4430=Bitte geben Sie das Passwort für den privaten Schlüssel "%s" ein, um die Nachricht zu signieren:
+4431=Öffentliche und private Schlüssel exportieren...
+4432=Öffentlicher Schlüssel...
+4433=Öffentliche und private Schlüssel...
+4434=Der Schlüssel wurde widerrufen. Falls der Schlüssel auf einem Server hinterlegt ist, muss er erneut hochgeladen werden, um den Widerruf bekannt zu machen. 
+4450=Neuer Schlüssel
+4451=&Erweitert
+4452=Alg&orithmus:
+4453=&Größe:
+4454=&Ablaufdatum:
+4455=&Nie
+4456=1024 bits (schwach)|2048 bits (normal)|4096 bits (stark)|8192 bits (paranoid)
+4458=Benutzer-&Id 
+
+;--- Schlüsselerzeugung ---
+4460=Schlüsselerzeugung...
+4470=Eigenschaften
+4471=Algorithmus
+4472=ID
+4473=Verfall
+4474=Nie
+4475=Nicht verifiziert
+4476=Benutzer-Id
+4477=Gültig
+4478=Ungültig
+4479=Unterschlüssel nicht gefunden
+4480=Gültigkeit
+4481=Unterschlüssel widerrufen
+4482=Unterschlüssel-Signatur (Binding)
+4483=Benutzer-Id nicht gefunden
+4484=Unterzeichner unbekannt
+4485=Benutzer-Widerruf
+4486=Zertifikats-Signatur
+4490=Schlüssel signieren
+4491=Durch Signieren des Schlüssels bestätigen Sie aufgrund Ihres Wissens, dass der Schlüssel tatsächlich dem angegebenen Benutzer gehört.
+4492=Schlüssel zum Signieren:
+4493=Bitte Passphrase eingeben
+4494=Ungültige Passphrase.
+4495=Schlüssel:
+4496=Fingerabdruck:
+
+;--- PGP Setup Wizard ---
+4500=PGP Konfigurations-Assistent
+4501=Einleitung
+4502=Pretty Good Privacy (PGP) ist das verbreitetste Verfahren zur Email-Verschlüsselung und gilt als sicher. Mit EssentialPIM können Sie öffentliche und private Schlüssel für Ihre Emails erzeugen.|Den öffentlichen Schlüssel geben Sie bitte weiter, damit andere Personen Nachrichten an Sie verschlüsseln können. Den privaten Schlüssel benötigen Sie selbst, um diese Nachrichten wieder zu entschlüsseln.||Achtung! Der private Schlüssel darf niemals weitergegeben werden. Außerdem sollten Sie eine Sicherheitskopie an einer sicheren Stelle hinterlegen.
+4503=Schlüssel
+4504=Neue Schlüssel erzeugen
+4505=Wählen Sie diese Option, wenn Sie noch kein eigenes Schlüsselpaar besitzen.
+4506=Vorhandene Schlüssel importieren
+4507=Wählen Sie diese Option, wenn Sie ein eigenes Schlüsselpaar oder den öffentlichen Schlüssel einer anderen Person importieren möchten.
+4508=Öffentliche Schlüssel exportieren
+4509=Schlüssel importieren
+4510=Fertig stellen
+4511=Hier können Sie ihre öffentlichen Schlüssel exportieren, um Sie an Ihre Email-Kontakte zu verteilen.
+4512=E&xportieren...
+4513=Ab jetzt können Sie PGP benutzen.|Um eine Email zu verschlüsseln oder zu signieren, verwenden Sie bitte das PGP-Menü im Email-Editor.|Um eine empfangene Email zu entschlüsseln, müssen Sie sie nur öffnen. EssentialPIM versucht dann automatisch, die Email zu entschlüsseln.
+4514=Öffentliche und private Schlüssel importieren
+4515=Erweiterte Schlüsseleigenschaften
+
+;--- EPIM-Cloud ---
+4600=Lernen Sie die EPIM-Cloud kennen!
+4601=Sie können Ihre EssentialPIM-Daten sicher in einer privaten Cloud speichern und von überall über <a href="https://cloud.essentialpim.com/">cloud.essentialpim.com</a> darauf zugreifen.
+4603=Mitmachen!
+4604=Überspringen
+4611=Zurück
+4612=Weiter
+4617=Welche Daten sollen in die Cloud synchronisiert werden?
+4621=Vielen Dank für Ihre Registrierung
+4650=Anmelden
+4651=Anmelden
+4652=Passwort vergessen?
+4653=Konto anlegen
+4654=Bitte geben Sie Ihren Benutzernamen ein
+4655=Bitte geben Sie Ihr Passwort ein
+
+;--- EPIM Synchronizer ---
+5000=&Lokale Datenbank
+5001=&Netzwerkdatenbank
+5002=Datenbank-&Passwort:
+5003=Netzwerk-L&ogin:
+5004=Netzwerk-P&asswort:
+5005=&Sync
+5006=Private Einträge synchronisieren
+5007=Ihre Datenbank ist passwortgeschützt. Bitte entfernen Sie das Passwort (Datei -> Mit Passwort schützen -> Entfernen) und versuchen es dann erneut.
+5011=Über EPIM Synchronizer
+
+;--- Mail Module ---
+6000=Posteingang|Postausgang|Gesendet|Papierkorb|Entwürfe|Vorlagen
+6001=Von
+6002=An
+6003=Empfangen
+6004=Gesendet
+6005=Größe
+6006=Cc
+6007=Bcc
+6008=Organisation
+6009=Wollen Sie den Inhalt des Ordners "%s" dauerhaft löschen?
+6010=Nachrichtentext
+6011=Wollen Sie den Ordner "%s" löschen?
+6012=Wollen Sie die gewählte(n) Nachricht(en) löschen?
+6013=Neuer Ordner...
+6014=Neuer Ordner
+6015=Ordner hinzufügen
+6016=%s leeren
+6017=Öffnen
+6018=Antworten
+6019=Allen antworten
+16019=Allen antworten
+6020=Weiterleiten
+16020=Weiterleiten
+6021=Als Anhang weiterleiten
+6022=Als gelesen markieren
+6023=Als ungelesen markieren
+6024=Verschieben in Ordner...
+6025=Kopieren in Ordner...
+6026=Absender zu Kontakten hinzufügen
+6027=Originalnachricht
+6028=Von:
+6029=Neue Nachrichten suchen
+6030=Neue Nachrichten suchen: %d (%d KB)
+6031=Verbinden...
+6032=Verbindung trennen...
+6033=Nachrichtenliste empfangen...
+6034=Nachricht %d empfangen
+6035=Neue Nachricht
+6036=Antworten
+16036=Antworten
+6037=Senden: %d (%d KB)
+6038=Nachricht %d senden
+6039=Senden
+6040=Alle als gelesen markieren
+6041=Gelesene Nachrichten ausblenden
+6042=Layout
+6043=Klassische Ansicht
+6044=Erweiterte Ansicht
+6045=Senden und empfangen
+6046=Alle senden und empfangen
+6047=Empfangen
+6048=Alle empfangen
+6049=Alle senden
+6050=Neue Nachricht...
+6051=Neuer Ordner...
+6052=Nachricht %d löschen
+6053=Zurückgestellt
+6054=Senden/Empfangen
+16054=Senden/Empfangen
+6055=Kopfzeilen
+6056=An/Cc/Bcc
+6057=Konto-Einstellungen...
+6058=Ordner verwalten...
+6059=Bitte warten, Nachricht wird geladen.
+6060=Anmelden bei %s
+6061=Nachrichtenregeln...
+6062=Nachrichten-Quelltext...
+6063=Nachrichten-Quelltext
+6064=Um diese Funktion zu nutzen, muss ein E-Mail-Konto eingerichtet werden. Klicken Sie auf Datei -> Neu -> E-Mail-Konto...
+6065=Nachricht...
+6066=Nachrichtenordner müssen synchronisiert werden. Bitte klicken Sie auf Senden/Empfangen.
+6067=Löschen
+16067=Nachricht(en) löschen
+6068=Globale Ordner
+6069=Ordner verwalten
+16069=Ordner verwalten
+6070=Komprimieren
+6071=Mit Stern
+6072=Entschlüsselte Nachricht
+6073=Entschlüsselung gescheitert
+6074=Signatur für %s bestätigt:|Benutzer-Id: %s / Signiert am: %s
+6075=Ungültige PGP-Signatur von "%s"
+6076=Kann die Signatur nicht überprüfen, da der öffentliche Schlüssel des Absenders nicht zur Verfügung steht.
+
+;---
+6100=Vorige Nachricht
+6101=Nächste Nachricht
+6102=Symbolleiste
+6103=Zu Kontakten hinzufügen
+6104=Absender
+6105=Neue Kontakte aus Empfängerliste
+6106=Link kopieren
+6107=Adresse zu Kontakten hinzufügen...
+6108=Neue Nachricht an...
+6109=E-Mail-Adresse kopieren
+6110=Bild speichern unter...
+6111=Hintergrund speichern unter...
+6112=Bild kopieren
+6113=Mit Stern markieren
+
+;--- New Message Editor ---
+6200=Neue Nachricht
+16200=Neue Nachricht
+6201=An...
+6202=Cc...
+6203=Bcc...
+6204=Nachricht senden
+6205=Anhang speichern...
+6206=Zeige Cc
+6207=Zeige Bcc
+6208=Standardschaltflächen
+6209=Formatleiste
+6210=Vor dem Schließen Änderungen in Nachricht "%s" speichern?
+6211=Die Nachricht konnte nicht gesendet werden. Einige Empfänger sind ungültig (%s). Bitte überprüfen Sie die E-Mail-Adressen.
+6212=Am %s um %s schrieb %s:
+6213=Anhang...
+16213=Anhang einfügen
+6214=Hintergrund
+6215=Bild...
+6216=Encoding
+6217=Empfangsbestätigung anfordern
+6218=Empfänger auswählen...
+6219=Nachricht löschen
+6220=Rich Text (HTML)
+6221=Reiner Text
+6222=Mit dieser Option kann die Nachricht nicht mehr als Rich Text formatiert werden.
+6223=Die Nachricht konnte nicht gesendet werden. Wählen Sie mindestens einen Empfänger aus.
+6243=Nachricht verschlüsseln
+6244=Nachricht signieren
+6245=Meinen öffentlichen Schlüssel anhängen
+6246=Für die folgenden Empfänger wurde kein öffentlicher Schlüssel gefunden: %s.|Mit OK öffnen Sie die Schlüsselverwaltung und können:|- Den Empfänger einem existierenden Schlüssel zuordnen, oder|- einen öffentlichen Schlüssel für den Empfänger importieren.|Drücken Sie auf Abbrechen, um zur Nachricht zurückzukehren und sie unverschlüsselt zu senden.
+6247=Für diesen Absender ist noch kein privater Schlüssel hinterlegt. Mit OK öffnen Sie die Schlüsselverwaltung und können:|- Den Absender einem existierenden Schlüssel zuordnen,|- ein Schlüsselpaar für den Absender importieren, oder|- ein neues Schlüsselpaar erstellen.|Drücken Sie auf Abbrechen, um zur Nachricht zurückzukehren und sie unsigniert zu senden.
+
+;--- Select Recipients ---
+6250=Empfänger auswählen
+6251=&Cc:
+6252=&Bcc:
+6253=K&ontaktliste:
+6254=&An:
+6255=&Adressbuch:
+
+;---
+6300=EssentialPIM: Nachrichten senden und empfangen
+6301=E-Mail-Konto|Aufgaben|Fortschritt|Status
+6302=&Ausblenden
+6303=&Alle beenden
+6304=&Beenden
+6306=Abbrechen...
+6307=Abgebrochen
+
+;--- Account Settings ---
+6400=E-Mail-Konto
+6401=&Allgemein
+6402=E-Mail-Konto
+6403=&Kontoname:
+6404=Benutzerdaten
+6405=&Name:
+6406=&Organisation:
+6407=&E-Mail-Adresse:
+6408=&Antwort-Adresse:
+6409=&Server
+6410=&Posteingang
+6411=S&erver:
+6412=Server benötigt sichere Verbindung (&SSL)
+6413=&Benutzername:
+6414=P&ostausgang:
+6415=Se&rver verlangt Authentifizierung
+6416=Gleiche Einstellungen wie für Posteingang benutzen
+6417=Anmelden &als:
+6418=&Erweitert
+6419=S&erver-Einstellungen
+6420=Na&ch Start neue Nachrichten suchen
+6421=Neue Na&chrichten suchen: alle
+6422=&Kopie auf Server belassen
+6423=Server-&Timeout:
+6424=Sekunde(n)
+6425=Bei Empfang neuer Nachricht(en) Klang abspielen
+6426=&Signatur
+6427=&Benutze eine Signatur für versendete Nachrichten
+6428=Als Standard
+6429=Standard
+6430=&Übermittlung
+6431=&Vom Server entfernen nach
+6433=&Verbindungssicherheit:
+6434=Keine|STARTTLS|SSL/TLS
+6435=Postausgang (SMTP)
+6436=&Alternative Adressen
+6437=&Dieses Konto beim Nachrichtenempfang einschließen
+6438=Wollen Sie das ausgewählte Konto wirklich löschen?
+
+;---
+6450=IMAP-Ordner verwalten
+6451=Ordner für Anzeige im Hauptfenster und Synchronisationsart auswählen.
+6452=Sichtbar|Name|Synchronisationsart
+6453=Nicht synchronisieren|Kopfzeilen|Ganze Nachricht(en)
+6454=Einige Ordner sollen Nachrichten komplett herunterladen. Soll dies auch für alle alten Nachrichten in den jeweiligen Ordnern gelten? Wenn Sie mit Nein antworten, wird EssentialPIM nur zukünftige Nachrichten komplett herunterladen.
+6455=Benutzername oder Passwort für "%s" sind falsch.
+
+;--- Account Wizard ---
+6500=Konto-Assistent
+6501=Identität
+6502=Dieser Name erscheint im Absenderfeld.
+6503=E-Mail-Adresse ist die Adresse, an die andere Nachrichten an Sie adressieren.
+6505=Posteingangsserver
+6506=Art des &Servers:
+6507=Postausgangsserver
+6508=Kontoname
+6509=&Jetzt auf neue Nachrichten überprüfen
+6510=&Globale Ordner verwenden
+6511=Nachrichten werden in globalen Ordnern und nicht im eigenen Verzeichnis gespeichert.
+6512=PGP-Mail&verschlüsselung einrichten
+6513=PGP ist ein gebräuchliches Verfahren, um Ihre Email-Kommunikation durch Verschlüsselung zu schützen. Setzen Sie das Häkchen, um den Einrichtungsassistenten zu starten.
+
+;--- Mail Rule ---
+6600=Nachrichtenregel
+6601=&Name der Regel:
+6603=enthält|enthält nicht|ist|ist nicht
+6604=&Aktion wählen:
+6605=verschieben nach|kopieren nach|löschen|als gelesen markieren
+6606=Regel anwenden auf:
+6607=Nachrichten, die alle Bedingungen erfüllen|Nachrichten, die eine Bedingung erfüllen
+6608=Regeln werden in der unten angeführten Reihenfolge angewendet.
+6609=A&usgewählte Regeln anwenden auf:
+6610=Jetzt a&nwenden
+
+;--- Message Rules ---
+6650=Nachrichtenregeln
+
+;--- Password Module ---
+6801=Meine Passwörter
+6802=Passwörter
+6804=Ausgewählte Passwörter wirklich löschen?
+6805=Neuer Passworteintrag...
+6806=Eintrag hinzufügen...
+6807=Bearbeiten
+6808=Löschen
+16807=Passworteintrag bearbeiten
+16808=Passworteintrag löschen
+6809=Benutzername kopieren
+6810=Passwort kopieren
+16809=Ausgewählten Benutzernamen in Zwischenablage kopieren
+16810=Ausgewähltes Passwort in Zwischenablage kopieren
+6811=Details
+6812=Passwort und Wiederholung des Passworts stimmen nicht überein!
+6813=Zu exportierende Einträge
+6817=Gen
+16817=Passwort generieren
+6818=Passworteintrag...
+6819=***
+16819=Passwort zeigen/verbergen
+6820=Passwort generieren
+6821=Optionen
+6822=Großbuchstaben (A, B, C, ...)
+6823=Kleinbuchstaben (a, b, c, ...)
+6824=Ziffern (1, 2, 3, ...)
+6825=Länge des Passworts:
+6826=Ihr Passwort:
+6827=Generieren
+6828=&Spezielle Zeichen:
+6829=Daten wurden in Zwischenablage kopiert
+6830=Eintrag hinzufügen
+16830=Passworteintrag in aktueller Gruppe hinzufügen
+
+;--- Password Fields ---
+6851=Titel
+6852=Benutzername
+6853=Passwort
+6854=Passwort wiederholen
+6855=URL
+
+;--- Label Wizard ---
+7000=Aufkleber-Assistent
+7001=Um fortzusetzen, klicken Sie auf Weiter...
+7002=Drucke Aufkleber für:
+7003=&Alle Kontakte|&Ausgewählte Kontakte
+7004=Aufkleber-Vorlagen
+7005=Hersteller:
+7006=Aufkleber-&Typ:
+7007=Aufkleber-&Info:
+7008=Breite:
+7009=Höhe:
+7010=Seitenbreite:
+7011=Seitenhöhe:
+7012=Format:
+7013=Text-Platzierung
+7014=&Drucker wählen:
+7015=Zusammenfassung
+7016=Anzahl der Aufkleber:
+7017=Seitenanzahl:
+7018=Zum Beenden klicken Sie auf Drucken...
+7019=Beginne mit Aufkleber:
+7020=Alle Aufkleber auf der Seite mit Daten befüllen
+7021=Vorlage speichern als...
+7022=Vorlage laden...
+7023=Aufkleber-Vorlage
+
+;--- Envelope Wizard ---
+7050=Umschlag-Assistent
+7051=Umschlaggrößen
+7052=Adress-Aufkleber
+7053=Umschläge drucken für:
+7054=Umschlag-Typ:
+7055=Empfänger:
+7056=Absender:
+7057=Anzahl der Umschläge:
+7058=Zuführung
+7059=Umschlag-Vorlage
+
+;--- Attachments Manager ---
+7200=Anhänge verwalten
+7201=&Einträge
+7202=&Dateien
+7203=Typ
+7204=Typ:
+7205=Alle Typen
+7206=Verknüpfung
+7207=%d Datei(en) in %d Einträgen
+7208=%s in %d Datei(en)
+
+;---
+8000=Datenbank archivieren:
+8001=Einträge aus folgenden Modulen archivieren:
+8002=Nur 100% fertiggestellte Termine
+8003=Nur 100% fertiggestellte Aufgaben
+8004=Aktion:
+8005=Löschen (Einträge werden endgültig gelöscht)
+8006=In Papierkorb (Einträge werden in den Papierkorb verschoben)
+8007=In andere Datenbank archivieren
+8008=Einträge archivieren, die älter sind als
+8009=Sie benutzen eine kostenlose Testversion. Die erlaubte Anzahl von freien Archivierungen ist erreicht. Jetzt bestellen?
+8010=Über EPIM Archiver/DupeRemover
+8011=Archivierung vollständig.
+8012=Archivierung abgebrochen.
+8013=Netzwerk-Parameter...
+8014=Netzwerk-Parameter
+8015=Netzwerk-Autorisierung
+8016=Datenbank anlegen
+8017=Archiviere Kontakte...
+8018=Archiviere Notizen...
+8019=Archiviere Kalender...
+8020=Archiviere Aufgaben...
+8021=Archiviere Nachrichten...
+8022=Lösche alte Eintragungen...
+8023=Archiviert:
+8024=Termine
+8025=Archiver
+8026=DupeRemover
+8027=Zu analysierende Module:
+8028=Analysieren
+8029=Gelöschte Einträge in Papierkorb verschieben
+8030=Duplikate
+8031=Ausgewählte löschen
+8034=Zuletzt geändert
+8035=Analysiere Datenbank
+8036=Filter:
+8037=Alle
+8042=E-Mails
+8044=Auswählen
+8045=Abwählen
+8048=Auswahl umkehren
+8049=Lösche Duplikate
+8050=%d Einträge erfolgreich gelöscht.
+
+;--- Advanced Search ---
+8500=Erweiterte Suche
+8501=Sind Sie sicher, dass Sie die Einträge löschen wollen?
+8502=&Gelöschte Einträge einschließen
+8503=&Jetzt suchen
+8504=&Stop
+8505=&Neue Suche
+8506=S&uchergebnisse:
+8507=Suche...
+8508=&Gehe zu Eintrag
+8511=&Alle Bedingungen erfüllen
+8512=Mindestens &eine Bedingung erfüllen
+8513=&Zeit:
+8514=Von:
+8515=An:
+8516=Erstellt|Geändert
+8517=Kalenderfelder
+8518=Aufgabenfelder
+8519=Notizfelder
+8520=Kontaktfelder
+8521=Nachrichtenfelder
+8522=Allgemeine Felder
+8523=Passwortfelder
+8527=Exklusives Ereignis
+8532=Erinnerung
+8533=Wiederholung
+8537=ist|ist nicht|enthält|enthält nicht
+8538=ist|ist nicht|vor|nach
+8539=Öffentlich|Privat
+8540=Keine Daten|0%|25%|50%|75%|100%
+8541=Feld wählen
+8542=%d Einträge gefunden
+8544=&Suchen nach:
+8545=Su&che in Feldern:
+8546=Betreff und Inhalt|Betreff|Inhalt|Name des Anhangs
+8548=Anhang
+8549=Titel der Notiz
+8552=Inhalt der Notiz
+8553=Startdatum
+8554=Enddatum
+8558=Persönliche Felder
+8559=Geschäftliche Felder
+8560=existiert|existiert nicht
+8561=ist|ist nicht
+8562=existiert|existiert nicht|enthält|enthält nicht
+8563=Beantwortet|Weitergeleitet|Gelesen|Ungelesen
+8567=ist|ist kleiner als|ist größer als
+8570=Gruppenfelder
+58=Zurücksetzen
+216=Wählen
+310=Jahrestag
+448=Erstellen
+449=Word Count
+482=Zeilenumbruch
+516=Keine "%s" in Folien gefunden. Zu diesem Element wechseln um dessen Inhalt zu sehen.
+517=Keine "%s" in Folien gefunden. Um Folien zu sehen, klicken Sie doppelt auf den Namen der Notiz oder brechen Sie die Suche ab.
+518=%d Wörter
+519=%d von %d Wörtern
+520=Wörter: %d|Zeichen (ohne Leerzeichen): %d|Zeichen (mit Leerzeichen): %d
+584=&Einträge:
+616=Startseite
+617=Home
+618=Andere
+619=Gruppe
+658=Text|Telefonnr.|Anschrift|Datum|Dropdown-Liste|Ja/Nein|Kontrollkästchen
+850=Wochen Agenda
+1307=Beginn und Dauer speichern 
+1450=Vorschau &To-Do's mit Start- oder Fälligkeitsdatum:
+1577=Proxy-Server
+1578=Erfordert Authentifizierung
+1579=Kalenderwochen in der Monatsansicht anzeigen:
+1580=In Terminen anzeigen:
+1581=Startzeit|Endzeit|Start- & Endzeit
+1582=Mondkalender aktivieren
+1583=&Erledigte automatisch löschen:
+1584=Zwischenablage leeren
+1585=Nie|1 Tag nach Abschluss|1 Woche nach Abschluss|1 Monat nach Abschluss|3 Monate nach Abschluss|6 Monate nach Abschluss|1 Jahr nach Abschluss|Sofort
+1950=Mit dem Fälligkeitstag
+1954=Neue Unteraufgabe...
+1955=Neue Hauptaufgabe...
+1962=Überfällig|Heute|Morgen|Diese Woche|Nächste Woche|Diesen Monat|Nächsten Monat|Später|Ohne Fälligkeitsdatum|Erledigt
+2914=%d Empfänger haben ungültige E-Mail-Adressen, diese sind im linken Bereich rot markiert. Bitte klicken Sie auf "Abbrechen" und bearbeiten diese, sonst werden diese beim Senden ignoriert. Weiter zum Senden?
+3221=Text Dokumente (*.txt/*.rtf)...
+3222=Komma getrennte Werte (*.csv)...
+3223=E-Mail-Nachrichten (*.eml)...
+3224=HTML-Dateien (*.html)...
+3225=Rich Text Format (*.rtf)...
+3226=Textdokument (*.txt)...
+3227=Öffne Office XML Dokument (*.docx)...
+3824=&Jede Folie auf einer eigenen Seite
+4268=Bitte geben Sie ihr vorhergehendes Passwort "%s" ein, um mit der Passwort-Synchronisation fortzufahren.
+4633=Holen Sie sich jetzt ihr EPIM Cloud Account!
+4634=Ihre Zahlung für Ihre EPIM Cloud ist fällig. Sie können in Ihrem <a href="http://cloud.essentialpim.com/hostbill/?cmd=clientarea&action=invoices">EPIM Kundenbereich</a> bezahlen
+4635=Ihre Zahlung für Ihre EPIM Cloud ist seit 10 Tagen überfällig. Sie können in Ihrem <a href="http://cloud.essentialpim.com/hostbill/?cmd=clientarea&action=invoices">EPIM Kundenbereich</a> bezahlen
+4636=In der EPIM Cloud anmelden
+4637=EssentialPIM Cloud ermöglicht Ihnen eine sichere Hintergrund-Synchranisation Ihrer Daten mit dem webbasierten Interface Ihrer Cloud.||EPIM Cloud kostet USD 1.99 pro Monat oder USD 19.95 <i><font color="#2D4F72">(save 20%)</font></i> pro Jahr.Sie können jederzeit kündigen und falls Sie in den ersten 30 Tagen nicht zufrieden sind, erstatten Wir Ihnen das Geld.||Klicken Sie auf "Nächster Schritt", um den Bestellvorgang zu starten.
+4638=Ihr Browser hat eine Web-Seite geöffnet. Bitte schließen Sie Ihre Bestellung ab und überprüfen Sie Ihre E-Mails.
+4639=Ergänzen Sie bitte folgendes mit den erhaltenen Daten aus der E-Mail:
+4640=EPIM Cloud Nutzername
+4641=EPIM Cloud Passwort
+4642=Schließen Sie das EPIM Cloud Setup ab
+4643=Ihre EPIM Cloud ist sofort einsatzbereit.
+4644=Ihre Zahlung für die EPIM Cloud ist fällig am %s
+4645=Ihre Zahlung für die EPIM Cloud ist fällig, bitte <a href="http://cloud.essentialpim.com/hostbill/?cmd=clientarea&action=invoices">bezahlen Sie jetzt</a>
+4646=Vielen Dank für Ihre Bestellung!
+6077=Schnellfilter Symbolleiste
+6078=Schnellfilter:
+16079=Beim Ordnerwechsel Filter aktiv lassen
+6080=Ungelesen
+16080=Zeige nur ungelesene Nachrichten
+6081=Markiert
+16081=Zeige nur markierte Nachrichten
+6082=Kontakte
+16082=Zeige nur Nachrichten von Personen aus den Kontakten
+6083=Anhang
+16083=Zeige nur Nachrichten mit Anhang
+6308=Nicht alle Nachrichten konnten gesendet werden, überprüfen Sie Ihren Postausgang
+6456=Ihre E-Mail-Regeln enthalten Verweise auf Textkörper der Nachricht. Wenn Sie die Kopfzeile für diesen Ordner ändern, funktionieren die E-Mail-Einstellungen nicht mehr.
+6514=Sie haben E-Mail Regeln welche nur bei Textkörper von Nachrichten wirken. Der Account den sie gerade erstellt haben lädt nur Kopfzeilen herungen. Einige Filterregeln können auf diese nicht angewendet werden. Bitte gehen sie auf Aktionen-> Ordner verwalten oder Aktionen-> Filtern 
+6611=Einige Ihrer Ordner laden nur die Kopfzeilen herunter, diese Regel kann nicht angewendet werden. Um dies zu ändern gehen sie auf Aktionen-> Ordner verwalten
+6803=Zwischenablage geleert
+6816=Zwischenablage wird in %d Sekunden geleert
+6831=Auto type
+8509=Abfrage speichert
+8510=Abfrage laden
+8524=Wählen Sie Spalten aus:
+8525=Diese Aktion löscht Ihre letzte Suche.
+8528=Alle gemeinsamen Felder
+8529=Alle Terminfelder
+8530=Alle To-Do's Felder
+8531=Alle Notizenfelder
+8534=Alle Kontaktfelder
+8535=Alle Mailfelder
+8536=Alle Passwortfelder
+8547=Es gibt bereits eine Abfrage mit dem gleichen Namen. Möchten Sie diese überschreiben?
+8550=Suchabfrage speichern 
+8551=Name für die Suchabfrage:
+8555=Suchabfrage laden
+8556=&Suchabfrage auswählen:
+8557=Sind Sie sicher, dass Sie die Abfrage löschen wollen?
+667=Felder:
+668=Versteckt
+669=&Einblenden
+217=Vorwahl hinzufügen
+218=Sie Wählen eine internationalen Nummer. Bitte geben Sie die internationale Vorwahl ein (für die meisten Länder ist es 00):
+219=%s anrufen
+1428=Internationale Vorwahl (zum Wählen verwenden):
+4261=Code:
+4267=Authentifikation
+4270=Code ist ungültig. Bitte Kopieren&Einfügen diesen, oder fordern sie den Code erneut über den obigen Link an.
+4271=Neuen Anfordern?
+4273=Neuen Code in Google sync Optionen anfordern
+4275=Um EssentialPIM auszuführen, müssen Sie den Zugriff auf Ihre Google-Daten erlauben.
+4276=Um die Synchronisierung mit Ihren Google-Daten fortzusetzen, muss EssentialPIM erneut um Erlaubnis fragen.
+4277=Bitte halten Sie diese 3 einfachen Schritte ein:| ● Folgen Sie diesem Link: <a href=oauth>Ihr Google-Konto</a>| ● Melden Sie sich gegebenenfalls bei Ihrem Google-Konto an und klicken Sie auf Akzeptieren, wenn Sie gefragt werden, ob EssentialPIM Ihre Google-Daten verwalten darf| ● Es wird ein Code für Sie angezeigt. Bitte kopieren Sie den Code und fügen Sie ihn hier ein:
+6515=Verwende 2-Schritt Verifikation? <a href=https://support.google.com/mail/answer/1173270?hl=de>Hier klicken</a> für weitere setup Instruktionen
+60=Kopiere...
+62=Verschiebe...
+241=Alle Einträge
+243=Verknüpfte Einträge
+244=Erinnerung: %d
+483=Checkboxes
+954="%s" ist eine wiederholende Erinnerung. Wählen sie was sie löschen möchten:
+955=Diese Erinnerung|Diese Erinnerung und folgende Erinnerungen|Komplette Serie
+1586=Datums Format: d, dd = Tag; M, MM, MMM = Monat; yy, yyyy = Jahr
+1587=Zeit Format: H, HH = Stunde; m, mm, = Minute; tt = AM/PM
+1588=&Beginne mit
+1589=&Letztes geöffnetes Modul
+1590=Automatisches hinzufügen von E-Mail Empfängern von gesammelten Adressen
+2619=EssentialPIM konnte nicht automatisch nach neuen Updates schauen. Bitte überprüfen sie, dass sie die neuste Version verwenden. Sie werden nun auf die Download-Seite weitergeleitet.
+2620=Um mit EssentialPIM Update Installation fortzufahren wird EssentialPIM neustarten.
+2621=Auf neue Version überprüfen
+2622=&Download && Installieren
+2623=Später
+2629=&Download
+2631=Ihre Update-Lizenz ist ausgelaufen, bitte kaufen sie Updates mit %d%% Nachlass. Fortfahren?
+3327=Optimiere Datenbank...
+4274=Mail (mit Gmail)
+6084=Konversationen
+6086=vertikale Ansicht
+6088=Überprüfe auf fehlende Anhänge
+6090=Schlüsselwörter...
+6092=Ordner umbenennen
+6094=Neuer Name:
+6096=Es sieht aus als hätten sie vergessen einen Anhang anzufügen. Wollen sie die Nachricht denoch senden?
+6098=leere gelöschte Einträge beim schließen
+6612=anwenden auf:
+6613=Wähle &konditionen für Nachrichten:
+6614=eingegangene Nachrichten|gesendete Nachrichten
+6652=Sortiere Ordner nach Name
+6654=Name A-Z
+6656=Versende ungesendete Nachrichten bei schließen
+6658=Der Sender dieser E-Mail hat eine Lesebestätigung angefordert.|Möchten sie diese senden?
+6660=Lesebestätigung angefordert
+6662=sortiere Unterordner
+6664=bitte warten...
+6666=N/A
+6670=speichern als
+6672=Entwurf
+6674=Vorlage
+6676=Datei...
+6678=Erfolgreich gespeichert.
+6680=Erfolgreich
+6682=Sende
+6684=dieser Ordner
+6684=Nicht beantwortet|Nicht Weitergeleitet|Entwurf|kein Entwurf|Komplette Nachricht|nur Kopfzeilen|nicht dekodiert|Unterschrieben|nicht Unterschrieben
+6688=Vorlagen
+6690=speichere E-Mail Nachrichten...
+6692=Speichern wurde abgebrochen.
+6694=Nachrichten werden dauerhaft gelöscht. (umgehe gelöschte Positionen).|Fortfahren?
+6696=Ordner
+6698=Verarbeite E-Mail Nachrichten...
+1736=Google Drive (Hauptverzeichnis)
+6686=Nicht beantwortet|Nicht weitergeleitet|Entwurf|kein Entwurf|Voll Nachricht|Nur Kopfzeile|verschlüsselt|unverschlüsselt|signiert|unsigniert
+4211=&Kalender link:
+4213=&Addressbuch link:
+4269=Initiierung der Synchronisation mit EPIM für Android.
+
+;Further part included strings from EssentialPIM for Android application. However, we recently switched to the translation management system in order to have a centralized translation base and simplify the process of translating and submitting new and updated language projects. 
+;If you wish to be a part of the EssentialPIM for Android translation team, please drop us a line to pr@essentialpim.com and we'll get back to you with an invite. Thank you!

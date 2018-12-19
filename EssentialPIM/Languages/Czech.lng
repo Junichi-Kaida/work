@@ -1,0 +1,2294 @@
+; This file is stored in UTF-8 encoding
+
+[Info]
+LanguageName=Česky (Czech)
+LanguageID=05  
+    ; http://msdn.microsoft.com/en-us/library/cc195085.aspx
+ProgramVersion=6.5           
+TranslatorName=Jiří Humplík
+    ; EssentialPIM, ver. 5.03+    : Jiří Humplík
+    ; EssentialPIM, ver. 5.0-5.03 : Jiří Humplík & Petr Šimánek
+    ; EssentialPIM, ver. <5.0     : Petr Šimánek
+TranslatorURL=http://www.epimcz.wbs.cz/
+Letters=ABCČDEFGHIJKLMNOPQRŘSŠTUVWXYZŽ
+ 
+; ==============================================================================
+;        --------------------->> CO JE NOVÉHO ? <<---------------------
+; ==============================================================================
+;
+;   EssentialPIM (Windows), ver. 6.54     [2015-08-18] 
+;   ---------------------------------------------------
+;   PŘIDÁNO:
+;      * přeloženy 2 nové popisky /4211,4213/
+;
+; ------------------------------------------------------------------------------
+;   ODLOŽENO:
+;      * /detail skupiny/: 	Telefon --> Telefon (skupiny), 	E-mail --> Email (skupiny), Webová stránka --> Web (skupiny)
+;      * sjednocení terminologie pro "nový" vs. "přidat" v modulu Hesla   
+;      * pořešit problematický string 2203
+;      * 294=Ulice a č.p. (jiná)
+;      * rozdíl mezi 630 a 640; 803, 2200 a 10803
+;      * používá se popiska 11909,4639,16054?
+;      * co znamená popiska 1913 (Kompl.),6503,6666,16809
+;      * chybí možnost pojmenovat SMTP server pro odchozí poštu
+;      * stále nefunguje korektně přidávání podmínek filtru (pokud mezi A podmínku a C podmínku chci přidat B podmínku, stisknu u A +, ale vytvoří se chybně až za C)
+;      * chybně se přenastavuje při vytváření poštovního účtu typu POP3 nebo IMAP vždy "mail.server" místo "pop3.server" nebo "imap.server" + uživatelé uvítají rychlou nápovědu pro nastavení tuzemských (českých) free mail serverů 
+;      * Přidat upozornění na hlavní obrazovce (nebo před otevřením databáze z externího disku) něco ve smyslu: "Zpracování databáze z přenosných disků může být výrazně pomalejší než z lokálního disku"
+;      * okno s připomenutím "Odložit" --> "Odložit o..." (5 min.)
+
+;      * Vylepšit text pro upozornění na aktualizaci programu:          
+;           Zde můžete zakoupit doživotní aktualizace za %s --> ???
+;           Je k dispozici novější verze EssentialPIM Pro --> Byla vydána novější verze EssentialPIM
+;           Přejete si ji stáhnout/koupit? Tato aktualizace je pro vás zdarma. --> Chcete nyní ZDARMA stáhnout aktuální verzi?"
+;           Neoznamovat aktualizace --> Znovu/Příště nezobrazovat/neoznamovat
+;      * Zadejte prosím hlavní heslo pro přístup do modulu Hesla na Vašem.. 
+;               --> Zadejte prosím heslo pro zobrazování \ přihlaš. údajů
+;               --> (zestručnit popisku, nad tím "Kód k heslům: .....) (PC) vs. "Přístup k heslům" (Android)           
+;      * nepřeloženo "Keywords" (viz. Nastavení / Pošta / Klíčová slova pro přílohu) --> není zatím založen odpovídající řetězec
+;      * popiska v okně Odstranit konflikt při synchronizaci "Následující položky
+;             byly změněny v %s.." - zástupný znak nefunkční + přetéká popiska u 
+;             tlačítka "Synchronizovat"
+;      *   ---> "Nová zpráva" nebo "Napsat zprávu"
+;
+;   CHYBY VE FUNKČNOSTI:
+;      * v rychlé poznámce nefunguje odškrtávání ze seznamu (check list) + přidat potvrzovací dialog před smazáním rychlé poznámky
+;      * /Akce pro modul Hesla/ Kopírovat uživ. jmén.. --> je potřeba trošku roztáhnout, posunout dělící lištu doprava 
+; ==============================================================================
+[Texts]
+1=Český překlad:
+10=OK
+11=Zrušit
+12=&Přidat
+13=&Smazat
+14=< &Zpět
+15=&Další >
+16=D&okončit
+17=&Vymazat
+18=&Nahrát…
+19=&Uložit…
+20=&Editovat
+21=Upravit…
+22=Použít
+23=V&ložit
+;Vložit
+24=Pokračovat
+25=&Ano
+26=&Ne
+27=Ano|Ne
+30=Zpět
+31=Vpřed
+32=Přidat
+33=Upravit
+34=Smazat
+35=Přejmenovat
+36=Vlas&tnosti…
+37=Zobrazit…
+39=Po&kročilé…
+40=P&rocházet…
+41=Zavřít
+42=Nápo&věda
+43=Nahoru
+44=Dolů
+45=&Otevřít
+46=&Přidat…
+47=Na&stavit…
+48=Uložit a nový
+49=Zrušit
+50=Zrušit vše
+51=&Obnovit
+52=Vložit &licenční klíč
+53=Vy&brat
+54=&Změnit…
+	; zřejmě názvy dialogových oken
+55=Zrušit vše
+56=Povolit vše
+57=Původní nastavení
+58=Resetovat
+60=Probíhá kopírování...
+62=Probíhá přesunování... 
+80=Chyba
+81=Varování
+82=EssentialPIM
+83=Informace
+88=&Pamatovat heslo na
+89=10 minut|1 hodinu|1 den
+90=Ochrana databáze heslem
+91=&Heslo:
+92=&Potvrďte heslo:
+  ; BUG: po zasifrovani se stahuji vsechny stare zpravy ze serveru, prepisi se veskere pravidla pro zpravy --> vhodne na to upozornit uzivatele (pred zasifrovanim nejprve v Database managementu smazat IMAP data)
+93=Chybné heslo! Vložte heslo znovu.|Musíte správně použít malá a velká písmena.
+94=&Zapamatovat heslo
+95=Algoritmus šifrování (rychlost/úroveň):
+96=AES Rijndael, 128 bit (rychlý/vysoká)|AES Rijndael, 256 bit (rychlý/vysoká)|Single DES, 56 bit (rychlý/nízká)|Triple DES, 168 bit (pomalý/střední)|Blowfish, 448 bit (pomalý/vysoká)|Twofish, 128 bit (rychlý/střední)|Twofish, 256 bit (rychlý/vysoká)|Square
+97=&Uživatel:
+  ; &Uživatel
+  ; Uživ. &jméno:
+  ; &Přihlaš. jméno:
+  ; &Login:
+  ; umístění stringu: 
+  ;   a) Nastavení/Synchronizace
+  ;   b) Průvodce synchronizací
+  ;   c) Připojit k databázi
+98=Probíhá šifrování dat, čekejte prosím...
+99=Dešifruji databázi, čekejte prosím...
+100=&Soubor
+101=Nový
+102=Otevřít…
+103=Uložit
+104=Uložit jako…
+105=Zavřít
+106=Ochrana heslem…
+107=Import dat
+108=Export dat
+109=Konec
+110=Úpr&avy
+111=Zpět
+112=Odvolat zpět
+113=Vyjmout
+114=Kopírovat
+115=V&ložit
+116=Vybrat vše
+117=Najít…
+118=Kopírovat jako odkaz
+120=&Zobrazit
+121=Kalendář
+122=Úkoly
+123=Poznámky
+124=Kontakty
+125=EPIM dnes
+126=Koš
+127=Pošta
+128=Hesla
+130=V&ložit
+131=Nová událost…
+132=Nový úkol…
+133=Nová poznámka…
+134=Nový kontakt…
+135=Symbol…
+136=Obrázek…
+137=Odkaz…
+138=Datum a čas…
+139=Poštovní účet…
+140=&Formát
+141=Obrázek
+143=Uložit obrázek do souboru…
+144=Tabulka
+145=Vložit tabulku…
+146=Zarovnat nahoru
+147=Zarovnat na střed
+148=Zarovnat dolů
+149=Vložit řádek nad
+150=Vložit sloupec vlevo
+151=Smazat tento řádek
+152=Smazat tento sloupec
+153=Rozdělit buňky
+154=Sloučit buňky
+155=&Nástroje
+156=N&astavení…
+158=Jazyk
+159=Pocket PC
+160=Nápo&věda
+161=Obsah nápovědy
+162=Technická podpora [en]
+163=Webová stránka
+164=Licenční ujednání
+165=Registrovat…
+166=Zkontrolovat nové verze
+167=&O programu
+168=Synchronizace
+169=Odebírat novinky [en]
+170=MS Outlook…
+  ; chybí stringy pro Plaxo, LinkedIn a iPod (+ doplnění co všechno se přenáší?)
+171=Adresář z MS Outlook Express (*.wab)
+176=Náhled tisku
+177=Tisk
+178=N&astavení stránky…
+180=Obnovit
+181=Minimalizovat
+182=O programu EssentialPIM
+183=Správa databáze…
+189=iPod…
+190=Tento soubor je již otevřen!
+191=Chcete uložit změny v databázi?
+192=Bezplatná aktualizace do:
+193=EPIM verze %s nemůže otevřít soubor %s vytvořený verzí %d.%d. Novou verzi EPIM si můžete stáhnout z www.essentialpim.com
+194=Zkušební (trial) verze EssentialPIM umožňuje vložit nejvýše 500 položek. Dosáhli jste tohoto limitu. Zakupte si prosím plnou verzi EssentialPIM Pro.
+195=Registrováno pro: ZKUŠEBNÍ VERZE (zbývá %s dnů)
+196=Registrováno pro: %s
+197=Chcete zavřít tuto databázi a vytvořit novou? 
+198=Výměné USB médium bylo odpojeno, EPIM pravděpodobně nebude moci uložit data.
+199=Nelze otevřít soubor s daty. Buď už je jednou otevřen, nebo jeho otevření zakázal operační systém.
+200=&Hledat:
+201=Všechny kontakty|Osobní kontakty|Sebrané kontakty
+202=Kontakt…
+203=Chcete smazat vybrané kontakty?
+204=&Odeslat obsah aktuální položky e-mailem
+	; pouze pro aktuálně vybraný kontakt, na kterém je kurzor (na ostatní označené není brán potaz)
+205=Lišta s počátečními písmeny
+206=Osobní kontakty
+207=Sebrané adresy
+208=Všechna pole
+209=Hledat v:
+210=Tisk štítků…
+211=Tisk obálek…
+212=Přidat kontakt
+10212=Přidat kontakt
+213=Přidat skupinu
+10213=Přidat skupinu
+214=Poslat zprávu…
+215=Prosím zrušte mód jen pro čtení přes menu Upravit.
+216=Vytočit
+217=Nevyplněný přestupný znak  
+218=Pokoušíte se vytočit tel. číslo v mezinárodním tvaru se zástupným znakem + (např. +420).||Zadejte prosím přestupný znak (nejčastěji 00):
+219=Vytáčím %s 
+220=Nový kontakt…
+221=Smazat
+222=Upravit…
+223=Přizpůsobit…
+224=let
+226=Poznámky
+227=Nový
+228=Upravit
+10228=Upravit kontakt
+229=Smazat
+10229=Smazat kontakt(y)
+230=Obrázek
+231=Přidat skupinu…
+232=Člen skupiny
+233=Skupiny
+234=S&krýt skupiny
+10234=Skrýt skupiny
+235=Chcete smazat vybranou skupinu?|(Členové skupiny nebudou smazáni)
+236=Poslat jednoduchý newsletter…
+  ; položka v kontextovém menu na seznamu kontaktů --> sjednoceno s "Poslat zprávu..." 
+237=Kopie
+238=Soukromé
+239=Veřejné|Soukromé|Přizpůsobit
+240=Status:
+241=Všechny položky
+242=Status
+243=Související položky
+  ;záložka na detailu kontaktu - !! Neskloňovat!!
+244=Položek: %d
+251=Jméno
+252=Příjmení
+253=Mobil (domů)
+254=Tel. (domů)
+255=E-mail (domů)
+256=Ulice a č.p.
+257=Město
+258=Stát
+259=PSČ
+260=Kraj
+261=ICQ
+262=MSN
+263=AOL
+264=Osobní web
+265=Narozeniny
+266=2. křestní jméno
+267=Rodné příjmení
+268=E-mail na mobil
+268=Mobilní e-mail
+269=Přezdívka
+
+  ; --> Detail kontaktu - záložka "PRACOVNÍ" 
+271=Název firmy
+272=Pozice
+  ;Funkce
+273=Fax
+274=Tel. (do práce)
+275=E-mail (do práce)
+  ; je použit sufix pro rozlišení e-mailových polí při výběru do newsletteru
+276=Web (do práce)
+277=Ulice a č.p.
+278=Město
+279=Stát
+280=PSČ
+281=Kraj
+282=Mobil (do práce)
+283=Yahoo!
+284=Gadu-Gadu
+285=Jabber
+286=Skype
+287=Oddělení
+288=Fax domů
+289=Telefon do auta
+290=Radiotelefon
+291=Telefon 2
+292=Operátor
+293=Umístění pracoviště
+294=Ulice a číslo domu (jiná)
+295=Město (jiné)
+296=Kraj (jiné)
+297=PSČ (jiné)
+298=Země (jiná)
+299=E-mail (jiný)
+300=Telefon (jiný)
+301=Web stránka
+302=Web stránka (jiná) 
+303=FTP
+304=Blog
+305=Profil (web stránka)
+306=Telefon společnosti
+307=Primární telefon
+308=Fax (jiný)
+309=Tel. (sekretariát)
+310=Výročí
+330=Jméno skupiny
+331=Telefon
+332=Fax
+333=E-mail
+334=Webová stránka
+335=Adresa
+336=Město
+337=Kraj
+338=PSČ
+339=Stát
+350=Přizpůsobit
+352=&Skryté
+353=&Viditelné
+354=Vyberte sloupce, které budou zobrazeny
+
+400=Přidat
+10400=Přidat položku do rootu
+401=Poznámka…
+402=Sbalit vše
+10402=Sbalit vše
+403=Rozbalit vše
+10403=Rozbalit vše
+
+404=Způsob řazení skupin
+  ; kontextové menu Kontakty
+405=Název
+	; Název --> (podle) názvu (je použito i pro sloupec přílohy "Název")
+406=Poslední úprava
+407=Automatické řazení
+    ; jedná se o příznak, ne volbu (nebo "Automaticky setřídit") --> "Automatické řazení"
+408=Checete smazat vybrané poznámky?
+409=Chcete smazat označené poznámky včetně příloh?
+410=( přidělit automaticky )
+411=Hledaná položka nebyla nalezena.
+412=Přidat
+10412=Přidat
+413=Upravit
+10413=Upravit poznámku
+414=Přejmenovat
+415=Smazat
+10415=Smazat poznámku
+416=Ctrl+klik pro otevření odkazu
+417=&Text
+418=Změnit ikonu…
+419=List
+   ; záložka v podokně konkrétní poznámky (List)
+420=Sešit
+   ; záložka v hlavním okně poznámek (Sešit)
+421=Přejmenovat…
+422=Chcete smazat tento list se všemi poznámkami?
+423="%s" nenalezeno! Chcete pokračovat od začátku?
+424=Odstavec…
+425=Vlastnosti tabulky…
+426=Vložit odkaz…
+427=Přidat sešit
+428=Přidat list
+429=Přidat ikonu
+430=Chcete smazat vybranou ikonu?
+431=Kopírovat odkaz
+432=Výchozí
+433=Upravit styl…
+434=Nový styl…
+435=Ukázka stylu
+436=Nelze upravovat výchozí styl
+437=Zvolte styl
+438=Kontrola pravopisu…
+439=Přijímám
+440=Přidat vedle
+10440=Přidat vedle
+441=Přidat vedle
+442=Přidat do slovníku
+443=Přeskočit slovo
+444=Vložit jako prostý text
+445=Kopírovat formát
+446=Změnit
+10446=Změnit vlastnosti poznámky
+447=Upravit odkaz…
+448=Vytvořit
+449=Počet slov
+  ; nelze použít zrychlenou volbu, je použito i jako název pro informační okno
+450=Tučné
+10450=Tučné
+451=Kurzíva
+10451=Kurzíva
+452=Podtržené
+10452=Podtržené
+10455=Barva textu
+10456=Barva pozadí
+10457=Dolní index
+10458=Horní index
+10459=Zarovnat vlevo
+10460=Zarovnat na střed
+10461=Zarovnat vpravo
+10462=Zarovnat do bloku
+10463=Zmenšit odsazení
+10464=Zvětšit odsazení
+10465=Číslování
+10466=Odrážky
+10467=Vložit obrázek
+10468=Vložit tabulku
+469=Hledat…
+10469=Najít a nahradit
+10470=Vložit odkaz
+10471=Barva výplně
+10473=Zpět
+10474=Znovu
+  ; takto je to definováno i v OpenOffice (???)
+475=Přeškrtnuté
+10475=Přeškrtnuté
+10476=Vložit datum a čas
+10477=Vložit symbol
+10478=Vložit vodorovnou linku
+479=Vodorovná linka…
+480=Styl písma
+481=Barva písma…
+482=Zalomení řádků
+483=Kontrolní seznam
+500=Najít a nahradit
+501=&Najít:
+502=&Všechny poznámky
+503=včetně vnořených
+  ; včetně vnořených poznámek (přetečení textu)
+504=&Nahradit:
+505=&Možnosti:
+507=H&ledat v poznámkách
+508=V názvech a textu|Jen v textu poznámek|V názvech poznámek
+509=&Najít další
+510=Na&hradit
+511=Nahradit &vše
+512=%d nahrazení
+513=Hledat
+514=N&ajít
+515=Nahrad&it
+
+516="%s" nebylo nalezeno v listech. Otevřete tuto položku ke zkontrolování obsahu.
+517="%s" nebylo nalezeno v listech. Pro zobrazení listů klikněte dvakrát na název poznámky nebo zrušte vyhledávání.
+518=%d slov
+519=%d z %d slov
+520=Celkem slov: %d|Znaků (bez mezer): %d|Znaků (s mezerami): %d
+
+550=Vložit tabulku
+551=Velikost tabulky:
+552=&Sloupců:
+553=Řá&dků:
+554=Rozdělit buňky
+555=Rozdělit na:
+
+570=Odkaz
+571=&Text:
+573=&Typ odkazu:
+574=Položka &EPIM
+575=I&nternetová adresa
+576=&Soubor
+577=Po&ložka:
+578=&Adresa:
+579=Ná&zev souboru:
+580=Te&st
+581=Náh&led:
+582=Všechny moduly
+583=Náhled
+
+584=&Položek:
+
+601=&Osobní
+602=&Zaměstnání
+603=Po&známky
+604=Přid&at
+605=&Upravit
+606=&Smazat pole
+607=O&brázek
+609=Informace o skupině
+610=&Detaily skupiny
+611=Č&lenové skupiny
+612=Připomenout dříve
+614=Vymazání tohoto pole se projeví u všech uživatelů. Všichni ztratí data obsažená v tomto poli. Chcete přesto smazat pole?
+615=Toto pole obsahuje data. Chcete smazat ze všech položek v tomto modulu?
+616=Adresa (domů)
+617=Adresa (do práce)
+618=jiné
+
+619=skupina
+630=&Vybrat členy
+631=&Nový kontakt
+632=&Odstranit
+640=Vybrat členy
+641=Kontakty v rámci skupiny:
+642=&Vybrané kontakty:
+
+650=Přidat nové pole
+651=Upravit pole
+652=Název:
+  ; Název pole:
+  ; Jméno:
+653=&Vlastnosti
+654=Typ:
+655=Zo&brazit pod kalendářem
+657=Zobrazovat j&ako událost v kategorii:
+658=Text|Tel. číslo|Adresa|Datum|Výběrový seznam|Ano/Ne|Zaškrtnutí
+660=Hodnoty:
+661=Ano/Ne|Zapnuto/Vypnuto|Pravda/Nepravda
+662=Přidat hodnotu
+663=&Hodnota:
+664=Upravit hodnoty
+665=Hodnota &1:
+666=Hodnota &2:
+667=Pole:
+668=skryté
+669=Zobrazit
+
+700=Upravit styl
+701=Název stylu:
+702=Odvozeno ze stylu:
+703=Nastavení písma
+704=Nastavení odstavce
+705=Odstranit styl
+706=Styl se stejným názvem již existuje: "%s"
+707=Vložte název stylu
+708=Přidávám styl
+
+720=Kontrola pravopisu
+721=&Přeskočit jednou
+722=Př&eskakovat
+723=Zaměnit
+724=Zaměňovat
+727=Není ve &slovníku:
+728=Návr&hy:
+729=Nainstalované slovníky:
+730=Stáhnout další slovníky
+731=Slovníky…
+732=Slovníky
+733=Kontrola pravopisu dokončena.
+
+800=Upravit…
+801=Přidat…
+802=Smazat
+803=Dnes
+  ; akce v kalendáři (ponechat první písmeno velké)
+10803=Přejít na dnešní den
+  ; nápovědný text (hint) pro akci v kalendáři
+804=Přejít na
+  ;&Přejít na --> chybné zobrazovaní zrychlené volby v nastavení klávesových zkratek
+805=Zobrazení
+806=Den
+807=Týden
+808=Měsíc
+809=Rok
+810=Zobrazovat 
+811=Předchozí den
+812=Následující den
+813=Předchozí týden
+814=Následující týden
+815=Předchozí měsíc
+816=Následující měsíc
+817=Datum…
+818=Časová osa
+819=60 minut
+820=30 minut
+821=15 minut
+822=10 minut
+823=5 minut
+824=Den
+825=Týden
+826=Měsíc
+827=Rok
+828=A&kce
+829=&Přejít na…
+10824=Zobrazovat den
+10825=Zobrazovat týden
+10826=Zobrazovat měsíc
+10827=Zobrazovat rok
+10829=Zobrazit jiný den
+  ; nelze použít zrychlenou volbu (&Přejít na datum), jedná se o nápovědný text (hint) pro akci "Přejít na..." v kalendáři
+
+830=Přidat
+10830=Vytvořit novou položku
+831=Upravit
+10831=Upravit položku
+832=Smazat
+10832=Smazat událost(i)
+833=Splnit do
+834=Text
+835=Chcete smazat vybranou událost?
+836=&Přejít na datum...
+837=%d událostí|%d narozenin
+
+839=Trvání
+840=Přejít na jiný den
+  ; nelze použít zrychlenou volbu (&Přejít na…), je použito i pro název okna
+841=&Datum:
+842=Od data:
+843=Do da&ta:
+844=Opakování
+845=Připomenutí
+846=Zobrazit
+847=Odložit
+848=Datum a čas|Předmět
+849=5 minut|10 minut|15 minut|30 minut|45 minut|1 hodina|2 hodiny|3 hodiny|4 hodiny|6 hodin|12 hodin|1 den|2 dny|3 dny|1 týden
+
+850=Týdenní agenda
+851=&Událost
+852=&Začátek:
+853=&Konec:
+854=&Trvání:
+855=&Celý den
+856=&Exkluzivní událost
+857=Důl&ežitost:
+858=K&ategorie:
+859=&Splněno:
+860=Text:
+862=hod.
+864=Událost…
+865=Nejvyšší|Vysoká|Střední|Žádná|Nízká|Nejnižší|Není
+866=&Připomenutí:
+867=&V čase události
+868=&Dříve o
+869=min|hod|dnů
+870=Opakovat &událost
+871=&Každý:
+872=den|týden|měsíc
+  ; umístění: detail úkolu --> volba Opakovat úkol
+873=Kone&c dne
+874=Není
+875=(Žádná kategorie)|Důležité|Zaměstnání|Osobní|Volno|Povinné|Vyžaduje cestu|Nutná příprava|Bez kategorie|Výročí|Telefonní hovor|Svátek
+876=Opakovat úkol
+877=Žádná kategorie
+880=Pokročilé možnosti
+881=&Zvuk
+882=&Bez zvuku
+883=&Výchozí zvuk
+884=Zvukový &soubor
+885=Z&práva
+887=&Výchozí zpráva
+888=V&lastní zpráva
+889=Spustit p&rogram
+
+890=Tento časový usek je již obsazen exkluzivní událostí, která nedovoluje vzájemné sdílení.
+891=Tento časový úsek je již obsazen jinou událostí. Exkluzivní událost může být vložena pouze do neobsazeného času.
+892=Označit dokončené
+
+899=Žádná
+
+900=minut|hodin|dnů
+901=minuta|hodina|den
+950=Upravit opakovanou událost
+951=Toto je opakovaná událost. Chcete upravit pouze tento jeden výskyt nebo celou řadu?
+952=Pouze tento výskyt
+953=Upravit celou řadu
+954="%s" je opakující událost. Vyberte z možností, pokud ji chcete smazat:
+955=Tuto událost|Tuto a budoucí události|Celou sérii
+1000=Ukládání kontaktů...
+1001=Ukládání poznámek...
+1002=Ukládání událostí...
+1003=Ukládání úkolů...
+1004=Ukládání e-mailových zpráv...
+1005=Ukládání hesel...
+1010=Načítání kontaktů...
+1011=Načítání poznámek...
+1012=Načítání událostí...
+1013=Načítání úkolů...
+1014=Načítání e-mailových zpráv...
+1020=Ukládání kontaktů...
+1021=Ukládání poznámek...
+1022=Ukládání událostí...
+1023=Ukládání úkolů...
+1025=Ukládání e-mailových zpráv...
+1026=Kontakt|Skupina kontaktů|Poznámka|Událost|Úkol|Příloha|List poznámky|Zpráva|Složka pošty|Poštovní účet|Záznam hesla|Skupina hesel|Strom poznámek|Seznam úkolů
+1030=Synchronizace kontaktů...
+1031=Synchronizace poznámek...
+1032=Synchronizace událostí...
+1033=Synchronizace úkolů...
+1034=Inicializace synchronizace...
+1035=Synchronizace e-mailových zpráv...
+1036=Synchronizace hesel...
+1037=Přihlašovací údaje jsou chybné.
+1038=Probíhá synchronizace...
+1039=Stav synchronizace
+
+  ; >> zobrazuje se na spodní liště: (Zobrazeno/Označeno: nn) 1.tvar j.č./ 2.tvar mn.č. <<
+1050=kontakt|kontaktů
+1052=poznámka|poznámek
+1053=událost|událostí
+1054=úkol|úkolů
+1057=zpráva|zpráv
+1060=záznam|záznamů
+
+1100=Import z iCal
+1101=Import u&dálostí
+1102=Import ú&kolů
+1106=Tento iCal soubor nemůže být importován, protože některé části nejsou slučitelné s iCal. Informujte se u dodavatele softwaru, kterým byl vytvořen.
+
+1150=Vybrat soubor
+1151=&Lokální
+1152=&Adresa URL
+
+1200=Odstranit konflikt
+1201=Následující položky byly změněny v %s i v EPIM. Pro odstranění konfliktu zvolte, která položka má být nahrazena.
+1202=Následující položky byly změněny jak v Outlooku, tak v EPIM od poslední synchronizace. Pro odstranění konfliktu zvolte, která položka má být nahrazena.
+1203=Typ|PC|Akce|Chytrý telefon
+1204=Následující položky byly změněny jak na přenosném zařízení, tak na stolním počítači. Pro odstranění konfliktu zvolte, která položka má být nahrazena.
+1205=Synchronizovat
+1206=Typ|PC|Akce|MS Outlook
+1207=Náhled
+1208=Typ|EssentialPIM|Akce|%s
+
+1300=Uložit jako šablonu
+1301=Uložit jako šablonu…
+1302=Šablona:
+1303=Šablona
+1304=Šablona s tímto názvem již existuje. Chcete ji přepsat?
+1305=Šablony
+1306=&Zrušit výchozí
+
+1307=Uložit začátek a průběh
+
+1400=Nastavení
+1401=&Minimalizovat do pravé části panelu
+1402=&Spustit při startu systému
+1403=&Vysypat koš při ukončení
+1404=Obecné
+1405=Zobrazovat soukromé položky
+1406=Umožnit synchronizaci/export soukromých položek
+1407=Automatické uložení
+1408=Uložit po každých
+1409=&min.
+    ; Automaticky zamknout data po xx "minutách" (Nastavení/Zabezpečení)
+    ; Zkontrolovat nové zprávy každých [N] "minutách" (Nastavení poštovních účtů)
+1410=Uložit při minimalizaci
+1411=M&inimalizovat při zavření
+
+ ; >> umístění (Nastavení/Hlavní/Záloha) << 
+1412=Zálohování
+1413=&Povolit zálohování
+1414=Umístění záloh
+1415=Podsložka s databázemi EPIM
+1416=Dočasná složka MS Windows
+1417=Vlastní umístění
+1418=Zálohovat každých
+1419=Zálohovat ihned
+1420=EPIM dnes
+
+1422=&Zobrazovat události:
+1423=Zobrazovat úkoly bez &data dokončení
+1424=&Maximální počet záložních souborů:
+1425=Probíhá zálohování, čekejte prosím...
+1426=Zálohování dokončeno.
+1427=&Skrýt dokončené úkoly
+1428=Přestupný znak pro vytáčení (většinou 00):
+
+1429=&Barva pozadí:
+1430=Zobrazovat jen pracovní dny
+1431=Použité &písmo:
+
+1432=Zobrazovat vybrané složky:
+1433=Zobrazovat linky v hlavní&m okně kontaktů
+1434=Zobrazovat linky v &detailním zobrazení
+1435=Poloha příčky
+1436=&Svisle|&Vodorovně
+1437=Další barvy…
+1438=Zobrazovat ikony před názvem poznámky
+1439=Povolit spuštění jen jedné kopie EPIM současně
+1440=Portable funkce
+1441=&Asociovat s %s soubory
+ 
+1442=Klávesová zkratka pro vybraný příkaz:
+1443=Vytvořit zástupce
+1444=&Plocha
+1445=Panel &rychlého spuštění
+1446=Skupina v nabídce &Start
+1447=Spustit %s
+1448=Počet d&nů v týdenním zobrazení:
+1449=Klávesové zkratky
+1450=Zobrazovat úkoly:
+1451=Zobrazovat &linky
+1452=Moduly
+1453=Synchronizace
+1454=&Zobrazovat kategorie jako:
+1455=Pamatovat nastavené datum v seznamu (od-do)
+1456=Prosím vyberte ze seznamu.
+1457=&Mazání položek v koši
+1458=&Automaticky smazat položky starší
+1459=Zobrazovat položky z kategorií:
+1460=Zabezpečení
+1461=Data chránit heslem
+1462=Při minimalizování zamknout databázi
+1463=&Automaticky zamknout data po
+1464=Pro nastavení hesla jděte na položku|Ochrana dat heslem v menu Soubor.
+1465=Vždy &vymazat seznam naposledy otevřených souborů
+1466=Rychlé poznámky
+1467=&Barva:
+1468=Šíř&ka:
+1469=&Výška:
+1470=Povolit mazání položek
+1471=Možnosti &synchronizace
+1472=Povolit pouze pro označené moduly:
+1473=&Odstranění konfliktu
+1474=Pokud nastane konflikt (položka byla změněna v obou umístěních):
+1475=Zeptat se co udělat|Změnit položku v přenosném zařízení|Změnit položku v tomto počítači
+1476=dnů dopředu
+1477=dnů zpět
+1478=Skrý&t dokončené události
+1479=&Odeslat ihned
+1480=Outlook
+1481=Pokud nastane konflikt (položka byla změněna v EPIM i v Outlooku):
+1482=Zeptat se co udělat|Změnit položku v Outlooku|Změnit položku v EPIM
+1483=Zvolte moduly, které budou viditelné:
+1484=S&ložky…
+1485=Palm
+1486=&Povolit synchronizaci s Palmem
+1487=&Data k synchronizaci
+1488=&Naposledy otevřený soubor
+1489=Vybrat složky
+1490=Prosím ukončete EPIM před synchronizací s Palmem!
+1491=Heslo k d&atům:
+1492=&Formát zprávy:
+1493=&Formát odpovědi stejný jako přijatá zpráva
+1494=Barevné pozadí|Barevné čtverečky|Jména|Barevné čtverečky a jména
+1495=Google
+1496=Přihlašovací údaje:
+1497=Proxy
+1498=&Hostitel:
+1499=&Port:
+
+1500=Globálně
+1501=Minimalizovat do system tray
+1502=Vyhledávání
+1503=Přepnout na následující modul
+1506=Přepínání mezi moduly
+1507=V kalendáři
+1508=V úkolech
+1509=V kontaktech
+1510=Přidat skupinu
+1511=Skrýt/Ukázat skupiny
+1512=V poznámkách
+1513=V Heslech
+1514=Skrýt/Ukázat soukromé položky
+1515=Skrýt/Ukázat dokončené
+1516=V e-mailu
+1517=Seznam
+1518=Strom
+1519=Seznam
+1520=Seskupené
+1550=Zkontrolovat při startu, zda EPIM je výchozí poštovní program
+1551=Kontrola pravopisu
+1552=Zapnout kontrolu &pravopisu ve zvolených modulech:
+1553=Označit za přečtené po:
+1554=Změny v synchronizaci se projeví po restartu EPIM.
+1555=&Automatická kontrola nových verzí
+1556=&Zkontrolovat
+1557=Zobrazovat záložku Vše
+1558=Zobrazovat prázdná pole na záložkách Osobní a Zaměstnání
+1559=&Pamatovat posledně zobrazené záložky kontaktů
+1560=Nepoužíva&t koš (odstraňovat položky okamžitě)
+1561=Přestože Koš nebude zobrazen, položky do něj budou stále přesouvány. Chcete-li je mazat okamžitě, zaškrtněte příslušnou volbu v menu Nástroje / Možnosti / Koš.
+1562=Pracovní doba
+1563=Zobrazovat pouze &pracovní dobu
+1564=&Automatické měřítko zobrazení
+1565=Pracovní týden:
+1566=První &den v týdnu:
+1567=Zobrazovat pouze pracovní &dny
+1568=&Formát data a času
+1569=Použít systémové nastavení
+1570=Náhled:
+1571=Synchronizovat &jména ve tvaru:
+1572=Jméno Příjmení|Příjmení Jméno
+1573=Zobrazovat &ikony u skupin hesel
+1574=Zobrazovat &hesla v seznamu
+1575=&Režim ladění
+1576=&Automaticky generovat hesla pro nové položky
+
+1577=Použít proxi server
+1578=Použít autentizaci
+
+1579=Počet týdnů v měsíčním zobrazení:
+1580=Zobrazovat pro události:
+1581=Zahájení|Ukončení|Celý průběh
+1582=Zobrazovat čínský lunární kalendář
+1583=&Automaticky smazat dokončené:
+1584=Vyčistit schránku po
+1585=Nikdy (ponechat)|1 den po dokončení|1 týden po dokončení|1 měsíc po dokončení|3 měsíce po dokončení|6 měsíců po dokončení|1 rok po dokončení|Okamžitě
+1586=Datum ve formátu: d, dd = den; M, MM, MMM = měsíc; yy, yyyy = rok
+1587=Čas ve formátu: H, HH = hodina; m, mm, = minuta; tt = dop. / odp.
+1588=Po otevření databáze přejít do:
+1589=Naposledy otevřený modul
+1590=Automaticky přidávat odesílatele do kontaktů
+1600=CSV import
+1601=Žádný import
+1602=Importovat do:
+1603=&Oddělovač
+1604=Nepřiřazeno %d sloupců. Budou ignorovány při importu. Chcete pokračovat? 
+1605=První řádek souboru obsahuje záhlaví sloupců
+1606=Upozornění. Aby bylo možno importovat datum, musí být ve formátu:  %s.
+1650=Import modulů
+1651=Export modulů
+
+1700=Načtení dat z MS Outlook
+1701=Uložení dat do MS Outlook
+1702=Načtení dat z MS Outlook Express
+1703=Uložení dat do MS Outlook Express
+1704=Načtení dat úspěšně dokončeno.
+1705=Uložení dat úspěšně dokončeno.
+1706=Celkem načteno:
+1707=Celkem uloženo:
+	 
+1711=Chcete nyní provést import dat z MS Outlook? Data můžete importovat i kdykoliv později přes menu Soubor -> Import. 
+1712=Chcete nyní provést import dat z MS Outlook Express? Data můžete importovat i kdykoliv později přes menu Soubor -> Import.
+1713=Nebyl detekován nainstalovaný MS Outlook. Pokud používáte 64bitovou verzi MS Outlooku, stiskněte <OK> stáhněte si bezplatný nástroj pro synchronizaci dat, jinak <Storno>.  
+1714=Import z CSV
+1715=Import z iCal
+1716=Uložit do složky
+1717=Synchronizace byla úspěšně dokončena.
+1718=Zařízení nenalezeno. Zkontrolujte připojení.
+1719=Synchronizace přerušena.
+1720=Poslední aktualizace:
+1721=Cesta:
+1722=Import poznámek
+1723=Prosím zvolte způsob importu:
+1724=Importovat zprávy
+1725=Vybráno
+1726=Akci nelze provést. Buď není nainstalovaný MS Outlook, nebo používáte 64bitovou verzi. 
+1727=%d skupin
+1728=Celkem
+1729=Importovat soubory jako samostatné poznámky (do rootu)
+1730=Jako samostatné poznámky do stromu pod tuto poznámku
+1731=Dovnitř této poznámky jako samostatné záložky
+1732=Pro tuto možnost musíte vytvořit poštovní účet v EPIM
+1733=%d e-mailů
+1734=Zvolte iPod
+1737=Soubor %s nebyl nalezen.
+1738=Operace importu byla zrušena.
+1739=Operace exportu byla zrušena.
+
+1741=Byl nalezen nainstalovaný Outlook. Chcete teď synchronizovat data s Outlookem? Pokud odpovíte Ne, můžete data synchronizovat nebo importovat kdykoliv později příkazem Synchronizace z menu Soubor.
+1751=&Všechny
+1752=&Vybrané
+1753=Všechny &zobrazené|Jen &vybrané
+1754=&Od:
+1755=&Do:
+1756=Export kontaktů
+1757=Export poznámek
+1758=Export úkolů
+1759=N&etisknout prázdná pole
+1760=Vše (ze všech zá&ložek)|Všechny &zobrazené|Jen &vybrané
+1761=&Vybrané úlohy
+1762=Pole…
+1763=&Včetně podsložek
+1764=Pole
+1765=&Vybrané poznámky
+1766=Vybraný &text
+1767=Uložení e-mailových zpráv
+1768=&Všechny zprávy z této složky|Jen &vybrané zprávy
+1770=Včetně hlaviček
+1771=Tisknout jména &skupin
+1772=Z vybrané &skupiny
+1773=&Vše|Vy&brané
+1780=Export událostí
+1782=Zobrazení událostí
+1783=Den|Týden|Měsíc
+1784=Datum události
+1785=Tisknout barevné &pozadí událostí
+1791=&Vše
+1792=&Tento
+1793=den|týden|měsíc|rok
+1794=Kategorie…
+1795=Vybrat kategorie
+
+1800=Opakování události
+1801=Opakovat
+1802=&Denně
+1803=&Týdně
+1804=&Měsíčně
+1805=&Ročně
+1806=&Každý
+  ; &Každý (N dnů, N týden, prosinec N)
+1807=. den
+  ; (umístění: detail okna Opakování úkolu)
+1808=&Každý
+  ; Každý (N. týden)
+1809=. týden (v označené dny)
+  ; týden
+1810=K&aždý
+1811=každého
+1812=měsíce
+1813=Ka&ždé
+1814=první|druhé|třetí|čtvrté|poslední
+1815=v
+  ; (první sobota) z (prosinec)
+1816=Rozsah opakování
+1817=Začátek:
+1818=Konec po
+1819=výskytech
+1820=Konec &dne:
+1821=Některé měsíce mají méně než %d dnů. V nich událost nastane poslední den v měsíci.
+1822=Bez &ukončení
+1823=Znovu &obnovit událost
+1824=. den po dokončení
+1825=. týden po dokončení
+1826=. měsíc po dokončení
+1827=. rok po dokončení
+1828=Opakování úkolu
+1829=Pouze v &pracovní dny (Po - Pá)
+
+1900=Přidat
+1901=Splnit do
+1902=Předmět
+1903=Dokončení
+1904=Upravit…
+1905=Přidat…
+1906=Nový úkol
+11906=Přidat nový úkol
+1907=Upravit
+11907=Upravit úkol
+1908=Smazat
+11908=Smazat úkol
+
+  ; >> Dialogové okno (z kontextového menu pro úkoly)
+1909=Zaznamenat do kalendáře
+  ; Uložit jako událost (je použit jak pro položku v kontextovém menu, tak i pro hlavičku editačního okna)
+11909=Zaznamenat do kalendáře (11909)
+  ; Uložit jako událost (není nikde použito ve ver. 5.53??)
+1910=Datum a čas začátku
+1931=Celodenní událost
+
+1911=Chcete smazat vybrané úkoly?
+1912=Poznámky
+1913=Kompl.
+  ; ???
+1914=Dokončeno
+1915=Důležitost
+1916=Kategorie
+1917=Účastníci
+1918=Začátek
+1919=Seznam
+1920=Strom
+1921=Přidat dovnitř
+1922=Vložit
+  ; V&ložit --> chybné zobrazování zrychlené volby v nastavení klávesových zkratek
+1923=Vyjmout
+1924=Filtr
+1925=Hotovo
+1926=Seznam
+11919=Seznam
+11920=Zobrazovat strom
+11921=Přidat dovnitř vybrané poznámky
+11922=Vložit jako přílohu do poznámky
+11923=Vyjmout přílohu z poznámky
+1928=Skrýt dokončené
+1929=Skrýt
+11929=Skrýt dokončené
+1930=Chcete smazat vybrané úkoly včetně všech vložených položek?
+
+1932=Zobrazovat kategorie
+1933=Vybrat vše
+1934=Zrušit výběr
+1935=Přidat dovnitř…
+1936=Nahoru
+1937=Dolů
+11936=Posunout nahoru
+11937=Posunout dolů
+1938=Místo
+1939=Vybrat…
+1940=Nový seznam
+1941=Zobrazit v kalendáři
+  ;Z&obrazit v kalendáři --> chybné zobrazování zrychlené volby v nastavení klávesových zkratek 
+1942=&Přejít na úkoly
+1943=Přesunout dovnitř/ven
+1944=Přesunout nahoru/dolů
+1945=Úkol…
+1946=Seznam
+1947=Seskupené
+11946=Zobrazení seznamu
+11947=Seskupené zobrazení
+1948=Umístění
+1949=Seskupení
+
+1950=Seskupit dle splnění
+
+1951=&Úkol
+1952=&Předmět:
+1953=Opakovaný úkol (pouze v EPIM Pro):
+
+1954=Přidat úkol dovnitř...
+1955=Přidat úkol vedle...
+
+1956=&Poznámky:
+1957=Splnit do:
+1959=Úč&astníci.…
+1960=Místo:
+1961=&Uživatelská pole
+
+1962=Po datu dokončení|Dnes|Zítra|Tento týden|Příští týden|Tento měsíc|Příští měsíc|Později|Bez data dokončení|Splněno
+  ; seskupované úkoly s datem ukončení v hlavním seznamu modulu Úkoly 
+1980=(Vybrat vše)
+1981=(Prázdné)
+1982=Hledat
+
+2000=Kategorie
+2001=Tato kategorie je používána jiným úkolem/událostí. Smazáním kategorie nebude možné ji přiřadit novým nebo již existujícím úkolům/událostem. Chcete tuto kategorii smazat?
+2002=Změnit barvu…
+
+2200=dnes
+  ; náhled kalendáře v modulu EPIM dnes 
+2201=Celý den
+2202=Více dní
+2203=Úkoly
+  ; úkolů
+  ; Úkoly
+  ; EPIM Archiver
+  ; Odstraněno:
+  ; 123 Úkoly --> 123 úkolů
+2204=včera
+2205=Výročí
+2206=Pošta
+
+2220=Nová událost
+  ;Přidat událost
+12220=Nová událost
+  ;Přidat událost
+2221=Nový úkol
+  ;Přidat úkol
+12221=Nový úkol
+  ;Přidat úkol
+2222=Nová poznámka
+  ;Přidat poznámku
+12222=Nová poznámka
+  ;Přidat poznámku
+2223=Nový kontakt
+  ;Přidat kontakt
+12223=Nový kontakt
+  ;Přidat kontakt
+2224=Nové heslo
+  ;Nový záznam hesla
+  ;Přidat záznam hesla
+12224=Nové heslo
+  ;Nový záznam hesla
+  ;Přidat záznam hesla
+
+2300=&Přílohy
+2301=Soubor "%s" byl upraven. Chcete provést aktualizaci v databázi?
+2302=Přidat soubor|Vložit jen odkaz na soubor
+2303=Chcete smazat soubor/odkaz z databáze?
+2304=Přílohy
+2305=Nahrávám data, čekejte prosím...
+2306=Zobrazení
+2307=Velké ikony
+2308=Malé ikony
+2309=Chcete odstranit označené přílohy?
+2310=Seřadit podle
+2311=Detaily
+12312=Změnit zobrazení
+2313=Dešifrovat a otevřít
+2314=Dešifrovat a uložit jako...
+2315=Zašifrovaný soubor byla upraven. Změny nebudou uloženy v EPIM databázi.
+
+2400=Správa databáze
+2401=Umístění databáze:
+2402=Počet položek:
+2403=Tato databáze byla otevřena ve verzích:
+2404=Velikost databáze: %f MB
+2407=Kontrola nefunkčních odkazů
+2408=Zjištěno %d odkazů na neexistující soubory
+2409=• událostí v kalendáři|• úkolů|• poznámek|• kontaktů|• přijatých e-mailů|• záznamů hesel|• položek v koši
+2410=Vynulování synchronizačních dat
+2411=Přesunout databázi na Dropbox
+2412=Přejít do režimu off-line a ukončit Dropbox?
+2413=Upozornění: Smazáním synchronizačních dat dojde|k vynulování celé synchronizace.
+    
+2415=Optimalizovat
+2416=Pravidelnou optimalizací docílíte zrychlení práce a zmenšení velikosti databáze.
+2417=Optimalizuji databázi, čekejte prosím...
+2418=Databáze bude přesunuta z Dropbox do Vašeho lokálního PC.
+2419=Provést…
+2420=Vyberte z nabídky synchronizační data:
+2421=EPIM Synchronizer
+
+2500=Informace o poznámce
+2501=&Název:
+2502=Vložit >
+2503=Ikona:
+2504=&Změnit ikonu
+2505=Datum
+  ; "Datum přidání" je použito:
+  ;     1/ v hlavičce seznamu příloh -> návrhy: "Přidáno" / "Datum přidání"
+  ;     2/ při vkládání datumu do názvu poznámky -> návrhy: "Vložit aktuální datum"
+  ;     3/ na detailu přijaté zprávy -> návrhy: "Datum:" / "Přijato:"  
+2506=Čas
+2507=Datum a čas
+2510=Vyberte ikonu
+
+2601=Toto upozornění příště nezobrazovat.
+2602=Chcete zachovat Vaše EPIM data a jejich zálohy na disku? Pokud odpovíte NE, budou data trvale vymazána.
+2603=Vítejte v programu EssentialPIM. Dvojitým kliknutím můžete otevřít databázi.
+2604=Chyba registrace následující globální klávesové zkratky: %s. Změňte ji v menu Nástroje / Možnosti / Klávesové zkratky.
+2605=EPIM není výchozí poštovní program. Chcete jej nastavit jako výchozí?
+2606=Vždy provést tuto kontrolu při startu EPIM.
+2607=Program EPIM byl upgradován. Je třeba aktualizovat i databázi. K tomu se prosím přihlašte jako SYSDBA (administrátor). Databáze bude aktualizována automaticky pro všechny uživatele.
+2608=Databáze potřebuje kontrolu konzistence. Před pokračováním bude provedena záloha. Pokračovat?
+2609=Zdá se, že databáze je poškozena. Přesto se pokusit ji otevřít?
+
+2614=Nebyla vydána žádná novější verze programu.
+
+2616=Nebylo možné zálohovat existující databázi.|Uvolněte prosím více volného místa na disku.
+2617=Kontroluji neporušenost databáze,|čekejte prosím...
+2618=Na disku %s není dostatek volného místa pro provedení operace.|Prosím uvolněte místo na disku a stiskněte OK pro pokračování.
+
+2619=EssentialPIM nemůže automaticky ověřit aktualizace. Zkontrolujte prosím, že používáte nejnovější verzi. Nyní budete přesměrování na stránku ke stažení.
+2620=Pro pokračování v aktualizaci bude nutné EssentialPIM restartovat. 
+
+2621=Nalezena novější verze
+2622=&Stáhnout && nainstalovat
+2623=Později
+
+2624=Přihlásit se...
+2625=Odhlásit se
+
+2626=Vytvořit PGP klíč...
+2627=Správa PGP klíčů...
+2628=Databázi nelze najít.|Pokud jste přemístili databázi, stiskněte <Cancel>. Přes hlavní menu Soubor -> Otevřít... otevřete databázi z nového umístění|Pokud jste databázi nepřesunovali, stiskněte <OK> a zkuste databázi znovu otevřít.
+2629=&Stáhnout
+
+2631=Vaše licence pro aktualizace vypršela. Chcete si objednat aktualizace se slevou %d%%?
+
+2701=Nelze importovat "%s" událost, protože tento časový úsek je již obsazen následující exkluzivní událostí:
+2702=Přeskočit import nové události nebo zrušit exkluzivitu původní položky a přidat k ní importovanou?
+2703=Pře&skočit událost
+2704=Přes&kočit vše
+2705=&Importovat událost
+2706=I&mportovat vše
+
+2800=Typ položky
+2801=Vytvořeno
+2802=Změněno
+2803=Smazáno
+2804=Obnovit
+12804=Obnovit položku
+2805=Smazat
+12805=Trvale smazat
+2806=Vysypat koš
+12806=Vysypat koš
+2807=Chcete odstranit všechny označené položky?
+2808=Chcete odstranit všechny položky v koši? 
+2809=%d položek v koši
+2810=Umístění
+
+2901=&Zpráva
+2902=&Komu:
+2903=Na &e-mail:
+2904=&Předmět:
+2905=&Text|Pří&lohy
+2906=&Náhled
+2907=Komu:
+2908=Předmět:
+2909=Seznam odběratelů newsletteru:
+2910=Vložit pole
+2911=Přidat/Odstranit příjemce…
+2912=Opravdu vybraní příjemci souhlasí se zasláním OS? Jinak se jedná o SPAM!
+2913=Nový jednoduchý newsletter (dle zákona č. 480/2004 Sb.)
+  ; název okna --> inspirováno podle názvu okna při vytváření nového e-mailu
+2914=%d příjemců mají zadané chybné e-mailové adresy, proto jsou označeny červeně v levém panelu. Prosím stiskněte "Zrušit" a proveďte opravy adres. V opačném případě budou při odesílání tito příjemci ignorování. Chcete pokračovat?    
+
+3000=Zvolit složku
+3001=Zvolit složku kam obnovit vybrané poznámky
+3002=&Nová složka:
+3010=Zvolit seznam
+3011=Zvolit seznam, do kterého budou obnovena vybrané úkoly
+3012=&Nový seznam:
+3020=Zvolit poznámku
+3021=Zvolit poznámku, do které obnovit vybrané listy
+3022=&Nová poznámka:
+
+	; VZOROVÁ DATABÁZE
+3100=Toto je celodenní událost. Může trvat i několik dnů.
+3101=Různé události mohou nastat současně.
+3102=Událostem lze přiřadit některou ze 7 úrovní důležitosti. Vykřičník značí vysokou důležitost.
+3103=Tato šipka značí nízkou důležitost události.
+3105=Toto je 100% dokončený úkol.
+3106=Události lze snadno přesouvat nebo kopírovat. Zkuste přetáhnout myší tuto událost na jiný čas.
+3109=Tato událost je propojena s <a href="%s">ukázkovým kontaktem</a>. <a href="%s">Klikněte</a> pro přechod.
+3110=Událost může mít <b>atribut dokončení</b>. Tato událost je dokončena.
+3111=<i>Událostem mohou být přiřazeny různé <b>barvy pozadí</b>, vybrané z předdefinovaných nebo uživatelem definovaných barev.</i>
+3112=<i>Toto je <b>opakovaná</b> událost. Opakuje se každý třetí den po dobu tří týdnů a opakuje se automaticky.</i>
+3120=Ukázkový|Kontakt|602123456||ukazka@seznam.cz|Ulice 12|Město||123456|Stát
+3121=Firma|účetní||201234567
+3122=Smažte tento ukázkový kontakt klávesou <Delete> nebo kliknutím na tlačítko <Smazat> na panelu vpravo.
+3123=Nová skupina
+3124=Skupiny mohou mít hierarchickou strukturu
+3125=Druhá skupina
+3141=Poznámky k položce.
+3142=Dokončený úkol
+3145=<font color="#0000FF">Ukázkový úkol s termínem dokončení</font>
+3146=<u>Úkol</u> s <b>připomenutím</b>
+3147=Vložený úkol (<a href="%s">odkaz na poznámku</a>)
+3160=Kořenová poznámka
+3161=Text poznámky. Můžete vkládat tabulky, obrázky a formátovaný text RTF.|Ve verzi EPIM Pro si všimněte vícenásobných složek a listů pro každou poznámku níže. Nabízejí mnoho možností strukturování vašich informací.
+3162=Přidaný list
+3163=Vložená poznámka
+3164=Nová složka
+
+3200=Informační řádek
+3201=Navigační lišta
+3202=Okno připomenutí
+3203=Upravit kategorie…
+3204=&Přejít
+3205=A&kce
+3206=Najít a nahradit…
+3207=Nová uvnitř
+3208=Nová skupina…
+3209=Sloupec úkolů
+3210=Poznámka
+3211=Kontakt
+3212=Databáze EPIM
+3213=Možnosti postranního panelu…
+3214=Rozšířené hledání…
+3215=Diskuzní fórum [en]
+3216=Správce příloh…
+3217=Panel náhledu
+3218=Databáze EPIM na Dropbox
+3219=Otevřít z Dropbox
+3220=Nahrát na Dropbox
+
+3221=Textový soubor (*.txt/*.rtf)...
+3222=Hodnoty oddělené čárkou (*.csv)...
+3223=E-mailové zprávy (*.eml)...
+3224=HTML dokument
+3225=Formátovaný text (*.rtf)...
+3226=Textový soubor (*.txt)...
+3227=Office Open XML dokument (*.docx)...
+                             
+3300=Připojení k databázi
+3301=&Server:
+3302=&Databáze:
+3303=&Autentizace databáze
+3304=Zvolte počítač s databází
+3311=Uživatelé…
+3312=Připojit k serveru…
+3320=Pro připojení k EPIM serveru je nutná síťová licence.
+3321=Nelze změnit heslo. Jsou připojeni uživatelé: %s. Před změnou hesla musí být odpojeni.
+3322=Nesprávný login nebo heslo. Kontaktujte svého správce sítě.
+3323=Použijte nástroje Windows pro zkopírování databáze. Budete potřebovat síťovou verzi EPIM (s licencí) pro práci se soubory v síti.
+3324=Obnovuji data ze zálohy, čekejte prosím...
+
+3327=Probíhá optimalizace databáze...
+3400=Správa uživatelů
+3401=Uživatelé
+3402=Připojení uživatelé
+3450=Informace o uživatelích
+3451=Nemůžete změnit uživatelské jméno SYSDBA, dokud jste pod ním přihlášeni.
+3452=Lze upravovat kategorie
+3453=Lze upravovat položky kontaktů
+3454=Editovat &ikony poznámek
+3455=&Standardní přístup
+3456=Jen pro čtení
+3457=Přístup k datům všech uživatelů
+3460=Vybraní uživatelé
+3461=&Všichni uživatelé:
+3462=V&ybraní uživatelé:
+3463=Všichni současní a noví uživatelé
+
+3500=Náhled tisku
+3501=Tisk
+3502=Zvětšit
+3503=Zmenšit
+3504=Celá obrazovka
+3505=Náhledy
+3506=Nastavení stránky
+3507=První stránka
+3508=Předešlá stránka
+3509=Následující stránka
+3510=Poslední stránka
+3511=Na šířku stránky|Celá stránka
+3512=Stránka %d z %d
+3513=Probíhá tisk na výchozí tiskárně…
+3514=Rychlý tisk
+
+3600=Odstavec
+3601=Z&arovnání
+3602=Vlevo|Vpravo|Na střed|Do bloku
+3603=Odsazení
+3604=V&levo:
+3605=Vp&ravo:
+3606=&První řádka:
+3607=Odsazené|Volné
+3608=Mezery
+3609=&Před:
+3610=&Za:
+3611=Řá&dkování:
+3612=Jednoduché|1.5 řádky|Dvojité|Více
+3613=&v:
+3614=Ukázka
+3615=Text text text text text text text text.
+
+3651=&Formátování:
+
+3660=Vložit symbol
+3661=&Písmo:
+
+3700=Vlastnosti tabulky
+3701=Tabulka
+3702=Šířk&a:
+3703=procent|pixelů
+3704=&Barva výplně:
+3705=Řádky
+3706=Svislé zarovnání:
+3707=Nahoru|Na střed|Dolů
+3708=Buňky
+3709=&Přednostní šířka:
+3710=&Výška nejméně:
+3711=pixelů
+3712=Nahoru|Na střed|Dolů|Implicitní
+3713=Barva &okraje:
+3714=Automatická
+3715=Bez výplně
+3716=Přizpůsobit
+
+3800=Tiskárna
+3801=&Název:
+3802=&Umístění:
+3803=Do &souboru
+3804=Tisk do souboru
+3805=Kopie
+3806=&Počet kopií:
+3807=&Kompletovat
+3808=&Styl tisku
+
+3809=Denní náhled|Týdenní náhled|Týdenní agenda náhled|Měsíční náhled|Roční náhled|Tabulkový náhled
+
+3810=Rozsah tisku
+3811=&Začátek:
+3812=&Konec:
+3813=Možnosti tisku
+3814=Ta&bulka
+3815=A&dresní štítky
+3816=Tisknout &názvy polí
+3817=Tisk zá&hlaví
+3818=Tisk pro &organizér:
+3819=A5|Classic
+3820=Datum od:
+3821=Datum do:
+3822=Čas od:
+3823=Čas do:
+
+3824=&Každý list na samostatné stránce
+
+3900=Přihlášení do Google
+3902=&E-mail:
+3903=Nejsou vyplněny přihlašovací údaje pro Google. Prosím vyplňte je pro dokončení synchronizace (můžete je změnit v menu Nástroje / Možnosti / Synchronizace / Google).
+
+4000=Rychlá poznámka
+4001=Průhlednost
+4002=Bude smazána nálepka na ploše i poznámka v EPIM. Pokračovat?
+14003=Nastavení
+14004=Vždy navrchu
+14005=Rozbalit / sbalit
+14006=Editovat v EPIM
+14007=Smazat
+14008=Skrýt
+
+4104=Zakoupit
+4105=Objednat
+4108=Záloha databáze je prováděna každých 24 hodin a tři poslední zálohy jsou uloženy. EPIM Pro umožňuje navíc nastavit větší množství nebo jiný interval záloh. <a href="http://www.essentialpim.com/?r=products&pr=profeatures#6">Více o rozšířených funkcích placené verze naleznete zde</a>.
+4109=Upgradujte na EPIM Pro!
+4110=Tato funkce je dostupná v EPIM Pro, který můžete zakoupit za 39,95 USD. Chcete se dozvědět více?
+4111=Tato funkce je dostupná v EPIM Pro, který můžete zakoupit za 39,95 USD. Chcete si jej teď objednat?
+4112=Zakoupili jste %s před více než 1 rokem a Vaše licence k bezplatným aktualizacím %s vypršela.|Můžete ji obnovit za %s (US) a získat tak další rok bezplatných aktualizací.||Starší verze programu můžete dále používat. Navštivte www.essentialpim.com/vv pro stažení starších verzí.
+4113=Obnovit za %s včetně 1 roku aktualizací zdarma
+4114=NEOMEZENO
+4115=Zakoupit doživotní licenci (jen %s)
+
+4200=Průvodce synchronizací
+4201=Synchronizovat s:
+4202=&On-line službou:
+4203=&CalDav server
+4204=&SyncML server
+4205=Soubor databáze
+4206=Adresa URL &serveru:
+4207=&Název synchronizace:
+4208=Automaticky synchronizovat:
+4209=Při &startu programu
+4210=Při u&končení programu
+
+4212=Abyste zjistili jména vašich Yahoo kalendářů, na stránce Yahoo Calendar jděte na nabídku Options / Share Calendar. Uvidíte seznam vašich kalendářů a úkolovníků. Neměňte na stránce nic, jen si poznamenejte jména.
+
+4214=&Synchronizovat teď
+4215=Synchronizace|Prováděná akce|Průběh
+
+4217=Zdroj synchronizace
+4218=Synchronizační oprávnění
+
+4220=Párování zařízení
+4221=Zdroj dat:
+4222=Párování zařízení iPad/iPhone ve 3 jednoduchých krocích. EssentialPIM si bude pamatovat nastavení:||- Ujistěte se, že Váš iPad/iPhone je připojen ke stejné Wi-Fi síti jako PC|- <a href="http://itunes.apple.com/app/essentialpim/id537150179?ls=1&mt=8">Nainstalujte si EssentialPIM (pro iOS)</a> z App Store|- Spusťte EssentialPIM (pro iOS) a zvolte <PC Sync>||Stiskněte na displeji tlačítko <Start>!||Pokud se nic nestane:|- Ujistěte se, že máte nainstalovano na PC iTunes|- Ověřte, zda-li iPod/iPhone a PC používá stejnou Wi-Fi síť|- Zkuste změnit číslo portu: <b>%d</b> <a href=ChangePort>Změnit!</a>||<a href="http://www.essentialpim.com/help/troubleshooting_ios_synchroniz.htm">Průvodce řešení problémů [en]</a>|<a href="mailto:ma@essentialpim.com">E-mailová podpora [en]</a>
+4223=Synchronizovat &každých
+4224=Obousměrná synchronizace (%s <--> EPIM)|Jednosměrná synchronizace (%s <-- EPIM)|Jednosměrná synchronizace (%s --> EPIM)
+4225=&Synchronizovat smazané
+4226=&Odstranit synchronizaci
+4227=Poznámka: První synchronizace může trvat dlouho. Všechny následující budou mnohem rychlejší.
+4228=Možnosti synchronizace
+4229=Kalendář (s Google Kalendář)|Úkoly (s Google Úkoly)|Poznámky (s Google Dokumenty)|Kontakty (s Google Kontakty)
+4230=Soubor Outlook PST
+4231=Exchange Server
+4232=Přidat synchronizaci
+4233=Průvodce…
+4234=Windows Mobile…
+4235=EssentialPIM pro iOS umožňuje zabezpečit heslem Vaše data v modulu "Passwords". Pro synchronizaci modulu "Passwords", nastavte v mobilní aplikaci "master password".
+4236=EssentialPIM pro Android umožňuje zabezpečit heslem Vaše data v modulu "Hesla". Pro synchronizaci modulu "Hesla", nastavte v mobilní aplikaci "hlavní heslo" (master password).
+4237=Všechny informace pro %s budou přepsány informacemi z %s. Nepokračujte, pokud si nejste jistí, co děláte.
+4238=%s iOS zařízení vyžaduje synchronizaci s EssentialPIM, povolit?|Následně můžete pokračovat na další krok v průvodci.
+4239=Vytvořit &kalendáře v %s pro každou z kategorií EPIM
+4240=Upravit synchronizaci
+4241=Zadejte prosím heslo pro zobrazení přihlaš. údajů.
+
+4243=Synchronizace začne po kliknutí na tlačítko <Dokončit>. Všechny následující synchronizace budou spouštěny z EssentialPIM běžícího na Vašem zařízení se systémem Android.
+4244=Žádost o přístup
+4245=Výběr modulů
+4246=Kód k heslům:
+4247=Vložte Vaše hlavní heslo k modulu hesel v Androidu.
+4248=Pro inicializaci synchronizace v budoucnu, nejprve spusťte EssentialPIM na PC, poté spusťte EssentialPIM na Androidu, vyberte PC Sync a stiskněte <Připojit>.
+4249=Název Vašeho PC:
+4250=Pro pokračování synchronizace je nutno aktualizovat EssentialPIM ve vašem zařízení se systémem Android. Prosím navštivte <a href=https://play.google.com/store/apps/details?id=com.astonsoft.android.essentialpim>Google Play</a> a stáhněte aktualizaci.
+4251=Umožněte programu EPIM přístup k Vašemu LinkedIn účtu.|1. Jděte na: <a href=oauth>Váš LinkedIn účet</a>|2. Přihlašte se a stiskněte "OK, Allow it"|3. Vložte obdržený kód:
+4252=Změnit číslo portu
+4253=&Číslo portu:
+4254=Nelze spustit server. Příslušný port je právě používán. Změňte nastavení portu v menu Nástroje / Možnosti / Synchronizace.
+4255=Vložte hlavní heslo k modulu "Passwords" v iOS (iPhonu/iPadu).
+4256=EssentialPIM
+4257=zařízení s Android
+4258=zařízení s iOS
+4259=IP adresa a port:
+4260=Klikněte na název PC (nebo v menu vyberte manuální připojení) a průvodce se zeptá na povolení připojení. Odpovězte ANO, pokud chcete pokračovat v dalším kroku. 
+4261=Kód:
+4262=Obousměrná synchronizace (iOS <--> EPIM)|Jednosměrná synchronizace (iOS <-- EPIM)|Jednosměrná synchronizace (iOS --> EPIM)
+4263=Nyní byste měli nainstalovat aplikaci EssentialPIM app do Vašeho chytrého telefonu (tabletu) s OS Android z <a href="https://play.google.com/store/apps/details?id=com.astonsoft.android.essentialpim">Google Play</a>.||Ujistěte se, že zařízení je připojené do stejné Wi-Fi sítě jako Váš PC a spusťte EssentialPIM na Vašem chytrém telefonu (tabletu). Aplikace by měla najít Vaš PC a zobrazit jeho pojmenování.
+4264=Přihlásit do EPIM cloudu
+4265=V případě problémů:|<a href="http://www.essentialpim.com/help/troubleshooting2.htm">Průvoodce častými problémy (en)</a>|<a href="mailto:epimsupport@essentialpim.com">Napište na technickou podporu (en)</a>
+4266=Povolit synchronizaci s %s?
+4267=Povolení přístupu
+4268=Zadejte prosím Vaše předchozí heslo do "%s" pro pokračování se synchronizací hesel.
+4270=Chybně zadaný kód. Zkopírujte a vložte celý kód znovu nebo požádejte o nový kliknutím na odkaz níže.
+4271=Požádat o nový
+4273=Požádat o nový kód v Nastavení Google synchronizace
+
+4274=E-mail (s Gmail)
+4275=Pro zpracování Vašich dat na Google, je nutné povolit přístup EssentialPIM.
+4276=Pro pokračování syncronizace Vašich dat na Google potřebuje EssentialPIM znovu požádat o přístup.
+4277=Postupujte podle 3 jednoduchých kroků:| 1) Klikněte na odkaz <a href=oauth>Přihlášení k účtu Google</a>| 2) Přihlašte se prosím do svého účtu na Google a potvrďte povolení přístupu EssentialPIM k datům.| 3) Vygenerovaný kód prosím zkopírujte zde:
+4300=Průvodce Dropbox
+  ; viz. Soubor/Nový/..
+4301=Přihlášení k Dropbox
+4302=1. Stisknutím tlačítka <DROPBOX> umožníte|EssentialPIM přistupovat k Dropbox.
+4303=2. Následně se načte ve výchozím prohlížeči webová stránka Dropbox.|3. Po přihlášení/registraci stisktnutím tlačítka <Allow> povolíte přístup pro EssentialPIM.|4. Poté můžete pokračovat dalším krokem. 
+4304=&Název databáze v Dropbox:
+4305=DROPBOX
+
+4306=Zadejte vlastní název databáze vytvářené v Dropbox nebo ponechte navrhovaný název.
+4307=Databáze bude uložena ve složce "Apps\EssentialPIM Databases". 
+
+4350=Připojuji se k Dropbox...
+4352=Probíhá porovnání souborů
+
+4356=Načítám databázi…
+4357=Stahuji databázi…
+4360=Potvrzení ověření přístupu
+4361=Soubor byl na Dropbox změněn. Skutečně chcete přepsat?
+4362=EssentialPIM právě nahrává Vaši databázi na Dropbox.
+4363=Soubor na Dropbox byl změněn!
+4364=Nemohu stáhnout nejnovější soubor z Dropbox, proto použiji tuto zálohu na Vašem PC. Prosím ověřte Vaše internetové připojení a spusťte EPIM znovu. 
+4365=Nemohu nahrát databázi. Prosím ověřte Vaše internetové připojení a spusťte EssentialPIM znovu. Prozatím je databáze uložena na Vašem PC.
+4366=Zvolte databázi z Dropbox
+4367=Po otevření Vašeho internetového prohlížeče se službou DropBox budete dotazováni na povolení připojení k EssentialPIM Pro. Pro povolení stačí stisknout <OK> na tomto okně.
+4368=Nemohu se připojit k úložišti DropBox. Pravděpodobně neproběhlo korektně přihlášení. Prosím zopakujte akci.
+4369=Složka EssentialPIM je prázdná.
+4370=Načítám…
+4371=Databáze s tímto jménem již existuje na serveru (úložišti). Přepsáním existujícího souboru způsobí ztrátu původních dat. Prosím přejmenujte Váš soubor.
+4372=Databáze byla úspěště přesunuta z úložiště DropBox na Váš počítač.
+4373=Nelze se připojit k úložišti DropBox. K dispozici je připravena kopie databáze uložená na Vašem PC.|EssentialPIM se znovu pokusí připojit k úložišti DropBox po dalším spuštění.
+
+4400=Správa PGP klíčů
+4401=Nový šifrovací klíč...
+4402=Importovat šifrovací klíče...
+4403=Exportovat veřejný šifrovací klíč...
+4405=Kopírovat veřejný klíč do schránky
+4406=Vložit veřejný klíč že schránky
+4407=Smazat klíč
+4408=Podepsat klíč
+4409=Zneplatnit klíč
+4410=Opravdu chcete zneplatnit tento klíč?
+4411=Vlastnosti klíče...
+4412=Odeslat e-mail příjemci
+4413=Odeslat veřejný klíč příjemci
+4414=&Zobrazit klíče od ostatních lidí
+4415=Nelze naimportovat žádný klíč z vybraného souboru.
+4416=Opravdu chcete smazat veřejný klíč '%s'?
+4417=VAROVÁNÍ! Chystáte se odstranit soukromý klíč '%s'. Odstraněním soukromého klíče nebudete moci dešifrovat zašifrované položky.|Jste si opravdu jisti, že chcete odstranit soukromý i veřejný klíč?
+4418=Kopírovat veřejný klíč
+4419=Podepsat...
+4420=Zneplatnit...
+4422=Nemohu podepsat '%s'. Veřejný klíč již byl potvrzen příjemcem.
+4423=Shodné e-mailové adresy...
+  ; podmenu Úpravy ve Správě klíčů 
+4424=Shodné e-mailové adresy
+  ; název hlavičky modulu max. 24 zn.
+
+4425=Shodné e-maily*
+4426=Přidat nový e-mail ke klíči:
+  ;max. 33 zn.
+4427=Dešifrovat PGP zprávu
+4428=Enter password for the private "%s" PGP key to decrypt the message:
+4429=PGP podepsaná zpráva
+4430=Enter password for the private "%s" PGP key to sign the message:
+4431=Exportovat soukromé a veřejné klíče...
+4432=Veřejný klíč...
+4433=Soukromé a veřejné klíče...
+4434=Klíč byl zrušen. Pokud je Váš klíč k dispozici na serveru klíčů a přejete si jeho distribuci zrušit, nahrajte prosím klíč znovu.
+4450=Nový klíč
+4451=&Pokročilé nastavení
+4452=&Typ klíče:
+4453=&Velikost klíče:
+4454=E&xpirace klíče:
+4455=&Nikdy
+4456=1024 bitů (slabé)|2048 bitů (normální)|4096 bitů (silné)|8192 bitů (paranoidní)
+4458=Účet / &Idendita
+4460=Generování klíče...
+4470=Vlastnosti klíče
+4490=Podepsat klíč
+4491=Podepsáním klíče dokládáte na základě znalostí, že klíč patří identifikovanému uživateli.
+4492=Klíč k podepsání:
+4493=Zadejte prosím heslo.
+4494=Chybné heslo.
+4495=Klíč:
+4496=Otisk:
+
+4500=Průvodce nastavením PGP
+4501=Úvodem
+4502=Pretty Good Privacy (PGP) je nejrozšířenějším řešením pro šifrování e-mailů a je zároveň považováno za nerozluštitelné. EssentialPIM umožňuje vytvářet veřejné a soukromé klíče pro Vaše e-mailové zprávy.|Zasílejte prosím Váš veřejný klíč pouze svým příjemcům, kteří Vám mohou zasílat zašifrované zprávy. Váš soukromý klíč bude použit k dešifrování takovýchto zpráv.||Důležité upozornění!|Nikdy neposílejte svůj soukromý klíč. Důrazně také doporučujeme zálohovat Vaši sadu klíčů a ukládat je na bezpečném místě.
+
+  ; >> Průvodce nastavením PGP - krok 2. z 5
+4503=PGP klíče
+4504=Vygenerovat nové klíče
+4505=Zvolte tuto možnost, jestliže ještě nemáte vlastní pár klíčů (tj. soukromý a veřejný).
+4506=Nemám žádné klíče, zkusím je importovat
+4507=Zvolte tuto možnost pro importování vlastního páru klíčů nebo sdílení veřejných klíčů příjemcům.
+
+;   >> Průvodce nastavením PGP - krok 4. z 5
+4508=Uložení veřejného klíče
+4511=Nyní můžete vygenerovaný veřejný klíč uložit k rozeslání vybraným příjemcům. 
+4512=&Uložit...
+
+  ; >> Průvodce nastavením PGP - krok 5. z 5
+4513=Nyní můžete začít používat funkci PGP. Pro zašifrování nebo podepsání nové e-mailové zprávy zvolte danou možnost z menu PGP.||Pro dešifrování e-mailové zprávy stačí na ni pouze kliknout, EssentialPIM zprávu automaticky dešifruje.
+4510=Dokončit
+
+4509=Importuji klíče
+
+4514=Importovat soukromé a veřejné klíče
+4515=Vlastnost klíče
+
+  ; >> EPIM cloud - úvodní obrazovka <<
+4600=Představujeme chytré řešení
+4601=Vaše databáze EssentialPIM může být uložena v zabezpečeném cloudu a přístupna pouze oprávněným uživatelům z <a href="https://cloud.essentialpim.com/">cloud.essentialpim.com</a>.
+4603=Založit účet
+4604=Přeskočit
+
+  ; >> Registrační formulář - krok 1 <<
+4611=Zpět
+4612=Další krok
+
+  ; >> Registrační formulář EPIM Cloud - krok 2 <<
+4617=Zvolte prosím, která data z EssentialPIM budou k dispozici v cloudu:
+
+  ; >> Registrační formulář EPIM Cloud - krok 3 <<
+
+  ; >> Registrační formulář EPIM Cloud - krok 4 <<
+4621=Děkujeme Vám za registraci
+4639=Vyplňte prosím údaje z obdrženého e-malu:
+
+4650=Přihlášení
+4651=Přihlásit
+4652=Zapomenuté heslo?
+4653=Vytvořit účet
+4654=Zadejte uživatelské jméno
+4655=Zadejte heslo
+
+  ; Vlastnosti PGP klíče
+4471=Šifrování
+4472=ID klíče
+4473=Platný do
+4474=neomezeně
+4475=Nelze ověřit
+4476=Podepsáno pro
+4477=Platný
+4478=Neplatný
+4479=Sada klíčů nebyla nalezena
+4480=Platnost
+4481=Ukončit platnost sady klíčů
+4482=Svázat podpis se sadou klíčů
+4483=Uživatelské ID nenalezeno.
+4484=Neznámý vystavitel
+4485=Zrušení platnosti uživatele
+4486=Ověřený podpis
+
+4633=Vyzkoušejte nezávazně možnosti EPIM cloudu!
+4634=Vaše platba za účet EPIM cloud je splatná. Zaplatit můžete ve Vaší <a href="http://cloud.essentialpim.com/hostbill/?cmd=clientarea&action=invoices">klientské oblasti EPIM</a> 
+4635=Vaše platba za účet EPIM cloud je více než 10 dnů po splatnosti. Zaplatit můžete ve Vaší <a href="http://cloud.essentialpim.com/hostbill/?cmd=clientarea&action=invoices">klientské oblasti EPIM/a>
+4636=Vytvoření účtu v EPIM cloudu
+4637=EssentialPIM cloud Vám umožní zálohovat veškerá soukromá data z EssentialPIM databáze v zabezpečeném na pozadí synchronizovaném cloudu postaveném na webovém prostředí.||Účet EPIM Cloud stojí USD 1.99 měsíčně nebo USD 19.95 ročně <i><font color="#2D4F72">(ušetříte 20 %)</font></i>. Kdykoliv můžete zrušit placenou verzi a vrátíme Vám prvních 30 dnů na vyzkoušení.||V následujícím kroku zahájíte proces objednání.
+4638=Váš výchozí prohlížeč právě načetl webovou stránku.|Prosím dokončete objednávku a ověřte Vaší e-mailovou adresu.
+4639=(4639)
+  ; Po obdržení potvrzovací e-mailové zprávy vyplňte prosím následující údaje:
+4640=Uživ. jméno (do EPIM cloudu)
+4641=Heslo (do EPIM cloudu)
+4642=Dokončení nastavení vytváření účtu
+4643=Váš nový účet v zabezpečeném EPIM cloudu je připraven k použití.
+4644=Platba pro Váš účet EPIM cloud je splatná %s
+4645=Platba pro Váš účet EPIM cloud je po splatnosti, prosíme o <a href="http://cloud.essentialpim.com/hostbill/?cmd=clientarea&action=invoices">okamžité zaplacení</a>
+4646=Děkujeme Vám za objednání a projevenou důvěru!
+
+5000=&Lokální databáze
+5001=&Síťová databáze
+5002=&Heslo databáze:
+5003=&Uživatel:
+5004=Heslo:
+5005=&Sync
+5006=Včetně sou&kromých položek	
+5007=Vaše databáze pro EssentialPIM je chráněná heslem. Prosím odstraňte heslo (přes menu Soubor -> Ochrana heslem... -> Vymazat) a zkuste to znovu.
+5011=O aplikaci EPIM Synchronizer
+
+6000=Doručená pošta|Pošta k odeslání|Odeslaná pošta|Odstraněná pošta|Rozepsané|Šablony
+
+6001=Od
+6002=Komu
+6003=Datum
+6004=Odesláno
+6005=Velikost
+6006=Kopie
+6007=Skrytá kopie
+6008=Organizace
+6009=Chcete odstranit všechny zprávy ve složce "%s"?
+6010=Text zprávy
+6011=Chcete smazat složku "%s"? 
+6012=Chcete smazat označené zprávy?
+6013=Nová složka…
+6014=Nová složka
+6015=Přidat složku
+6016=Smazat zprávy ze složky "%s"…
+6017=Otevřít
+6018=Odpovědět odesílateli
+6019=Odpovědět všem
+16019=Odpovědět všem
+6020=Přeposlat
+16020=Přeposlat
+6021=Přeposlat jako přílohu
+6022=Označit jako přečtené
+6023=Označit jako nepřečtené
+
+6024=Přesunout do složky
+6025=Zkopírovat do složky
+
+6026=Přidat odesílatele do kontaktů
+6027=Původní zpráva
+6028=&Od:
+6029=Kontrola nových zpráv...
+6030=Celkem nových zpráv: %d (%d KB)
+6031=Připojování…
+6032=Odpojování…
+6033=Příjem seznamu zpráv…
+6034=Přijímám %d. zprávu…
+6035=EPIM: Máte nové zprávy
+6036=Odpovědět
+16036=Odpovědět
+6037=Celkem k odeslání: %d (%d KB)
+6038=Odesílám %d. zprávu…
+6039=Odeslat
+  ;&Odeslat - chybně se zobrazuje v Nastavení/Obecné/Klávesové zkratky
+6040=Označit vše jako přečtené
+6041=Skrýt přečtené zprávy
+6042=Vzhled
+6043=Klasický
+6044=Rozšířený
+6045=Odeslat a přijmout
+6046=Odeslat a přijmout vše
+6047=Přijmout
+6048=Přijmout vše
+6049=Odeslat vše
+6050=Nová zpráva…
+6051=Nová složka…
+6052=Odstraňuji zprávu %d
+6053=Čekám
+6054=Odeslat a přijmout
+16054=Odeslat/přijmout
+6055=Hlavičky zpráv
+6056=Komu/Kopie
+6057=Nas&tavení poštovních účtů…
+6058=Správa složek…
+6059=Stahuji zprávu, čekejte prosím...
+6060=Přihlášení %s
+6061=&Filtry zpráv…
+6062=Zdroj zprávy
+6063=Zdroj zprávy
+
+6064=Pro vytvoření newsletteru je nezbytné nejprve založit poštovní účet (přes menu Soubor/Nový/Poštovní účet…)
+
+6065=Zpráva…
+6066=Nejdříve je třeba synchronizovat složky s e-maily. Stiskněte Odeslat/Přijmout.
+6067=Smazat
+16067=Smazat zprávy
+6069=Správa složek
+16069=Správa složek
+6068=Globální složky
+6070=Komprimovat
+6071=S hvězdičkou
+
+6072=Dešifrovaná zpráva
+6073=Chyba při dešifrování
+6074=Fungující podpis od %s|ID klíče: %s / Podepsáno pro: %s
+6075=Poškozený PGP podpis od %s 
+6076=Nelze ověřit podpis. Je vyžadováno ověřit veřejný klíč odesilatele. 
+
+6077=Panel rychlého filtru
+6078=Rychlý filtr:
+16079=Ponechat filtr aktivní při přepnutí mezi složkami
+6080=Nepřečtené
+16080=Zobrazovat jen nepřečtené zprávy
+6081=S hvězdičkou
+16081=Zobrazovat jen zprávy označené hvězdičkou
+6082=V kontaktech
+   
+  ; >> Nápovědný text (tzv. "hinty") pro jednotlivá tlačítka rychlého filtru pro hlavní seznam došlých e-mailů
+16082=Zobrazovat jen zprávy od lidí z kontaktů 
+6083=Přilohy
+16083=Zobrazovat jen zprávy s přílohami
+
+6084=Vlákna zpráv
+6086=Svislé zobrazení
+6088=Kontrolovat zapomenuté přílohy
+6090=K&líčová slova
+6092=Přejmenovat složku
+6094=Nový název:
+6096=Nezapomněli jste přiložit přílohu?
+6098=Před ukončením odstranit všechny smazané zprávy
+
+6100=Předchozí zpráva
+6101=Následující zpráva
+6102=Lišta tlačítek
+6103=Přidat do kontaktů
+6104=Odesílatel
+6105=Nové kontakty ze seznamu Komu, Kopie
+6106=Kopírovat odkaz
+6107=Přidat adresu do kontaktů…
+6108=Vytvořit e-mail pro…
+6109=Kopírovat e-mailovou adresu
+6110=Uložit obrázek jako…
+6111=Uložit pozadí jako…
+6112=Kopírovat obrázek
+6113=Označit hvězdičkou
+
+6200=Nová zpráva
+16200=Nová zpráva
+6201=Komu
+6202=Kopie
+6203=Skrytá kopie
+6204=&Odeslat zprávu
+6205=Uložit přílohu…
+6206=Pole Kopie
+6207=Pole Skrytá kopie
+6208=Standardní tlačítka
+6209=Lišta formátování
+6210=Uložit změny ve zprávě "%s" před zavřením?
+6211=Zprávu nelze odeslat. Některé adresy příjemců jsou neplatné (%s). Prosím zkontrolujte adresy.
+6212=Dne %s v %s, %s napsal:
+6213=Přílohu…
+16213=Vložit přílohu…
+6214=Pozadí
+6215=Obrázek…
+6216=Kódování
+6217=Potvrzení o &přečtení
+6218=Vybrat příjemce…
+6219=Smazat zprávu
+6220=HTML formátování
+6221=Prostý text
+
+6222=Povolením této volby bude původní formátování textu ztraceno. 
+6223=Zprávu nelze odeslat. Musíte vybrat nejméně jednoho příjemce.
+
+6243=Zašifrovat zprávu
+6244=Podepsat zprávu
+6245=Přiložit můj veřejný klíč
+6246=Nebyl nalezen žádný veřejný klíč pro následující příjemce: %s.|Stisknutím <OK> se přepnete do konzole Správa klíčů, kde můžete:|- přidat příjemci libovolný uložený veřejný klíč (Edit->Matching email addresses)|- načíst soukromý klíč pro příjemce|nebo úplně zrušit odesílání nezašifrovaných e-mailových zpráv.
+6247=Tento odesilatel nemá přiřazeny žádné soukromé klíče. Stisknutím <OK> se přepnete do konzole Správa klíčů, kde můžete:|- přidat odesilateli libovolný uložený soukromý klíč (Edit->Matching email addresses)|- načíst soukromý klíč pro odesilatele|- vygenerovat nový pár klíčů|nebo úplně zrušit odesílání nezašifrovaných e-mailových zpráv. 
+
+6250=Vybrat příjemce
+6251=&Kopie:
+6252=&Skrytá kopie:
+6253=Seznam k&ontaktů:
+6254=K&omu:
+6255=&Adresář:
+
+6300=EPIM Pošta: Odeslat a přijmout
+6301=Účet|Úloha|Průběh|Výsledek
+  ; Stav --> Průběh; Stav dokončení --> Výsledek
+6302=&Skrýt
+6303=Přerušit &vše
+6304=&Přerušit úlohu
+6306=Přerušuji zpracování…
+6307=Přerušeno
+6308=Nelze odeslat všechny zprávy, prosím ověřte Vaši odchozí poštu.
+
+6400=Nastavení poštovních účtů
+6401=Obecné
+6402=Poštovní účet
+6403=&Pojmenování účtu:
+6404=Informace o uživateli
+6405=&Celé jméno:
+6406=&Název firmy:
+6407=&E-mail:
+6408=&Odpověď na e-mail:
+6409=&Servery
+6410=&Příchozí pošta:
+6411=S&erver:
+6412=Tento server požaduje šifrované připojení (&SSL)
+6413=&Uživatel:
+6414=&Odchozí pošta:
+6415=Se&rver požaduje ověření
+6416=Použít &stejná nastavení jako server příchozí pošty
+6417=Přihlaš&ovat se jako:
+6418=Po&kročilé
+6419=Nastavení s&erveru
+6420=Zkontrolovat nové zprávy po s&puštění
+6421=Zkontrolovat nové zprávy &každých
+6422=&Ponechat kopie zpráv na serveru
+6423=Časový limi&t serveru:
+6424=vteřinách
+  ; Označit jako přečtené po xx "vteřinách" (Nastavení/Pošta)
+6425=Po přijetí nové zprávy přehrát zvuk
+6426=&Podpis
+6427=Použít podpis pro &odchozí zprávy
+6428=Jako výchozí
+6429=Výchozí
+6430=&Doručení
+6431=&Odstranit ze serveru za
+6433=&Zabezpečení:
+6434=Žádné|STARTTLS|SSL/TLS
+6435=&Odchozí servery (SMTP)
+6436=&Identity
+6437=&Pro příjem pošty používat tento účet
+6438=Opravdu chcete nenávratně odstranit vybraný účet včetně nastavení a všech zpráv?
+	; (ponechat otázku kvůli závažnosti beze změny!)
+6450=Správa IMAP složek
+6451=Zvolte složky které budou viditelné v hlavním okně a typ synchronizace.
+6452=Viditelné|Jméno|Typ synchronizace
+6453=Nesynchronizovat|Hlavičky|Celé zprávy
+6454=Nastavili jste některé složky na stahování úplných zpráv. Chcete toto nastavení použít i pro staré zprávy ve složce. Pokud odpovíte Ne, EPIM stáhne pouze budoucí zprávy.
+
+6455=Přihlašovací údaje pro "%s" jsou chybné.
+6456=Your mail rules contain references to body of the message. If you change to downloading headers only for this folder, mail rule will not work.
+
+6500=Průvodce vytvořením účtu
+6501=Nový poštovní účet
+6502=Zobrazované jméno v odeslaných zprávách
+6503=Odpovědní e-mail
+        ; (nechapu vyuziti teto nadbytecne popisky c. 6503)
+
+6505=Server příchozí pošty
+6506=Typ &serveru:
+6507=Server odchozí pošty
+6508=Interní označení
+  ;Pojmenování účtu v EPIM
+6509=&Odeslat a přijmout
+6510=Používat jen globální složky
+6511=Poštovní účty budou používat pouze globální (sdílené) složky.
+
+6512=&Nastavit PGP šifrování e-mailu
+6513=PGP je běžný způsob, jak pomocí šifrování ochránit Vaše e-mailové zprávy. Pro spuštění průvodce povolte možnost.
+6514=Máte filr zpráv, který pracuje s tělem zpráv. E-mailový účet, který jste právě vytvořili, stahuje pouze hlavičky zpráv. Z tohoto důvodu některé filtry zpráv nelze spustit. Pro změnu nastavení jděte do menu Nástroje / Filtry zpráv      
+6515=Chcete použít 2-urovňové ověření?  <a href=http://translate.google.cz/translate?hl=cs&sl=en&u=https://support.google.com/mail/answer/1173270?hl=en>Klikněte zde</a> pro podrobnější nápovědu.
+6600=Pravidlo zpráv
+6601=&Název filtru:
+
+6603=obsahuje|neobsahuje|rovná se|nerovná se
+6604=Zvolte &akci:
+6605=přesunout do|zkopírovat do|smazat|označit za přečtené
+6606=&Použít pravidlo na zprávy, které splňují:
+6607=&všechny podmínky|&některou z podmínek
+6608=Filtrování zpráv je prováděno v následujícím pořadí:
+6609=Po&užít vybrané filtry na:
+6610=Použít &teď
+6611=Některé z Vašich složek stahují pouze hlavičky zpráv, proto na ně nemůže být aplikován filtr. Pro změnu nastavení jděte do menu Nástroje / Správa složek.  
+
+6612=Použít na:
+6614=Přijatých zpráv|Odeslaných zpráv
+
+6650=Filtry zpráv
+
+6652=Setřídit složky podle jména
+6654=Podle názvu A-Z
+6656=Odeslat neodeslané zprávy při ukončení
+6658=Odesílatel této zprávy si přeje být informován, že jste si tuto zprávu přečetli.|Odeslat potvrzení o přečtení?
+6660=Požadováno potvrzení o přečtení
+6662=Setřídit všechny podsložky A->Z
+6664=Čekejte prosím....
+6666=N/A
+  ;???
+6670=Uložit jako
+6672=K&oncept
+6674=Šab&lona 
+6676=Soubor...
+6678=Úspěšně uloženo.
+6680=Úspěšně
+6682=Odesílání
+6684=Tato složka
+6686=Not replied|Not forwarded|Rozepsané|Nerozepsané|Celá zpráva|Pouze hlavička|Šifrované|Nešifrované|Podepsané|Nepodepsané
+6688=Šablony
+6690=Ukládání e-mailových zpráv...
+6692=Ukládání bylo zrušeno.
+6694=Zprávy budou odstraněny (bez možnosti obnovy z koše).|Chcete pokračovat?
+6696=Složka
+6698=Zpracovávám e-mailové zprávy...
+
+6801=Hesla
+6802=Záznamy hesel
+
+6803=Obsah systémové schránky byl vymazán.
+
+6804=Chcete smazat označené záznamy hesel?
+6805=Přidat záznam hesla…
+6806=Přidat záznam hesla…
+6807=Upravit
+6808=Smazat
+16807=Upravit záznam hesla
+16808=Smazat záznam hesla
+6809=Kopírovat uživ. jméno
+  ;Kopírovat uživatelské jméno --> přetečení položky nabídky akce v modulu Hesla
+  ;Kopírovat login
+6810=Kopírovat heslo
+16809=Kopírovat vybrané uživatelské jméno do schránky (16809)
+  ;Kopírovat vybraný login do schránky
+16810=Kopírovat vybrané heslo do schránky
+6811=Záznam hesla
+6812=Heslo a jeho opakování nesouhlasí!
+6813=Export hesel
+
+6816=Schránka bude vymazána za %d vteřin.
+
+6817=GEN
+  ; jedná se o tlačítko <GEN> při generování hesla nové položky ve Správci hesel
+
+16817=Vygenerovat heslo
+  ; nápovědný text (hint) při umístění kurzoru na tlačítko <GEN>
+6818=Záznam hesla…
+6819=***
+16819=Ukázat/Skrýt heslo
+6820=Generovat heslo
+6821=Možnosti generování hesel:
+6822=Velká písmena abecedy (ABC)
+6823=Malá písmena abecedy (abc)
+6824=Čísla (123)
+6825=Velikost hesla (max. 200 zn.):
+6826=Vygenerované heslo:
+6827=Generovat
+6828=&Speciální znaky:
+6829=Obsah pole byl zkopírován do systémové schránky. 
+6830=Přidat záznam hesla
+16830=Přidat záznam hesla
+
+6831=Automatický typ
+
+  ; >> Nový záznam hesla <<
+6851=Název
+6852=Uživatelské jméno
+6853=Heslo
+6854=Opakovat heslo
+6855=Adresa URL
+
+7000=Průvodce tiskem štítků
+7001=Pro pokračování klikněte na Další
+7002=Tisk štítků pro:
+7003=&Všechny kontakty|Vybrané &kontakty
+7004=Šablona štítků
+7005=&Výrobce tiskárny:
+7006=&Typ tiskárny:
+7007=&Informace o štítku:
+7008=Šířka:
+7009=Výška:
+7010=Šířka stránky:
+7011=Výška stránky:
+7012=Formát:
+7013=Umístění textu
+7014=Tis&kárna:
+7015=Informace o tisku
+7016=Počet štítků:
+7017=Počet stránek:
+7018=Pro dokončení klikněte na Tisk
+7019=Zvolte počáteční etiketu:
+7020=Rozmnožit kontakt na všechny štítky na archu
+7021=Uložit šablonu jako…
+7022=Otevřít šablonu…
+7023=Šablona štítků
+
+7050=Průvodce tiskem obálek
+7051=Rozměry obálek
+7052=Adresní štítky
+7053=Tisknout obálky pro:
+7054=Typ obálky:
+7055=Adresát:
+7056=Odesilatel:
+7057=Počet obálek:
+7058=Posun
+7059=Šablona obálek
+
+7200=Správce příloh
+7201=&Položky
+7202=&Soubory
+7203=Typ
+7204=Typ:
+7205=Libovolný typ
+7206=Propojeno
+7207=%d příloh v %d položkách
+7208=%s v %d souborech
+
+8000=Databáze ke zpracování:
+8001=Zpracovat starší položky z modulů:
+8002=Jen dokončené události
+8003=Jen dokončené úkoly
+8004=Akce pro archivaci:
+8005=Odstranit položky (bez možnosti obnovy)
+8006=Přesunout do koše (doporučeno)
+8007=Archivovat do jiné databáze
+8008=Zpracovat položky starší než:
+8009=Povolený počet archivací ve vaší zkušební verzi programu vypršel. Chcete zakoupit plnou verzi?
+8010=O programu EPIM Archiver/DupeRemover
+8011=Archivace dokončena.
+8012=Archivace přerušena.
+8013=Parametry sítě…
+8014=Parametry sítě
+8015=Autorizace sítě
+8016=Vytvářím databázi
+8017=Zpracovávám kontakty...
+8018=Zpracovávám poznámky...
+8019=Zpracovávám události...
+8020=Zpracovávám úkoly...
+8021=Zpracovávám e-maily...
+8022=Odstraňuji staré položky...
+8023=Celkem odebráno:
+8024=událostí
+  ; událostí (Události)
+  ; Události (událostí)
+  ; 0 Události --> 0 událostí (???)
+  ; 0 Úkoly --> 0 úkolů (???)
+  ; Události
+8025=Archivace
+8026=Odstranění duplicit
+	;DupeRemover (hlavička informačního potvrzovacího okna s výsledkem pročištění)
+8027=Analyzovat pouze níže označené moduly:
+8028=Analyzovat
+8029=Přesunout duplicitní položky do koše
+8030=Nalezené duplicitní položky v databázi
+8031=Smazat vybrané
+8034=Naposledy změněno
+8035=Analyzuji databázi, čekejte prosím...
+8036=Filtr:
+8037=Vše
+8042=Pošta
+8044=Vybrat
+8045=Zrušit výběr
+8048=Invertovat výběr
+8049=Odstraňuji všechny označené položky...
+8050=Celkem smazáno %d položek.
+
+8500=Rozšířené hledání
+8501=Opravdu chcete smazat vybrané položky?
+8502=včetně položek v koši
+8503=&Hledat
+8504=&Stop
+8505=&Nové hledání
+8506=Výsl&edky hledání:
+8507=Hledám
+8508=&Přejít…
+
+8509=Uložit hledání
+8510=Načíst hledání
+
+8511=Splňuje &všechny podmínky
+8512=Splňuje &některou z podmínek
+8513=Ča&s:
+8514=Od:
+8515=Do:
+8516=Vytvořeno|Změněno
+8517=Pole kalendáře
+8518=Pole úkolů
+8519=Pole poznámek
+8520=Pole kontaktů
+8521=Pole pošty
+8522=Společná pole
+8523=Pole seznamu hesel
+
+8524=Vybrat sloupce z:
+8525=Aktuální vyhledávání bude vyčištěno.
+
+8527=Exkluzivní událost
+8528=Všechna společná pole 
+8529=Všechna pole události
+8530=Všechna pole úkolu
+8531=Všechna pole poznámky
+
+8532=Připomenutí:
+8533=Opakování
+
+8534=Všechna pole kontaktu
+8535=Všechna pole pošty
+8536=Všechna pole záznamu hesla
+
+8537=je rovno|není rovno|obsahuje|neobsahuje
+8538=je rovno|není rovno|před|po
+8539=Veřejné|Soukromé
+8540=Není|0%|25%|50%|75%|100%
+8541=Vyberte pole
+8542=Počet nalezených položek: %d
+8544=&Hledat:
+8545=Hledat v &polích:
+8546=Název a obsah|Název|Obsah|Název přílohy
+
+8547=Název pro dotaz již existuje. Chcete jej přepsat? 
+
+8548=Příloha
+8549=Název poznámky
+
+8550=Uložení parametrů hledání
+8551=Zadejte název pro hledání:
+
+8552=Obsah poznámky
+8553=Začátek
+8554=Splnit do
+
+8555=Načtení parametrů hledání
+8556=&Vyberte uložené hledání:
+8557=Smazat uložené hledání?
+
+8558=Osobní pole
+8559=Pracovní pole
+8560=existuje|neexistuje
+8561=je rovno|není rovno
+8562=existuje|neexistuje|obsahuje|neobsahuje
+8563=Odpovězeno|Přeposláno|Přečteno|Nepřečteno
+8567=je rovno|je menší než|je větší než
+8570=Pole skupin
+
+;================= NEW STRINGS FOR PC ==========================================
+1736=Disk Google (root)
+  ; Google Drive (root)
+6613=Vyberte &podmínky pro zprávy:
+  ;Select &conditions for messages:
+  ; aktualizovaná verze stringu 6602=Definujte &filtry pro příchozí zprávy
+4211=Odkaz na &kalendář:
+  ;&Calendar link:
+4213=Odkaz na &kontakty: 
+4269=Initiate sync from Android EPIM.
+  ;&Address book link:  
+;================= NEW/UPDATED STRINGS FOR ANDROID =============================
+
+;================= NEW/UPDATED STRINGS FOR GOOGLE PLAY =========================

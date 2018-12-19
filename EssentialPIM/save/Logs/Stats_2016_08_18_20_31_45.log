@@ -1,0 +1,15 @@
+EssentialPIM 6.56  2015/11/19 1:08
+20:31:45.293  MouseClick: MainForm FormPan FormPan2 TasksForm DayViewDP  75
+MouseClick: MainForm FormPan FormPan2 TodayForm Panel1 Panel2 TasksPan TasksSubForm TasksVT  13
+MouseClick: MainForm FormPan SubFormPan ToDosSubForm_1 ToDosVT  3
+MouseClick: MainForm LeftPan NavPanel NavGroup0  3
+MouseClick: MainForm LeftPan NavPanel NavGroup1  4
+MouseClick: ReminderForm Panel1  1
+MouseClick: ReminderForm Panel1 DismissAllBtn  7
+MouseClick: TaskDialog GroupBox1  1
+MouseClick: TaskDialog GroupBox1 TextMem  2
+MouseClick: TaskDialog GroupBox1 TitleEd  1
+MouseClick: TaskDialog OKBtn  1
+ShortCutAction: MainForm FormPan FormPan2 TodayForm Paste  2
+TBXItemClick: MainForm FormPan FormPan2 TasksForm TaskPM CopyMI  1
+TBXItemClick: MainForm FormPan FormPan2 TasksForm TaskPM DeleteMI  1

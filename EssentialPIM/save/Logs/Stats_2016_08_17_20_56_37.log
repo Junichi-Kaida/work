@@ -1,0 +1,12 @@
+EssentialPIM 6.56  2015/11/19 1:08
+20:56:37.472  MouseClick: AutoUpdateForm CancelBtn  1
+MouseClick: MainForm FormPan FormPan2 TasksForm DayViewDP  19
+MouseClick: MainForm FormPan FormPan2 TodayForm Panel1 Panel2 TasksPan TasksSubForm TasksVT  1
+MouseClick: MainForm FormPan FormPan2 TodayForm Panel1 Panel2 ToDosPan ToDosSubForm ToDosVT  1
+MouseClick: MainForm FormPan SubFormPan ToDosSubForm_1 ToDosVT  1
+MouseClick: MainForm LeftPan NavPanel NavGroup0  1
+MouseClick: MainForm LeftPan NavPanel NavGroup1  2
+MouseClick: ReminderForm Panel1  1
+MouseClick: ReminderForm Panel1 DismissAllBtn  6
+ShortCutAction: MainForm FormPan FormPan2 TodayForm Paste  1
+TBXItemClick: MainForm FormPan FormPan2 TasksForm TaskPM CopyMI  1

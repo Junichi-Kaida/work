@@ -1,0 +1,2749 @@
+EssentialPIM 6.56  2015/11/19 1:08
+09:29:00.294  5152  gbak:readied database C:\Users\a.kaida.junichi\AppData\Roaming\EssentialPIM\test.epim for backup 
+09:29:00.294  5152  gbak:creating file C:\Users\a.kaida.junichi\AppData\Roaming\EssentialPIM\test.backup_20160819_0929.epim 
+09:29:00.294  5152  gbak:starting transaction 
+09:29:00.310  5152  gbak:database C:\Users\a.kaida.junichi\AppData\Roaming\EssentialPIM\test.epim has a page size of 4096 bytes. 
+09:29:00.310  5152  gbak:writing domains 
+09:29:00.310  5152  gbak:    writing domain DIDITEM 
+09:29:00.310  5152  gbak:    writing domain DIDPARENT 
+09:29:00.310  5152  gbak:    writing domain DSTATUS 
+09:29:00.310  5152  gbak:    writing domain DIDUSER 
+09:29:00.310  5152  gbak:    writing domain DACCESS 
+09:29:00.310  5152  gbak:    writing domain RDB$1 
+09:29:00.310  5152  gbak:    writing domain RDB$2 
+09:29:00.310  5152  gbak:    writing domain RDB$3 
+09:29:00.310  5152  gbak:    writing domain RDB$4 
+09:29:00.310  5152  gbak:    writing domain RDB$5 
+09:29:00.310  5152  gbak:    writing domain RDB$6 
+09:29:00.310  5152  gbak:    writing domain RDB$7 
+09:29:00.310  5152  gbak:    writing domain RDB$8 
+09:29:00.310  5152  gbak:    writing domain RDB$9 
+09:29:00.310  5152  gbak:    writing domain RDB$10 
+09:29:00.310  5152  gbak:    writing domain RDB$11 
+09:29:00.310  5152  gbak:    writing domain RDB$12 
+09:29:00.310  5152  gbak:    writing domain RDB$13 
+09:29:00.310  5152  gbak:    writing domain RDB$14 
+09:29:00.310  5152  gbak:    writing domain RDB$15 
+09:29:00.310  5152  gbak:    writing domain RDB$16 
+09:29:00.310  5152  gbak:    writing domain RDB$17 
+09:29:00.310  5152  gbak:    writing domain RDB$18 
+09:29:00.310  5152  gbak:    writing domain RDB$19 
+09:29:00.310  5152  gbak:    writing domain RDB$20 
+09:29:00.310  5152  gbak:    writing domain RDB$21 
+09:29:00.310  5152  gbak:    writing domain RDB$22 
+09:29:00.310  5152  gbak:    writing domain RDB$23 
+09:29:00.326  5152  gbak:    writing domain RDB$24 
+09:29:00.341  5152  gbak:    writing domain RDB$25 
+09:29:00.341  5152  gbak:    writing domain RDB$26 
+09:29:00.341  5152  gbak:    writing domain RDB$27 
+09:29:00.341  5152  gbak:    writing domain RDB$28 
+09:29:00.341  5152  gbak:    writing domain RDB$29 
+09:29:00.341  5152  gbak:    writing domain RDB$30 
+09:29:00.341  5152  gbak:    writing domain RDB$31 
+09:29:00.341  5152  gbak:    writing domain RDB$32 
+09:29:00.341  5152  gbak:    writing domain RDB$33 
+09:29:00.341  5152  gbak:    writing domain RDB$34 
+09:29:00.341  5152  gbak:    writing domain RDB$35 
+09:29:00.341  5152  gbak:    writing domain RDB$36 
+09:29:00.341  5152  gbak:    writing domain RDB$37 
+09:29:00.341  5152  gbak:    writing domain RDB$38 
+09:29:00.341  5152  gbak:    writing domain RDB$39 
+09:29:00.341  5152  gbak:    writing domain RDB$40 
+09:29:00.341  5152  gbak:    writing domain RDB$41 
+09:29:00.341  5152  gbak:    writing domain RDB$42 
+09:29:00.341  5152  gbak:    writing domain RDB$43 
+09:29:00.341  5152  gbak:    writing domain RDB$44 
+09:29:00.341  5152  gbak:    writing domain RDB$45 
+09:29:00.341  5152  gbak:    writing domain RDB$46 
+09:29:00.341  5152  gbak:    writing domain RDB$47 
+09:29:00.341  5152  gbak:    writing domain RDB$48 
+09:29:00.341  5152  gbak:    writing domain RDB$49 
+09:29:00.341  5152  gbak:    writing domain RDB$50 
+09:29:00.341  5152  gbak:    writing domain RDB$51 
+09:29:00.341  5152  gbak:    writing domain RDB$52 
+09:29:00.341  5152  gbak:    writing domain RDB$53 
+09:29:00.341  5152  gbak:    writing domain RDB$54 
+09:29:00.341  5152  gbak:    writing domain RDB$55 
+09:29:00.341  5152  gbak:    writing domain RDB$56 
+09:29:00.341  5152  gbak:    writing domain RDB$57 
+09:29:00.357  5152  gbak:    writing domain RDB$58 
+09:29:00.357  5152  gbak:    writing domain RDB$59 
+09:29:00.357  5152  gbak:    writing domain RDB$60 
+09:29:00.357  5152  gbak:    writing domain RDB$61 
+09:29:00.357  5152  gbak:    writing domain RDB$62 
+09:29:00.357  5152  gbak:    writing domain RDB$63 
+09:29:00.357  5152  gbak:    writing domain RDB$64 
+09:29:00.357  5152  gbak:    writing domain RDB$65 
+09:29:00.357  5152  gbak:    writing domain RDB$66 
+09:29:00.357  5152  gbak:    writing domain RDB$67 
+09:29:00.357  5152  gbak:    writing domain RDB$68 
+09:29:00.357  5152  gbak:    writing domain RDB$69 
+09:29:00.357  5152  gbak:    writing domain RDB$70 
+09:29:00.357  5152  gbak:    writing domain RDB$71 
+09:29:00.357  5152  gbak:    writing domain RDB$72 
+09:29:00.357  5152  gbak:    writing domain RDB$73 
+09:29:00.357  5152  gbak:    writing domain RDB$74 
+09:29:00.357  5152  gbak:    writing domain RDB$75 
+09:29:00.357  5152  gbak:    writing domain RDB$76 
+09:29:00.372  5152  gbak:    writing domain RDB$77 
+09:29:00.372  5152  gbak:    writing domain RDB$78 
+09:29:00.372  5152  gbak:    writing domain RDB$79 
+09:29:00.372  5152  gbak:    writing domain RDB$80 
+09:29:00.372  5152  gbak:    writing domain RDB$81 
+09:29:00.372  5152  gbak:    writing domain RDB$82 
+09:29:00.372  5152  gbak:    writing domain RDB$83 
+09:29:00.372  5152  gbak:    writing domain RDB$84 
+09:29:00.372  5152  gbak:    writing domain RDB$85 
+09:29:00.372  5152  gbak:    writing domain RDB$86 
+09:29:00.372  5152  gbak:    writing domain RDB$87 
+09:29:00.372  5152  gbak:    writing domain RDB$88 
+09:29:00.372  5152  gbak:    writing domain RDB$89 
+09:29:00.372  5152  gbak:    writing domain RDB$90 
+09:29:00.372  5152  gbak:    writing domain RDB$91 
+09:29:00.372  5152  gbak:    writing domain RDB$92 
+09:29:00.372  5152  gbak:    writing domain RDB$93 
+09:29:00.372  5152  gbak:    writing domain RDB$94 
+09:29:00.372  5152  gbak:    writing domain RDB$95 
+09:29:00.372  5152  gbak:    writing domain RDB$96 
+09:29:00.372  5152  gbak:    writing domain RDB$97 
+09:29:00.372  5152  gbak:    writing domain RDB$98 
+09:29:00.372  5152  gbak:    writing domain RDB$99 
+09:29:00.372  5152  gbak:    writing domain RDB$100 
+09:29:00.372  5152  gbak:    writing domain RDB$101 
+09:29:00.372  5152  gbak:    writing domain RDB$102 
+09:29:00.372  5152  gbak:    writing domain RDB$103 
+09:29:00.372  5152  gbak:    writing domain RDB$104 
+09:29:00.372  5152  gbak:    writing domain RDB$105 
+09:29:00.372  5152  gbak:    writing domain RDB$106 
+09:29:00.372  5152  gbak:    writing domain RDB$107 
+09:29:00.372  5152  gbak:    writing domain RDB$108 
+09:29:00.388  5152  gbak:    writing domain RDB$109 
+09:29:00.404  5152  gbak:    writing domain RDB$110 
+09:29:00.404  5152  gbak:    writing domain RDB$111 
+09:29:00.404  5152  gbak:    writing domain RDB$112 
+09:29:00.404  5152  gbak:    writing domain RDB$113 
+09:29:00.404  5152  gbak:    writing domain RDB$114 
+09:29:00.404  5152  gbak:    writing domain RDB$115 
+09:29:00.404  5152  gbak:    writing domain RDB$116 
+09:29:00.404  5152  gbak:    writing domain RDB$117 
+09:29:00.404  5152  gbak:    writing domain RDB$118 
+09:29:00.404  5152  gbak:    writing domain RDB$119 
+09:29:00.404  5152  gbak:    writing domain RDB$120 
+09:29:00.404  5152  gbak:    writing domain RDB$121 
+09:29:00.404  5152  gbak:    writing domain RDB$122 
+09:29:00.404  5152  gbak:    writing domain RDB$123 
+09:29:00.404  5152  gbak:    writing domain RDB$124 
+09:29:00.404  5152  gbak:    writing domain RDB$125 
+09:29:00.404  5152  gbak:    writing domain RDB$126 
+09:29:00.404  5152  gbak:    writing domain RDB$127 
+09:29:00.404  5152  gbak:    writing domain RDB$128 
+09:29:00.404  5152  gbak:    writing domain RDB$129 
+09:29:00.404  5152  gbak:    writing domain RDB$130 
+09:29:00.404  5152  gbak:    writing domain RDB$131 
+09:29:00.404  5152  gbak:    writing domain RDB$132 
+09:29:00.404  5152  gbak:    writing domain RDB$133 
+09:29:00.404  5152  gbak:    writing domain RDB$134 
+09:29:00.404  5152  gbak:    writing domain RDB$135 
+09:29:00.404  5152  gbak:    writing domain RDB$136 
+09:29:00.404  5152  gbak:    writing domain RDB$137 
+09:29:00.404  5152  gbak:    writing domain RDB$138 
+09:29:00.404  5152  gbak:    writing domain RDB$139 
+09:29:00.404  5152  gbak:    writing domain RDB$140 
+09:29:00.419  5152  gbak:    writing domain RDB$141 
+09:29:00.419  5152  gbak:    writing domain RDB$142 
+09:29:00.419  5152  gbak:    writing domain RDB$143 
+09:29:00.419  5152  gbak:    writing domain RDB$144 
+09:29:00.435  5152  gbak:    writing domain RDB$145 
+09:29:00.435  5152  gbak:    writing domain RDB$146 
+09:29:00.435  5152  gbak:    writing domain RDB$147 
+09:29:00.435  5152  gbak:    writing domain RDB$148 
+09:29:00.435  5152  gbak:    writing domain RDB$149 
+09:29:00.435  5152  gbak:    writing domain RDB$150 
+09:29:00.435  5152  gbak:    writing domain RDB$151 
+09:29:00.435  5152  gbak:    writing domain RDB$152 
+09:29:00.435  5152  gbak:    writing domain RDB$153 
+09:29:00.435  5152  gbak:    writing domain RDB$154 
+09:29:00.435  5152  gbak:    writing domain RDB$155 
+09:29:00.435  5152  gbak:    writing domain RDB$156 
+09:29:00.435  5152  gbak:    writing domain RDB$157 
+09:29:00.435  5152  gbak:    writing domain RDB$158 
+09:29:00.435  5152  gbak:    writing domain RDB$159 
+09:29:00.435  5152  gbak:    writing domain RDB$160 
+09:29:00.435  5152  gbak:    writing domain RDB$161 
+09:29:00.435  5152  gbak:    writing domain RDB$162 
+09:29:00.435  5152  gbak:    writing domain RDB$163 
+09:29:00.435  5152  gbak:    writing domain RDB$164 
+09:29:00.435  5152  gbak:    writing domain RDB$165 
+09:29:00.435  5152  gbak:    writing domain RDB$166 
+09:29:00.435  5152  gbak:    writing domain RDB$167 
+09:29:00.435  5152  gbak:    writing domain RDB$168 
+09:29:00.435  5152  gbak:    writing domain RDB$169 
+09:29:00.435  5152  gbak:    writing domain RDB$170 
+09:29:00.435  5152  gbak:    writing domain RDB$171 
+09:29:00.435  5152  gbak:    writing domain RDB$172 
+09:29:00.435  5152  gbak:    writing domain RDB$173 
+09:29:00.435  5152  gbak:    writing domain RDB$174 
+09:29:00.435  5152  gbak:    writing domain RDB$175 
+09:29:00.435  5152  gbak:    writing domain RDB$176 
+09:29:00.450  5152  gbak:    writing domain RDB$177 
+09:29:00.466  5152  gbak:    writing domain RDB$178 
+09:29:00.466  5152  gbak:    writing domain RDB$179 
+09:29:00.466  5152  gbak:    writing domain RDB$180 
+09:29:00.466  5152  gbak:    writing domain RDB$181 
+09:29:00.466  5152  gbak:    writing domain RDB$182 
+09:29:00.466  5152  gbak:    writing domain RDB$183 
+09:29:00.466  5152  gbak:    writing domain RDB$184 
+09:29:00.466  5152  gbak:    writing domain RDB$185 
+09:29:00.466  5152  gbak:    writing domain RDB$186 
+09:29:00.466  5152  gbak:    writing domain RDB$187 
+09:29:00.466  5152  gbak:    writing domain RDB$188 
+09:29:00.466  5152  gbak:    writing domain RDB$189 
+09:29:00.466  5152  gbak:    writing domain RDB$190 
+09:29:00.466  5152  gbak:    writing domain RDB$191 
+09:29:00.466  5152  gbak:    writing domain RDB$192 
+09:29:00.466  5152  gbak:    writing domain RDB$193 
+09:29:00.466  5152  gbak:    writing domain RDB$194 
+09:29:00.466  5152  gbak:    writing domain RDB$195 
+09:29:00.466  5152  gbak:    writing domain RDB$196 
+09:29:00.466  5152  gbak:    writing domain RDB$197 
+09:29:00.466  5152  gbak:    writing domain RDB$198 
+09:29:00.466  5152  gbak:    writing domain RDB$199 
+09:29:00.466  5152  gbak:    writing domain RDB$200 
+09:29:00.466  5152  gbak:    writing domain RDB$201 
+09:29:00.466  5152  gbak:    writing domain RDB$202 
+09:29:00.466  5152  gbak:    writing domain RDB$203 
+09:29:00.466  5152  gbak:    writing domain RDB$204 
+09:29:00.466  5152  gbak:    writing domain RDB$205 
+09:29:00.466  5152  gbak:    writing domain RDB$206 
+09:29:00.466  5152  gbak:    writing domain RDB$207 
+09:29:00.466  5152  gbak:    writing domain RDB$208 
+09:29:00.482  5152  gbak:    writing domain RDB$209 
+09:29:00.497  5152  gbak:    writing domain RDB$210 
+09:29:00.497  5152  gbak:    writing domain RDB$211 
+09:29:00.497  5152  gbak:    writing domain RDB$212 
+09:29:00.497  5152  gbak:    writing domain RDB$213 
+09:29:00.497  5152  gbak:    writing domain RDB$214 
+09:29:00.497  5152  gbak:    writing domain RDB$215 
+09:29:00.497  5152  gbak:    writing domain RDB$216 
+09:29:00.497  5152  gbak:    writing domain RDB$217 
+09:29:00.497  5152  gbak:    writing domain RDB$218 
+09:29:00.497  5152  gbak:    writing domain RDB$219 
+09:29:00.497  5152  gbak:    writing domain RDB$220 
+09:29:00.497  5152  gbak:    writing domain RDB$221 
+09:29:00.497  5152  gbak:    writing domain RDB$222 
+09:29:00.497  5152  gbak:    writing domain RDB$223 
+09:29:00.497  5152  gbak:    writing domain RDB$224 
+09:29:00.497  5152  gbak:    writing domain RDB$225 
+09:29:00.497  5152  gbak:    writing domain RDB$226 
+09:29:00.497  5152  gbak:    writing domain RDB$227 
+09:29:00.497  5152  gbak:    writing domain RDB$228 
+09:29:00.497  5152  gbak:    writing domain RDB$229 
+09:29:00.497  5152  gbak:    writing domain RDB$230 
+09:29:00.497  5152  gbak:    writing domain RDB$231 
+09:29:00.497  5152  gbak:    writing domain RDB$232 
+09:29:00.497  5152  gbak:    writing domain RDB$233 
+09:29:00.497  5152  gbak:    writing domain RDB$234 
+09:29:00.497  5152  gbak:    writing domain RDB$235 
+09:29:00.497  5152  gbak:    writing domain RDB$236 
+09:29:00.497  5152  gbak:    writing domain RDB$237 
+09:29:00.497  5152  gbak:    writing domain RDB$238 
+09:29:00.497  5152  gbak:    writing domain RDB$239 
+09:29:00.497  5152  gbak:    writing domain RDB$240 
+09:29:00.513  5152  gbak:    writing domain RDB$241 
+09:29:00.513  5152  gbak:    writing domain RDB$242 
+09:29:00.513  5152  gbak:    writing domain RDB$243 
+09:29:00.513  5152  gbak:    writing domain RDB$244 
+09:29:00.513  5152  gbak:    writing domain RDB$245 
+09:29:00.513  5152  gbak:    writing domain RDB$246 
+09:29:00.513  5152  gbak:    writing domain RDB$247 
+09:29:00.513  5152  gbak:    writing domain RDB$248 
+09:29:00.513  5152  gbak:    writing domain RDB$249 
+09:29:00.513  5152  gbak:    writing domain RDB$250 
+09:29:00.528  5152  gbak:    writing domain RDB$251 
+09:29:00.528  5152  gbak:    writing domain RDB$252 
+09:29:00.528  5152  gbak:    writing domain RDB$253 
+09:29:00.528  5152  gbak:    writing domain RDB$254 
+09:29:00.528  5152  gbak:    writing domain RDB$255 
+09:29:00.528  5152  gbak:    writing domain RDB$256 
+09:29:00.528  5152  gbak:    writing domain RDB$257 
+09:29:00.528  5152  gbak:    writing domain RDB$258 
+09:29:00.528  5152  gbak:    writing domain RDB$259 
+09:29:00.528  5152  gbak:    writing domain RDB$260 
+09:29:00.528  5152  gbak:    writing domain RDB$261 
+09:29:00.528  5152  gbak:    writing domain RDB$262 
+09:29:00.528  5152  gbak:    writing domain RDB$263 
+09:29:00.528  5152  gbak:    writing domain RDB$264 
+09:29:00.528  5152  gbak:    writing domain RDB$265 
+09:29:00.528  5152  gbak:    writing domain RDB$266 
+09:29:00.528  5152  gbak:    writing domain RDB$267 
+09:29:00.528  5152  gbak:    writing domain RDB$268 
+09:29:00.528  5152  gbak:    writing domain RDB$269 
+09:29:00.528  5152  gbak:    writing domain RDB$270 
+09:29:00.528  5152  gbak:    writing domain RDB$271 
+09:29:00.528  5152  gbak:    writing domain RDB$272 
+09:29:00.528  5152  gbak:    writing domain RDB$273 
+09:29:00.528  5152  gbak:    writing domain RDB$274 
+09:29:00.528  5152  gbak:    writing domain RDB$275 
+09:29:00.528  5152  gbak:    writing domain RDB$276 
+09:29:00.528  5152  gbak:    writing domain RDB$277 
+09:29:00.528  5152  gbak:    writing domain RDB$278 
+09:29:00.528  5152  gbak:    writing domain RDB$279 
+09:29:00.528  5152  gbak:    writing domain RDB$280 
+09:29:00.528  5152  gbak:    writing domain RDB$281 
+09:29:00.528  5152  gbak:    writing domain RDB$282 
+09:29:00.544  5152  gbak:    writing domain RDB$283 
+09:29:00.544  5152  gbak:    writing domain RDB$284 
+09:29:00.560  5152  gbak:    writing domain RDB$285 
+09:29:00.560  5152  gbak:    writing domain RDB$286 
+09:29:00.560  5152  gbak:    writing domain RDB$287 
+09:29:00.560  5152  gbak:    writing domain RDB$288 
+09:29:00.560  5152  gbak:    writing domain RDB$289 
+09:29:00.560  5152  gbak:    writing domain RDB$290 
+09:29:00.560  5152  gbak:    writing domain RDB$291 
+09:29:00.560  5152  gbak:    writing domain RDB$292 
+09:29:00.560  5152  gbak:    writing domain RDB$293 
+09:29:00.560  5152  gbak:    writing domain RDB$294 
+09:29:00.560  5152  gbak:    writing domain RDB$295 
+09:29:00.560  5152  gbak:    writing domain RDB$296 
+09:29:00.560  5152  gbak:    writing domain RDB$297 
+09:29:00.560  5152  gbak:    writing domain RDB$298 
+09:29:00.560  5152  gbak:    writing domain RDB$299 
+09:29:00.560  5152  gbak:    writing domain RDB$300 
+09:29:00.560  5152  gbak:    writing domain RDB$301 
+09:29:00.560  5152  gbak:    writing domain RDB$302 
+09:29:00.560  5152  gbak:    writing domain RDB$303 
+09:29:00.560  5152  gbak:    writing domain RDB$304 
+09:29:00.560  5152  gbak:    writing domain RDB$305 
+09:29:00.560  5152  gbak:    writing domain RDB$306 
+09:29:00.560  5152  gbak:    writing domain RDB$307 
+09:29:00.560  5152  gbak:    writing domain RDB$308 
+09:29:00.560  5152  gbak:    writing domain RDB$309 
+09:29:00.560  5152  gbak:    writing domain RDB$310 
+09:29:00.560  5152  gbak:    writing domain RDB$311 
+09:29:00.560  5152  gbak:    writing domain RDB$312 
+09:29:00.560  5152  gbak:    writing domain RDB$313 
+09:29:00.560  5152  gbak:    writing domain RDB$314 
+09:29:00.560  5152  gbak:    writing domain RDB$315 
+09:29:00.560  5152  gbak:    writing domain RDB$316 
+09:29:00.575  5152  gbak:    writing domain RDB$317 
+09:29:00.575  5152  gbak:    writing domain RDB$318 
+09:29:00.575  5152  gbak:    writing domain RDB$319 
+09:29:00.575  5152  gbak:    writing domain RDB$320 
+09:29:00.575  5152  gbak:    writing domain RDB$321 
+09:29:00.591  5152  gbak:    writing domain RDB$322 
+09:29:00.591  5152  gbak:    writing domain RDB$323 
+09:29:00.591  5152  gbak:    writing domain RDB$324 
+09:29:00.591  5152  gbak:    writing domain RDB$325 
+09:29:00.591  5152  gbak:    writing domain RDB$326 
+09:29:00.591  5152  gbak:    writing domain RDB$327 
+09:29:00.591  5152  gbak:    writing domain RDB$328 
+09:29:00.591  5152  gbak:    writing domain RDB$329 
+09:29:00.591  5152  gbak:    writing domain RDB$330 
+09:29:00.591  5152  gbak:    writing domain RDB$331 
+09:29:00.591  5152  gbak:    writing domain RDB$332 
+09:29:00.591  5152  gbak:    writing domain RDB$333 
+09:29:00.591  5152  gbak:    writing domain RDB$334 
+09:29:00.591  5152  gbak:    writing domain RDB$335 
+09:29:00.591  5152  gbak:    writing domain RDB$336 
+09:29:00.591  5152  gbak:    writing domain RDB$337 
+09:29:00.591  5152  gbak:    writing domain RDB$338 
+09:29:00.591  5152  gbak:    writing domain RDB$339 
+09:29:00.591  5152  gbak:    writing domain RDB$340 
+09:29:00.591  5152  gbak:    writing domain RDB$341 
+09:29:00.591  5152  gbak:    writing domain RDB$342 
+09:29:00.591  5152  gbak:    writing domain RDB$343 
+09:29:00.591  5152  gbak:    writing domain RDB$344 
+09:29:00.591  5152  gbak:    writing domain RDB$345 
+09:29:00.591  5152  gbak:    writing domain RDB$346 
+09:29:00.591  5152  gbak:    writing domain RDB$347 
+09:29:00.591  5152  gbak:    writing domain RDB$348 
+09:29:00.591  5152  gbak:    writing domain RDB$349 
+09:29:00.591  5152  gbak:    writing domain RDB$350 
+09:29:00.591  5152  gbak:    writing domain RDB$351 
+09:29:00.591  5152  gbak:    writing domain RDB$352 
+09:29:00.591  5152  gbak:    writing domain RDB$353 
+09:29:00.591  5152  gbak:    writing domain RDB$354 
+09:29:00.591  5152  gbak:    writing domain RDB$355 
+09:29:00.591  5152  gbak:    writing domain RDB$356 
+09:29:00.591  5152  gbak:    writing domain RDB$357 
+09:29:00.591  5152  gbak:    writing domain RDB$358 
+09:29:00.591  5152  gbak:    writing domain RDB$359 
+09:29:00.591  5152  gbak:    writing domain RDB$360 
+09:29:00.606  5152  gbak:    writing domain RDB$361 
+09:29:00.606  5152  gbak:    writing domain RDB$362 
+09:29:00.606  5152  gbak:    writing domain RDB$363 
+09:29:00.606  5152  gbak:    writing domain RDB$364 
+09:29:00.606  5152  gbak:    writing domain RDB$365 
+09:29:00.606  5152  gbak:    writing domain RDB$366 
+09:29:00.606  5152  gbak:    writing domain RDB$367 
+09:29:00.606  5152  gbak:    writing domain RDB$368 
+09:29:00.606  5152  gbak:    writing domain RDB$369 
+09:29:00.606  5152  gbak:    writing domain RDB$370 
+09:29:00.606  5152  gbak:    writing domain RDB$371 
+09:29:00.606  5152  gbak:    writing domain RDB$372 
+09:29:00.606  5152  gbak:    writing domain RDB$373 
+09:29:00.606  5152  gbak:    writing domain RDB$374 
+09:29:00.606  5152  gbak:    writing domain RDB$375 
+09:29:00.606  5152  gbak:    writing domain RDB$376 
+09:29:00.606  5152  gbak:    writing domain RDB$377 
+09:29:00.606  5152  gbak:    writing domain RDB$378 
+09:29:00.606  5152  gbak:    writing domain RDB$379 
+09:29:00.606  5152  gbak:    writing domain RDB$380 
+09:29:00.606  5152  gbak:    writing domain RDB$381 
+09:29:00.606  5152  gbak:    writing domain RDB$382 
+09:29:00.606  5152  gbak:    writing domain RDB$383 
+09:29:00.606  5152  gbak:    writing domain RDB$384 
+09:29:00.606  5152  gbak:    writing domain RDB$385 
+09:29:00.606  5152  gbak:    writing domain RDB$386 
+09:29:00.606  5152  gbak:    writing domain RDB$387 
+09:29:00.606  5152  gbak:    writing domain RDB$388 
+09:29:00.606  5152  gbak:    writing domain RDB$389 
+09:29:00.606  5152  gbak:    writing domain RDB$390 
+09:29:00.606  5152  gbak:    writing domain RDB$391 
+09:29:00.622  5152  gbak:    writing domain RDB$392 
+09:29:00.622  5152  gbak:    writing domain RDB$393 
+09:29:00.638  5152  gbak:    writing domain RDB$394 
+09:29:00.638  5152  gbak:    writing domain RDB$395 
+09:29:00.638  5152  gbak:    writing domain RDB$396 
+09:29:00.638  5152  gbak:    writing domain RDB$397 
+09:29:00.638  5152  gbak:    writing domain RDB$398 
+09:29:00.638  5152  gbak:    writing domain RDB$399 
+09:29:00.638  5152  gbak:    writing domain RDB$400 
+09:29:00.638  5152  gbak:    writing domain RDB$401 
+09:29:00.638  5152  gbak:    writing domain RDB$402 
+09:29:00.638  5152  gbak:    writing domain RDB$403 
+09:29:00.638  5152  gbak:    writing domain RDB$404 
+09:29:00.638  5152  gbak:    writing domain RDB$405 
+09:29:00.638  5152  gbak:    writing domain RDB$406 
+09:29:00.638  5152  gbak:    writing domain RDB$407 
+09:29:00.638  5152  gbak:    writing domain RDB$408 
+09:29:00.638  5152  gbak:    writing domain RDB$409 
+09:29:00.638  5152  gbak:    writing domain RDB$410 
+09:29:00.638  5152  gbak:    writing domain RDB$411 
+09:29:00.638  5152  gbak:    writing domain RDB$412 
+09:29:00.638  5152  gbak:    writing domain RDB$413 
+09:29:00.638  5152  gbak:    writing domain RDB$414 
+09:29:00.638  5152  gbak:    writing domain RDB$415 
+09:29:00.638  5152  gbak:    writing domain RDB$416 
+09:29:00.638  5152  gbak:    writing domain RDB$417 
+09:29:00.638  5152  gbak:    writing domain RDB$418 
+09:29:00.638  5152  gbak:    writing domain RDB$419 
+09:29:00.638  5152  gbak:    writing domain RDB$420 
+09:29:00.638  5152  gbak:    writing domain RDB$421 
+09:29:00.638  5152  gbak:    writing domain RDB$422 
+09:29:00.638  5152  gbak:writing shadow files 
+09:29:00.638  5152  gbak:writing character sets 
+09:29:00.638  5152  gbak:writing collations 
+09:29:00.653  5152  gbak:writing functions 
+09:29:00.669  5152  gbak:writing tables 
+09:29:00.669  5152  gbak:    writing table ASSIGNEES 
+09:29:00.669  5152  gbak:         writing column IDTASK 
+09:29:00.669  5152  gbak:         writing column IDCONTACT 
+09:29:00.669  5152  gbak:    writing table ATTACHMENTS 
+09:29:00.669  5152  gbak:         writing column IDATTACHMENT 
+09:29:00.669  5152  gbak:         writing column IDPARENT 
+09:29:00.669  5152  gbak:         writing column LASTCHANGED 
+09:29:00.669  5152  gbak:         writing column DATA 
+09:29:00.669  5152  gbak:         writing column FILENAME 
+09:29:00.669  5152  gbak:    writing table CATEGORIES 
+09:29:00.669  5152  gbak:         writing column LASTCHANGED 
+09:29:00.669  5152  gbak:         writing column IDCATEGORY 
+09:29:00.669  5152  gbak:         writing column COLOR 
+09:29:00.669  5152  gbak:         writing column NAME 
+09:29:00.669  5152  gbak:         writing column CATEGORYINDEX 
+09:29:00.669  5152  gbak:    writing table CONTACTFIELDS 
+09:29:00.669  5152  gbak:         writing column LASTCHANGED 
+09:29:00.669  5152  gbak:         writing column IDFIELD 
+09:29:00.669  5152  gbak:         writing column TASKCATEGORY 
+09:29:00.669  5152  gbak:         writing column ENABLED 
+09:29:00.669  5152  gbak:         writing column NAME 
+09:29:00.669  5152  gbak:         writing column GRINDEX 
+09:29:00.669  5152  gbak:         writing column FIELDTYPE 
+09:29:00.669  5152  gbak:         writing column SHOWATBOTTOM 
+09:29:00.669  5152  gbak:         writing column DEFFIELDINDEX 
+09:29:00.669  5152  gbak:         writing column FIELDVALUES 
+09:29:00.684  5152  gbak:    writing table CONTACTFIELDUSERDATA 
+09:29:00.700  5152  gbak:         writing column IDFIELD 
+09:29:00.700  5152  gbak:         writing column IDUSER 
+09:29:00.700  5152  gbak:         writing column FIELDINDEX 
+09:29:00.700  5152  gbak:    writing table CONTACTS 
+09:29:00.700  5152  gbak:         writing column IDCONTACT 
+09:29:00.700  5152  gbak:         writing column READACCESS 
+09:29:00.700  5152  gbak:         writing column WRITEACCESS 
+09:29:00.700  5152  gbak:         writing column CREATED 
+09:29:00.700  5152  gbak:         writing column LASTCHANGED 
+09:29:00.700  5152  gbak:         writing column DELETED 
+09:29:00.700  5152  gbak:         writing column FIELDSDATA2 
+09:29:00.700  5152  gbak:         writing column PICTURE 
+09:29:00.700  5152  gbak:         writing column IDCREATOR 
+09:29:00.700  5152  gbak:         writing column IDEDITOR 
+09:29:00.700  5152  gbak:         writing column STATUS 
+09:29:00.700  5152  gbak:         writing column SUBJECT 
+09:29:00.700  5152  gbak:         writing column COLLADR 
+09:29:00.700  5152  gbak:         writing column FIELDSDATA 
+09:29:00.700  5152  gbak:         writing column TAGS 
+09:29:00.700  5152  gbak:         writing column PATH 
+09:29:00.700  5152  gbak:    writing table CONTACTUSERDATA 
+09:29:00.700  5152  gbak:         writing column IDCONTACT 
+09:29:00.700  5152  gbak:         writing column IDUSER 
+09:29:00.700  5152  gbak:         writing column SELPAGE 
+09:29:00.700  5152  gbak:    writing table DBPARAMS 
+09:29:00.700  5152  gbak:         writing column PASSWORDHASH 
+09:29:00.700  5152  gbak:         writing column ID 
+09:29:00.716  5152  gbak:         writing column DBVERSION 
+09:29:00.731  5152  gbak:         writing column DBSUBVERSION 
+09:29:00.731  5152  gbak:         writing column CRYPTOALG 
+09:29:00.731  5152  gbak:         writing column DBVERSIONS 
+09:29:00.731  5152  gbak:    writing table FIELDS 
+09:29:00.731  5152  gbak:         writing column IDPARENT 
+09:29:00.731  5152  gbak:         writing column IDFIELD 
+09:29:00.731  5152  gbak:         writing column IDTABLE 
+09:29:00.731  5152  gbak:         writing column IDUSER 
+09:29:00.731  5152  gbak:         writing column VISIBLE 
+09:29:00.731  5152  gbak:         writing column WIDTH 
+09:29:00.731  5152  gbak:         writing column FIELDINDEX 
+09:29:00.731  5152  gbak:    writing table GROUPS 
+09:29:00.731  5152  gbak:         writing column IDCONTACT 
+09:29:00.731  5152  gbak:         writing column IDPARENT 
+09:29:00.731  5152  gbak:         writing column READACCESS 
+09:29:00.731  5152  gbak:         writing column WRITEACCESS 
+09:29:00.731  5152  gbak:         writing column CREATED 
+09:29:00.731  5152  gbak:         writing column LASTCHANGED 
+09:29:00.731  5152  gbak:         writing column DELETED 
+09:29:00.731  5152  gbak:         writing column FIELDSDATA2 
+09:29:00.731  5152  gbak:         writing column PICTURE 
+09:29:00.731  5152  gbak:         writing column IDCREATOR 
+09:29:00.731  5152  gbak:         writing column IDEDITOR 
+09:29:00.731  5152  gbak:         writing column STATUS 
+09:29:00.731  5152  gbak:         writing column SUBJECT 
+09:29:00.731  5152  gbak:         writing column COLLADR 
+09:29:00.731  5152  gbak:         writing column FIELDSDATA 
+09:29:00.747  5152  gbak:         writing column TAGS 
+09:29:00.762  5152  gbak:         writing column PATH 
+09:29:00.762  5152  gbak:    writing table GROUPUSERDATA 
+09:29:00.762  5152  gbak:         writing column IDCONTACT 
+09:29:00.762  5152  gbak:         writing column IDUSER 
+09:29:00.762  5152  gbak:         writing column GROUPINDEX 
+09:29:00.762  5152  gbak:         writing column EXPANDED 
+09:29:00.762  5152  gbak:    writing table LINKS 
+09:29:00.762  5152  gbak:         writing column IDITEM 
+09:29:00.762  5152  gbak:         writing column IDLINK 
+09:29:00.762  5152  gbak:         writing column LINK 
+09:29:00.762  5152  gbak:    writing table MAILACCOUNTS 
+09:29:00.762  5152  gbak:         writing column LASTCHANGED 
+09:29:00.762  5152  gbak:         writing column IDACCOUNT 
+09:29:00.762  5152  gbak:         writing column IDIDENTITY 
+09:29:00.762  5152  gbak:         writing column INPORT 
+09:29:00.762  5152  gbak:         writing column IDOUTSERVER 
+09:29:00.762  5152  gbak:         writing column INBOXFOLDER 
+09:29:00.762  5152  gbak:         writing column OUTBOXFOLDER 
+09:29:00.762  5152  gbak:         writing column SENTFOLDER 
+09:29:00.762  5152  gbak:         writing column DELFOLDER 
+09:29:00.762  5152  gbak:         writing column DRAFTSFOLDER 
+09:29:00.762  5152  gbak:         writing column TEMPLATESFOLDER 
+09:29:00.762  5152  gbak:         writing column IDUSER 
+09:29:00.762  5152  gbak:         writing column NAME 
+09:29:00.762  5152  gbak:         writing column INPROTOCOL 
+09:29:00.762  5152  gbak:         writing column INSERVER 
+09:29:00.762  5152  gbak:         writing column INSSL 
+09:29:00.794  5152  gbak:         writing column INLOGIN 
+09:29:00.794  5152  gbak:         writing column TIMEOUT 
+09:29:00.794  5152  gbak:         writing column CHECKSTARTUP 
+09:29:00.794  5152  gbak:         writing column CHECKEVERY 
+09:29:00.794  5152  gbak:         writing column LEAVEMSG 
+09:29:00.794  5152  gbak:         writing column USEGLOBALFOLDERS 
+09:29:00.794  5152  gbak:         writing column INRECEIVINGALL 
+09:29:00.794  5152  gbak:         writing column EXPANDED 
+09:29:00.794  5152  gbak:         writing column ACCOUNTINDEX 
+09:29:00.794  5152  gbak:         writing column EMPTYTRASHONEXIT 
+09:29:00.794  5152  gbak:    writing table MAILFOLDERS 
+09:29:00.794  5152  gbak:         writing column LASTCHANGED 
+09:29:00.794  5152  gbak:         writing column IDFOLDER 
+09:29:00.794  5152  gbak:         writing column IDPARENT 
+09:29:00.794  5152  gbak:         writing column IDACCOUNT 
+09:29:00.794  5152  gbak:         writing column LASTUID 
+09:29:00.794  5152  gbak:         writing column IDUSER 
+09:29:00.794  5152  gbak:         writing column NAME 
+09:29:00.794  5152  gbak:         writing column EXPANDED 
+09:29:00.794  5152  gbak:         writing column FOLDERINDEX 
+09:29:00.794  5152  gbak:         writing column SYNCTYPE 
+09:29:00.794  5152  gbak:         writing column INTODAY 
+09:29:00.794  5152  gbak:    writing table MAILIDENTITIES 
+09:29:00.794  5152  gbak:         writing column LASTCHANGED 
+09:29:00.794  5152  gbak:         writing column IDIDENTITY 
+09:29:00.794  5152  gbak:         writing column IDACCOUNT 
+09:29:00.809  5152  gbak:         writing column IDUSER 
+09:29:00.825  5152  gbak:         writing column USERNAME 
+09:29:00.825  5152  gbak:         writing column ORGANIZATION 
+09:29:00.825  5152  gbak:         writing column EMAIL 
+09:29:00.825  5152  gbak:         writing column REPLY 
+09:29:00.825  5152  gbak:         writing column SIGNATURE 
+09:29:00.825  5152  gbak:         writing column SIGNATUREHTML 
+09:29:00.825  5152  gbak:    writing table MAILSMTPSERVERS 
+09:29:00.825  5152  gbak:         writing column LASTCHANGED 
+09:29:00.825  5152  gbak:         writing column IDSERVER 
+09:29:00.825  5152  gbak:         writing column PORT 
+09:29:00.825  5152  gbak:         writing column IDUSER 
+09:29:00.825  5152  gbak:         writing column SERVER 
+09:29:00.825  5152  gbak:         writing column SSL 
+09:29:00.825  5152  gbak:         writing column LOGIN 
+09:29:00.825  5152  gbak:    writing table MESSAGES 
+09:29:00.825  5152  gbak:         writing column IDMESSAGE 
+09:29:00.825  5152  gbak:         writing column IDPARENT 
+09:29:00.825  5152  gbak:         writing column CREATED 
+09:29:00.825  5152  gbak:         writing column LASTCHANGED 
+09:29:00.825  5152  gbak:         writing column HEADERS 
+09:29:00.825  5152  gbak:         writing column BODY 
+09:29:00.825  5152  gbak:         writing column BODYTEXT 
+09:29:00.825  5152  gbak:         writing column SENT 
+09:29:00.825  5152  gbak:         writing column RECEIVED 
+09:29:00.825  5152  gbak:         writing column IDFOLDER 
+09:29:00.825  5152  gbak:         writing column IDACCOUNT 
+09:29:00.825  5152  gbak:         writing column MSGSIZE 
+09:29:00.840  5152  gbak:         writing column IDUSER 
+09:29:00.856  5152  gbak:         writing column SUBJECT 
+09:29:00.856  5152  gbak:         writing column STATUS 
+09:29:00.856  5152  gbak:         writing column UNREAD 
+09:29:00.856  5152  gbak:         writing column CHARSET 
+09:29:00.856  5152  gbak:         writing column FLAGGED 
+09:29:00.856  5152  gbak:         writing column TAGS 
+09:29:00.856  5152  gbak:         writing column PGPFLAGS 
+09:29:00.856  5152  gbak:         writing column MDNSENT 
+09:29:00.856  5152  gbak:         writing column IDMESSAGESTR 
+09:29:00.856  5152  gbak:         writing column IDTHREAD 
+09:29:00.856  5152  gbak:    writing table MESSAGEEMAILS 
+09:29:00.856  5152  gbak:         writing column IDMESSAGE 
+09:29:00.856  5152  gbak:         writing column IDUSER 
+09:29:00.856  5152  gbak:         writing column EMAIL 
+09:29:00.856  5152  gbak:         writing column EMAILTYPE 
+09:29:00.856  5152  gbak:    writing table MAILRULES 
+09:29:00.856  5152  gbak:         writing column LASTCHANGED 
+09:29:00.856  5152  gbak:         writing column IDRULE 
+09:29:00.856  5152  gbak:         writing column IDUSER 
+09:29:00.856  5152  gbak:         writing column NAME 
+09:29:00.856  5152  gbak:         writing column ENABLED 
+09:29:00.856  5152  gbak:         writing column APPLYALL 
+09:29:00.856  5152  gbak:         writing column RULEINDEX 
+09:29:00.856  5152  gbak:    writing table MAILRULECONDITIONS 
+09:29:00.856  5152  gbak:         writing column IDRULE 
+09:29:00.856  5152  gbak:         writing column IDCONDITION 
+09:29:00.856  5152  gbak:         writing column IDUSER 
+09:29:00.872  5152  gbak:         writing column FIELD 
+09:29:00.872  5152  gbak:         writing column NCHECK 
+09:29:00.872  5152  gbak:         writing column TEXT 
+09:29:00.887  5152  gbak:    writing table MAILRULEACTIONS 
+09:29:00.887  5152  gbak:         writing column IDRULE 
+09:29:00.887  5152  gbak:         writing column IDFOLDER 
+09:29:00.887  5152  gbak:         writing column IDUSER 
+09:29:00.887  5152  gbak:         writing column NACTION 
+09:29:00.887  5152  gbak:    writing table NOTES 
+09:29:00.887  5152  gbak:         writing column IDNOTE 
+09:29:00.887  5152  gbak:         writing column IDPARENT 
+09:29:00.887  5152  gbak:         writing column READACCESS 
+09:29:00.887  5152  gbak:         writing column WRITEACCESS 
+09:29:00.887  5152  gbak:         writing column CREATED 
+09:29:00.887  5152  gbak:         writing column LASTCHANGED 
+09:29:00.887  5152  gbak:         writing column DELETED 
+09:29:00.887  5152  gbak:         writing column ICONINDEX 
+09:29:00.887  5152  gbak:         writing column IDNOTETREE 
+09:29:00.887  5152  gbak:         writing column IDCREATOR 
+09:29:00.887  5152  gbak:         writing column IDEDITOR 
+09:29:00.887  5152  gbak:         writing column STATUS 
+09:29:00.887  5152  gbak:         writing column TITLE 
+09:29:00.887  5152  gbak:         writing column TAGS 
+09:29:00.887  5152  gbak:         writing column PATH 
+09:29:00.887  5152  gbak:    writing table NOTEUSERDATA 
+09:29:00.887  5152  gbak:         writing column IDNOTE 
+09:29:00.887  5152  gbak:         writing column SELECTEDTAB 
+09:29:00.887  5152  gbak:         writing column STRECT 
+09:29:00.887  5152  gbak:         writing column STCOLOR 
+09:29:00.887  5152  gbak:         writing column IDUSER 
+09:29:00.903  5152  gbak:         writing column EXPANDED 
+09:29:00.918  5152  gbak:         writing column NOTEINDEX 
+09:29:00.918  5152  gbak:         writing column STICKY 
+09:29:00.918  5152  gbak:         writing column STONTOP 
+09:29:00.918  5152  gbak:    writing table NOTETABS 
+09:29:00.918  5152  gbak:         writing column IDNOTETAB 
+09:29:00.918  5152  gbak:         writing column IDNOTE 
+09:29:00.918  5152  gbak:         writing column READACCESS 
+09:29:00.918  5152  gbak:         writing column WRITEACCESS 
+09:29:00.918  5152  gbak:         writing column CREATED 
+09:29:00.918  5152  gbak:         writing column LASTCHANGED 
+09:29:00.918  5152  gbak:         writing column DELETED 
+09:29:00.918  5152  gbak:         writing column TEXT2 
+09:29:00.918  5152  gbak:         writing column FORMATEDTEXT 
+09:29:00.918  5152  gbak:         writing column COLOR 
+09:29:00.918  5152  gbak:         writing column IDCREATOR 
+09:29:00.918  5152  gbak:         writing column IDEDITOR 
+09:29:00.918  5152  gbak:         writing column STATUS 
+09:29:00.918  5152  gbak:         writing column NAME 
+09:29:00.918  5152  gbak:         writing column TEXT 
+09:29:00.918  5152  gbak:         writing column PATH 
+09:29:00.918  5152  gbak:    writing table NOTETABUSERDATA 
+09:29:00.918  5152  gbak:         writing column IDNOTETAB 
+09:29:00.918  5152  gbak:         writing column CARPOS 
+09:29:00.918  5152  gbak:         writing column IDUSER 
+09:29:00.918  5152  gbak:         writing column TABINDEX 
+09:29:00.918  5152  gbak:    writing table NOTETREES 
+09:29:00.918  5152  gbak:         writing column READACCESS 
+09:29:00.934  5152  gbak:         writing column WRITEACCESS 
+09:29:00.950  5152  gbak:         writing column LASTCHANGED 
+09:29:00.950  5152  gbak:         writing column IDNOTETREE 
+09:29:00.950  5152  gbak:         writing column COLOR 
+09:29:00.950  5152  gbak:         writing column IDEDITOR 
+09:29:00.950  5152  gbak:         writing column NAME 
+09:29:00.950  5152  gbak:    writing table NOTETREEUSERDATA 
+09:29:00.950  5152  gbak:         writing column SELECTEDNOTE 
+09:29:00.950  5152  gbak:         writing column IDNOTETREE 
+09:29:00.950  5152  gbak:         writing column IDUSER 
+09:29:00.950  5152  gbak:         writing column TREEINDEX 
+09:29:00.950  5152  gbak:    writing table NOTEICONS 
+09:29:00.950  5152  gbak:         writing column LASTCHANGED 
+09:29:00.950  5152  gbak:         writing column ICON 
+09:29:00.950  5152  gbak:         writing column IDNOTEICON 
+09:29:00.950  5152  gbak:    writing table PARAMS 
+09:29:00.950  5152  gbak:         writing column TASKSHIDECAT 
+09:29:00.950  5152  gbak:         writing column TODOSHIDECAT 
+09:29:00.950  5152  gbak:         writing column CONTPRINTFIELDS 
+09:29:00.950  5152  gbak:         writing column SECDATA 
+09:29:00.950  5152  gbak:         writing column TODAYHIDECAT 
+09:29:00.950  5152  gbak:         writing column MAILDEFACCOUNT 
+09:29:00.950  5152  gbak:         writing column IDUSER 
+09:29:00.950  5152  gbak:         writing column VIEWMODE 
+09:29:00.950  5152  gbak:         writing column TASKSVIEWMODE 
+09:29:00.950  5152  gbak:         writing column TASKSTIMESCALE 
+09:29:00.950  5152  gbak:         writing column TASKSWVTIMESCALE 
+09:29:00.965  5152  gbak:         writing column TASKSHIDECOMPL 
+09:29:00.981  5152  gbak:         writing column TODOSVIEWMODE 
+09:29:00.981  5152  gbak:         writing column TODOSHIDECOMPL 
+09:29:00.981  5152  gbak:         writing column MAILHIDEREAD 
+09:29:00.981  5152  gbak:         writing column DROPBOXNAME 
+09:29:00.981  5152  gbak:         writing column DROPBOXREVISION 
+09:29:00.981  5152  gbak:         writing column DROPBOXTOKEN 
+09:29:00.981  5152  gbak:         writing column DROPBOXTOKENSECRET 
+09:29:00.981  5152  gbak:    writing table PASSENTRYFIELDS 
+09:29:00.981  5152  gbak:         writing column LASTCHANGED 
+09:29:00.981  5152  gbak:         writing column IDFIELD 
+09:29:00.981  5152  gbak:         writing column ENABLED 
+09:29:00.981  5152  gbak:         writing column NAME 
+09:29:00.981  5152  gbak:         writing column DEFFIELDINDEX 
+09:29:00.981  5152  gbak:    writing table PASSENTRYFIELDUSERDATA 
+09:29:00.981  5152  gbak:         writing column IDFIELD 
+09:29:00.981  5152  gbak:         writing column IDUSER 
+09:29:00.981  5152  gbak:         writing column FIELDINDEX 
+09:29:00.981  5152  gbak:    writing table PASSENTRIES 
+09:29:00.981  5152  gbak:         writing column IDPASSENTRY 
+09:29:00.981  5152  gbak:         writing column READACCESS 
+09:29:00.981  5152  gbak:         writing column WRITEACCESS 
+09:29:00.981  5152  gbak:         writing column CREATED 
+09:29:00.981  5152  gbak:         writing column LASTCHANGED 
+09:29:00.981  5152  gbak:         writing column DELETED 
+09:29:00.981  5152  gbak:         writing column FIELDSDATA2 
+09:29:00.996  5152  gbak:         writing column IDCREATOR 
+09:29:00.996  5152  gbak:         writing column IDEDITOR 
+09:29:00.996  5152  gbak:         writing column STATUS 
+09:29:00.996  5152  gbak:         writing column SUBJECT 
+09:29:00.996  5152  gbak:         writing column FIELDSDATA 
+09:29:00.996  5152  gbak:         writing column TAGS 
+09:29:00.996  5152  gbak:         writing column PATH 
+09:29:00.996  5152  gbak:    writing table PASSENTRYUSERDATA 
+09:29:01.012  5152  gbak:         writing column IDPASSENTRY 
+09:29:01.012  5152  gbak:         writing column IDUSER 
+09:29:01.012  5152  gbak:         writing column SELPAGE 
+09:29:01.012  5152  gbak:    writing table PASSGROUPS 
+09:29:01.012  5152  gbak:         writing column IDPASSGROUP 
+09:29:01.012  5152  gbak:         writing column IDPARENT 
+09:29:01.012  5152  gbak:         writing column READACCESS 
+09:29:01.012  5152  gbak:         writing column WRITEACCESS 
+09:29:01.012  5152  gbak:         writing column CREATED 
+09:29:01.012  5152  gbak:         writing column LASTCHANGED 
+09:29:01.012  5152  gbak:         writing column DELETED 
+09:29:01.012  5152  gbak:         writing column ICONINDEX 
+09:29:01.012  5152  gbak:         writing column IDCREATOR 
+09:29:01.012  5152  gbak:         writing column IDEDITOR 
+09:29:01.012  5152  gbak:         writing column STATUS 
+09:29:01.012  5152  gbak:         writing column SUBJECT 
+09:29:01.012  5152  gbak:         writing column PATH 
+09:29:01.012  5152  gbak:    writing table PASSGROUPUSERDATA 
+09:29:01.012  5152  gbak:         writing column IDPASSGROUP 
+09:29:01.012  5152  gbak:         writing column IDUSER 
+09:29:01.012  5152  gbak:         writing column GROUPINDEX 
+09:29:01.012  5152  gbak:         writing column EXPANDED 
+09:29:01.012  5152  gbak:    writing table PGPKEYS 
+09:29:01.012  5152  gbak:         writing column IDKEY 
+09:29:01.012  5152  gbak:         writing column LASTCHANGED 
+09:29:01.012  5152  gbak:         writing column PUBLICDATA 
+09:29:01.028  5152  gbak:         writing column PRIVATEDATA 
+09:29:01.028  5152  gbak:         writing column IDUSER 
+09:29:01.043  5152  gbak:         writing column EMAILS 
+09:29:01.043  5152  gbak:    writing table REMINDERS 
+09:29:01.043  5152  gbak:         writing column IDTASK 
+09:29:01.043  5152  gbak:         writing column SHOWTIME 
+09:29:01.043  5152  gbak:         writing column IDREMINDER 
+09:29:01.043  5152  gbak:         writing column IDFIELD 
+09:29:01.043  5152  gbak:         writing column ITEMTYPE 
+09:29:01.043  5152  gbak:         writing column SOUNDTYPE 
+09:29:01.043  5152  gbak:         writing column SOUNDFILE 
+09:29:01.043  5152  gbak:         writing column MESSAGETYPE 
+09:29:01.043  5152  gbak:         writing column MESSAGETEXT 
+09:29:01.043  5152  gbak:         writing column RUNPROGRAM 
+09:29:01.043  5152  gbak:    writing table REMINDERUSERDATA 
+09:29:01.043  5152  gbak:         writing column SHOWTIME 
+09:29:01.043  5152  gbak:         writing column IDREMINDER 
+09:29:01.043  5152  gbak:         writing column IDUSER 
+09:29:01.043  5152  gbak:         writing column STATUS 
+09:29:01.043  5152  gbak:         writing column REMINDIN 
+09:29:01.043  5152  gbak:    writing table REPEATINFO 
+09:29:01.043  5152  gbak:         writing column IDTASK 
+09:29:01.043  5152  gbak:         writing column ENDDATE 
+09:29:01.043  5152  gbak:         writing column REPEATTYPE 
+09:29:01.043  5152  gbak:         writing column REPEATENDTYPE 
+09:29:01.043  5152  gbak:         writing column OCCURCOUNT 
+09:29:01.043  5152  gbak:         writing column NUMBER 
+09:29:01.043  5152  gbak:         writing column NDAY 
+09:29:01.043  5152  gbak:         writing column WEEKMASK 
+09:29:01.074  5152  gbak:         writing column WEEKNUMBER 
+09:29:01.074  5152  gbak:         writing column NWEEKDAY 
+09:29:01.074  5152  gbak:         writing column NMONTH 
+09:29:01.074  5152  gbak:         writing column REGENERATE 
+09:29:01.074  5152  gbak:    writing table RECEIVEDMESSAGES 
+09:29:01.074  5152  gbak:         writing column RECDATE 
+09:29:01.074  5152  gbak:         writing column IDACCOUNT 
+09:29:01.074  5152  gbak:         writing column MSGSIZE 
+09:29:01.074  5152  gbak:         writing column IDUSER 
+09:29:01.074  5152  gbak:         writing column IDMESSAGE 
+09:29:01.074  5152  gbak:    writing table SYNCINFO 
+09:29:01.074  5152  gbak:         writing column IDRECORD 
+09:29:01.074  5152  gbak:         writing column IDLOCALRECORD 
+09:29:01.074  5152  gbak:         writing column LASTCHANGED 
+09:29:01.074  5152  gbak:         writing column IDDEVICE 
+09:29:01.074  5152  gbak:         writing column IDDATABASE 
+09:29:01.074  5152  gbak:         writing column HASH 
+09:29:01.074  5152  gbak:         writing column TAG 
+09:29:01.074  5152  gbak:         writing column IDUSER 
+09:29:01.074  5152  gbak:         writing column SYNCTYPE 
+09:29:01.074  5152  gbak:         writing column IDSTR 
+09:29:01.074  5152  gbak:    writing table TASKFIELDS 
+09:29:01.074  5152  gbak:         writing column LASTCHANGED 
+09:29:01.074  5152  gbak:         writing column IDFIELD 
+09:29:01.074  5152  gbak:         writing column ITEMTYPE 
+09:29:01.074  5152  gbak:         writing column NAME 
+09:29:01.074  5152  gbak:    writing table TASKFIELDUSERDATA 
+09:29:01.090  5152  gbak:         writing column IDFIELD 
+09:29:01.106  5152  gbak:         writing column IDUSER 
+09:29:01.106  5152  gbak:         writing column FIELDINDEX 
+09:29:01.106  5152  gbak:    writing table TASKS 
+09:29:01.106  5152  gbak:         writing column IDTASK 
+09:29:01.106  5152  gbak:         writing column IDPARENT 
+09:29:01.106  5152  gbak:         writing column READACCESS 
+09:29:01.106  5152  gbak:         writing column WRITEACCESS 
+09:29:01.106  5152  gbak:         writing column CREATED 
+09:29:01.106  5152  gbak:         writing column LASTCHANGED 
+09:29:01.106  5152  gbak:         writing column DELETED 
+09:29:01.106  5152  gbak:         writing column STARTTIME 
+09:29:01.106  5152  gbak:         writing column ENDTIME 
+09:29:01.106  5152  gbak:         writing column TEXT2 
+09:29:01.106  5152  gbak:         writing column COMPLETED 
+09:29:01.106  5152  gbak:         writing column IDCONTACT 
+09:29:01.106  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.106  5152  gbak:         writing column CATEGORY 
+09:29:01.106  5152  gbak:         writing column IDFIELD 
+09:29:01.106  5152  gbak:         writing column IDCREATOR 
+09:29:01.106  5152  gbak:         writing column IDEDITOR 
+09:29:01.106  5152  gbak:         writing column STATUS 
+09:29:01.106  5152  gbak:         writing column TITLE 
+09:29:01.106  5152  gbak:         writing column TEXT 
+09:29:01.106  5152  gbak:         writing column LOCATION 
+09:29:01.106  5152  gbak:         writing column PRIORITY 
+09:29:01.106  5152  gbak:         writing column COMPLETION 
+09:29:01.106  5152  gbak:         writing column EXCLUSIVE 
+09:29:01.121  5152  gbak:         writing column REPEATING 
+09:29:01.121  5152  gbak:         writing column ALLDAY 
+09:29:01.137  5152  gbak:         writing column TAGS 
+09:29:01.137  5152  gbak:         writing column FIELDSDATA 
+09:29:01.137  5152  gbak:         writing column PATH 
+09:29:01.137  5152  gbak:    writing table TEMPLATES 
+09:29:01.137  5152  gbak:         writing column LASTCHANGED 
+09:29:01.137  5152  gbak:         writing column TEXT 
+09:29:01.137  5152  gbak:         writing column IDTEMPLATE 
+09:29:01.137  5152  gbak:         writing column IDUSER 
+09:29:01.137  5152  gbak:         writing column TEMPLATETYPE 
+09:29:01.137  5152  gbak:         writing column NAME 
+09:29:01.137  5152  gbak:         writing column TEMPLATEINDEX 
+09:29:01.137  5152  gbak:         writing column TEMPLATEDEFAULT 
+09:29:01.137  5152  gbak:    writing table THREADS 
+09:29:01.137  5152  gbak:         writing column LASTCHANGED 
+09:29:01.137  5152  gbak:         writing column PARAMS 
+09:29:01.137  5152  gbak:         writing column IDTHREAD 
+09:29:01.137  5152  gbak:         writing column ITEMTYPES 
+09:29:01.137  5152  gbak:         writing column IDUSER 
+09:29:01.137  5152  gbak:         writing column SYNCTYPE 
+09:29:01.137  5152  gbak:         writing column NAME 
+09:29:01.137  5152  gbak:         writing column URL 
+09:29:01.137  5152  gbak:         writing column LOGIN 
+09:29:01.137  5152  gbak:         writing column RUN 
+09:29:01.137  5152  gbak:         writing column RUNEVERY 
+09:29:01.137  5152  gbak:         writing column DIRECTION 
+09:29:01.137  5152  gbak:         writing column DELETEITEMS 
+09:29:01.137  5152  gbak:    writing table TODOS 
+09:29:01.152  5152  gbak:         writing column IDTODO 
+09:29:01.168  5152  gbak:         writing column IDPARENT 
+09:29:01.168  5152  gbak:         writing column READACCESS 
+09:29:01.168  5152  gbak:         writing column WRITEACCESS 
+09:29:01.168  5152  gbak:         writing column CREATED 
+09:29:01.168  5152  gbak:         writing column LASTCHANGED 
+09:29:01.168  5152  gbak:         writing column DELETED 
+09:29:01.168  5152  gbak:         writing column STARTTIME 
+09:29:01.168  5152  gbak:         writing column ENDTIME 
+09:29:01.168  5152  gbak:         writing column TEXT2 
+09:29:01.168  5152  gbak:         writing column COMPLETED 
+09:29:01.168  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.168  5152  gbak:         writing column CATEGORY 
+09:29:01.168  5152  gbak:         writing column IDLIST 
+09:29:01.168  5152  gbak:         writing column IDCREATOR 
+09:29:01.168  5152  gbak:         writing column IDEDITOR 
+09:29:01.168  5152  gbak:         writing column STATUS 
+09:29:01.168  5152  gbak:         writing column TITLE 
+09:29:01.168  5152  gbak:         writing column TEXT 
+09:29:01.168  5152  gbak:         writing column LOCATION 
+09:29:01.168  5152  gbak:         writing column PRIORITY 
+09:29:01.168  5152  gbak:         writing column COMPLETION 
+09:29:01.168  5152  gbak:         writing column SHOWINSCH 
+09:29:01.168  5152  gbak:         writing column TAGS 
+09:29:01.168  5152  gbak:         writing column FIELDSDATA 
+09:29:01.168  5152  gbak:         writing column PATH 
+09:29:01.168  5152  gbak:    writing table TODOUSERDATA 
+09:29:01.168  5152  gbak:         writing column IDTODO 
+09:29:01.184  5152  gbak:         writing column IDUSER 
+09:29:01.199  5152  gbak:         writing column EXPANDED 
+09:29:01.199  5152  gbak:         writing column TODOINDEX 
+09:29:01.199  5152  gbak:    writing table TODOLISTS 
+09:29:01.199  5152  gbak:         writing column READACCESS 
+09:29:01.199  5152  gbak:         writing column WRITEACCESS 
+09:29:01.199  5152  gbak:         writing column LASTCHANGED 
+09:29:01.199  5152  gbak:         writing column IDTODOLIST 
+09:29:01.199  5152  gbak:         writing column COLOR 
+09:29:01.199  5152  gbak:         writing column IDEDITOR 
+09:29:01.199  5152  gbak:         writing column NAME 
+09:29:01.199  5152  gbak:    writing table TODOLISTUSERDATA 
+09:29:01.199  5152  gbak:         writing column SELECTEDTODO 
+09:29:01.199  5152  gbak:         writing column IDTODOLIST 
+09:29:01.199  5152  gbak:         writing column IDUSER 
+09:29:01.199  5152  gbak:         writing column LISTINDEX 
+09:29:01.199  5152  gbak:    writing table USERS 
+09:29:01.199  5152  gbak:         writing column LASTCHANGED 
+09:29:01.199  5152  gbak:         writing column NAME 
+09:29:01.199  5152  gbak:         writing column USERMASK 
+09:29:01.199  5152  gbak:         writing column READACCESSMASK 
+09:29:01.199  5152  gbak:         writing column WRITEACCESSMASK 
+09:29:01.199  5152  gbak:         writing column IDUSER 
+09:29:01.199  5152  gbak:         writing column ACCESSLEVEL 
+09:29:01.199  5152  gbak:         writing column FULLACCESS 
+09:29:01.199  5152  gbak:         writing column EDITCATEGORY 
+09:29:01.199  5152  gbak:         writing column EDITCONTFIELD 
+09:29:01.215  5152  gbak:         writing column EDITNOTEICON 
+09:29:01.230  5152  gbak:         writing column FULLNAME 
+09:29:01.230  5152  gbak:         writing column USERACTIVE 
+09:29:01.230  5152  gbak:    writing table VIEWPARAMS 
+09:29:01.230  5152  gbak:         writing column IDPARENT 
+09:29:01.230  5152  gbak:         writing column SELECTEDITEM 
+09:29:01.230  5152  gbak:         writing column IDVIEW 
+09:29:01.230  5152  gbak:         writing column IDUSER 
+09:29:01.230  5152  gbak:         writing column SORTFIELDS 
+09:29:01.230  5152  gbak:    writing table ATTACHMENTNAMEVIEW 
+09:29:01.230  5152  gbak:         writing column IDATTACHMENT 
+09:29:01.230  5152  gbak:         writing column IDPARENT 
+09:29:01.230  5152  gbak:         writing column LASTCHANGED 
+09:29:01.230  5152  gbak:         writing column FILENAME 
+09:29:01.230  5152  gbak:    writing table ATTACHMENTFULLVIEW 
+09:29:01.230  5152  gbak:         writing column IDATTACHMENT 
+09:29:01.230  5152  gbak:         writing column IDPARENT 
+09:29:01.230  5152  gbak:         writing column LASTCHANGED 
+09:29:01.230  5152  gbak:         writing column DATA 
+09:29:01.230  5152  gbak:         writing column WRITEACCESS 
+09:29:01.230  5152  gbak:         writing column ITEMTYPE 
+09:29:01.230  5152  gbak:         writing column STATUS 
+09:29:01.230  5152  gbak:         writing column FILENAME 
+09:29:01.230  5152  gbak:         writing column IDEDITOR 
+09:29:01.230  5152  gbak:    writing table ATTACHMENTEDITVIEW 
+09:29:01.230  5152  gbak:         writing column IDATTACHMENT 
+09:29:01.230  5152  gbak:         writing column IDPARENT 
+09:29:01.246  5152  gbak:         writing column LASTCHANGED 
+09:29:01.262  5152  gbak:         writing column DATA 
+09:29:01.262  5152  gbak:         writing column FILENAME 
+09:29:01.262  5152  gbak:    writing table CONTACTFIELDUSERDATAVIEW 
+09:29:01.262  5152  gbak:         writing column IDFIELD 
+09:29:01.262  5152  gbak:         writing column IDUSER 
+09:29:01.262  5152  gbak:         writing column FIELDINDEX 
+09:29:01.262  5152  gbak:    writing table CONTACTFIELDFULLVIEW 
+09:29:01.262  5152  gbak:         writing column LASTCHANGED 
+09:29:01.262  5152  gbak:         writing column IDFIELD 
+09:29:01.262  5152  gbak:         writing column TASKCATEGORY 
+09:29:01.262  5152  gbak:         writing column ENABLED 
+09:29:01.262  5152  gbak:         writing column NAME 
+09:29:01.262  5152  gbak:         writing column GRINDEX 
+09:29:01.262  5152  gbak:         writing column FIELDTYPE 
+09:29:01.262  5152  gbak:         writing column SHOWATBOTTOM 
+09:29:01.262  5152  gbak:         writing column FIELDINDEX 
+09:29:01.262  5152  gbak:         writing column FIELDVALUES 
+09:29:01.262  5152  gbak:         writing column DEFFIELDINDEX 
+09:29:01.262  5152  gbak:    writing table CONTACTUSERDATAVIEW 
+09:29:01.262  5152  gbak:         writing column IDCONTACT 
+09:29:01.262  5152  gbak:         writing column IDUSER 
+09:29:01.262  5152  gbak:         writing column SELPAGE 
+09:29:01.262  5152  gbak:    writing table CONTACTEDITVIEW 
+09:29:01.262  5152  gbak:         writing column IDCONTACT 
+09:29:01.262  5152  gbak:         writing column READACCESS 
+09:29:01.262  5152  gbak:         writing column WRITEACCESS 
+09:29:01.262  5152  gbak:         writing column CREATED 
+09:29:01.262  5152  gbak:         writing column LASTCHANGED 
+09:29:01.262  5152  gbak:         writing column DELETED 
+09:29:01.262  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.262  5152  gbak:         writing column PICTURE 
+09:29:01.262  5152  gbak:         writing column IDCREATOR 
+09:29:01.262  5152  gbak:         writing column IDEDITOR 
+09:29:01.262  5152  gbak:         writing column STATUS 
+09:29:01.277  5152  gbak:         writing column SUBJECT 
+09:29:01.277  5152  gbak:         writing column COLLADR 
+09:29:01.277  5152  gbak:         writing column FIELDSDATA 
+09:29:01.277  5152  gbak:         writing column TAGS 
+09:29:01.277  5152  gbak:         writing column PATH 
+09:29:01.277  5152  gbak:    writing table CONTACTFULLVIEW 
+09:29:01.277  5152  gbak:         writing column IDCONTACT 
+09:29:01.277  5152  gbak:         writing column CREATED 
+09:29:01.277  5152  gbak:         writing column LASTCHANGED 
+09:29:01.277  5152  gbak:         writing column PICTURE 
+09:29:01.277  5152  gbak:         writing column READACCESS 
+09:29:01.277  5152  gbak:         writing column WRITEACCESS 
+09:29:01.277  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.277  5152  gbak:         writing column STATUS 
+09:29:01.277  5152  gbak:         writing column SUBJECT 
+09:29:01.277  5152  gbak:         writing column COLLADR 
+09:29:01.277  5152  gbak:         writing column FIELDSDATA 
+09:29:01.277  5152  gbak:         writing column SELPAGE 
+09:29:01.277  5152  gbak:         writing column IDEDITOR 
+09:29:01.277  5152  gbak:         writing column TAGS 
+09:29:01.277  5152  gbak:    writing table FIELDEDITVIEW 
+09:29:01.277  5152  gbak:         writing column IDPARENT 
+09:29:01.277  5152  gbak:         writing column IDFIELD 
+09:29:01.277  5152  gbak:         writing column IDTABLE 
+09:29:01.277  5152  gbak:         writing column IDUSER 
+09:29:01.277  5152  gbak:         writing column VISIBLE 
+09:29:01.277  5152  gbak:         writing column WIDTH 
+09:29:01.293  5152  gbak:         writing column FIELDINDEX 
+09:29:01.308  5152  gbak:    writing table FIELDFULLVIEW 
+09:29:01.308  5152  gbak:         writing column IDPARENT 
+09:29:01.308  5152  gbak:         writing column IDTABLE 
+09:29:01.308  5152  gbak:         writing column IDFIELD 
+09:29:01.308  5152  gbak:         writing column VISIBLE 
+09:29:01.308  5152  gbak:         writing column WIDTH 
+09:29:01.308  5152  gbak:         writing column FIELDINDEX 
+09:29:01.308  5152  gbak:         writing column DEFVISIBLE 
+09:29:01.308  5152  gbak:         writing column DEFWIDTH 
+09:29:01.308  5152  gbak:         writing column DEFFIELDINDEX 
+09:29:01.308  5152  gbak:    writing table GROUPUSERDATAVIEW 
+09:29:01.308  5152  gbak:         writing column IDCONTACT 
+09:29:01.308  5152  gbak:         writing column IDUSER 
+09:29:01.308  5152  gbak:         writing column GROUPINDEX 
+09:29:01.308  5152  gbak:         writing column EXPANDED 
+09:29:01.308  5152  gbak:    writing table GROUPEDITVIEW 
+09:29:01.308  5152  gbak:         writing column IDCONTACT 
+09:29:01.308  5152  gbak:         writing column IDPARENT 
+09:29:01.308  5152  gbak:         writing column READACCESS 
+09:29:01.308  5152  gbak:         writing column WRITEACCESS 
+09:29:01.308  5152  gbak:         writing column CREATED 
+09:29:01.308  5152  gbak:         writing column LASTCHANGED 
+09:29:01.308  5152  gbak:         writing column DELETED 
+09:29:01.308  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.308  5152  gbak:         writing column PICTURE 
+09:29:01.308  5152  gbak:         writing column IDCREATOR 
+09:29:01.324  5152  gbak:         writing column IDEDITOR 
+09:29:01.340  5152  gbak:         writing column STATUS 
+09:29:01.340  5152  gbak:         writing column SUBJECT 
+09:29:01.340  5152  gbak:         writing column COLLADR 
+09:29:01.340  5152  gbak:         writing column FIELDSDATA 
+09:29:01.340  5152  gbak:         writing column TAGS 
+09:29:01.340  5152  gbak:         writing column PATH 
+09:29:01.340  5152  gbak:    writing table GROUPFULLVIEW 
+09:29:01.340  5152  gbak:         writing column IDCONTACT 
+09:29:01.340  5152  gbak:         writing column CREATED 
+09:29:01.340  5152  gbak:         writing column LASTCHANGED 
+09:29:01.340  5152  gbak:         writing column PICTURE 
+09:29:01.340  5152  gbak:         writing column IDPARENT 
+09:29:01.340  5152  gbak:         writing column READACCESS 
+09:29:01.340  5152  gbak:         writing column WRITEACCESS 
+09:29:01.340  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.340  5152  gbak:         writing column STATUS 
+09:29:01.340  5152  gbak:         writing column SUBJECT 
+09:29:01.340  5152  gbak:         writing column COLLADR 
+09:29:01.340  5152  gbak:         writing column FIELDSDATA 
+09:29:01.340  5152  gbak:         writing column GROUPINDEX 
+09:29:01.340  5152  gbak:         writing column EXPANDED 
+09:29:01.340  5152  gbak:         writing column IDEDITOR 
+09:29:01.340  5152  gbak:         writing column TAGS 
+09:29:01.340  5152  gbak:    writing table MAILACCOUNTVIEW 
+09:29:01.340  5152  gbak:         writing column LASTCHANGED 
+09:29:01.340  5152  gbak:         writing column IDACCOUNT 
+09:29:01.340  5152  gbak:         writing column IDIDENTITY 
+09:29:01.371  5152  gbak:         writing column INPORT 
+09:29:01.371  5152  gbak:         writing column IDOUTSERVER 
+09:29:01.371  5152  gbak:         writing column INBOXFOLDER 
+09:29:01.371  5152  gbak:         writing column OUTBOXFOLDER 
+09:29:01.371  5152  gbak:         writing column SENTFOLDER 
+09:29:01.371  5152  gbak:         writing column DELFOLDER 
+09:29:01.371  5152  gbak:         writing column DRAFTSFOLDER 
+09:29:01.371  5152  gbak:         writing column TEMPLATESFOLDER 
+09:29:01.371  5152  gbak:         writing column IDUSER 
+09:29:01.371  5152  gbak:         writing column NAME 
+09:29:01.371  5152  gbak:         writing column INPROTOCOL 
+09:29:01.371  5152  gbak:         writing column INSERVER 
+09:29:01.371  5152  gbak:         writing column INSSL 
+09:29:01.371  5152  gbak:         writing column INLOGIN 
+09:29:01.371  5152  gbak:         writing column TIMEOUT 
+09:29:01.371  5152  gbak:         writing column CHECKSTARTUP 
+09:29:01.371  5152  gbak:         writing column CHECKEVERY 
+09:29:01.371  5152  gbak:         writing column LEAVEMSG 
+09:29:01.371  5152  gbak:         writing column USEGLOBALFOLDERS 
+09:29:01.371  5152  gbak:         writing column INRECEIVINGALL 
+09:29:01.371  5152  gbak:         writing column EXPANDED 
+09:29:01.371  5152  gbak:         writing column ACCOUNTINDEX 
+09:29:01.371  5152  gbak:         writing column EMPTYTRASHONEXIT 
+09:29:01.371  5152  gbak:    writing table MAILFOLDERVIEW 
+09:29:01.371  5152  gbak:         writing column LASTCHANGED 
+09:29:01.386  5152  gbak:         writing column IDFOLDER 
+09:29:01.402  5152  gbak:         writing column IDPARENT 
+09:29:01.402  5152  gbak:         writing column IDACCOUNT 
+09:29:01.402  5152  gbak:         writing column LASTUID 
+09:29:01.402  5152  gbak:         writing column IDUSER 
+09:29:01.402  5152  gbak:         writing column NAME 
+09:29:01.402  5152  gbak:         writing column EXPANDED 
+09:29:01.402  5152  gbak:         writing column FOLDERINDEX 
+09:29:01.402  5152  gbak:         writing column SYNCTYPE 
+09:29:01.402  5152  gbak:         writing column INTODAY 
+09:29:01.402  5152  gbak:    writing table MAILIDENTITYVIEW 
+09:29:01.402  5152  gbak:         writing column LASTCHANGED 
+09:29:01.402  5152  gbak:         writing column IDIDENTITY 
+09:29:01.402  5152  gbak:         writing column IDACCOUNT 
+09:29:01.402  5152  gbak:         writing column IDUSER 
+09:29:01.402  5152  gbak:         writing column USERNAME 
+09:29:01.402  5152  gbak:         writing column ORGANIZATION 
+09:29:01.402  5152  gbak:         writing column EMAIL 
+09:29:01.402  5152  gbak:         writing column REPLY 
+09:29:01.402  5152  gbak:         writing column SIGNATURE 
+09:29:01.402  5152  gbak:         writing column SIGNATUREHTML 
+09:29:01.402  5152  gbak:    writing table MAILSMTPSERVERVIEW 
+09:29:01.402  5152  gbak:         writing column LASTCHANGED 
+09:29:01.402  5152  gbak:         writing column IDSERVER 
+09:29:01.402  5152  gbak:         writing column PORT 
+09:29:01.402  5152  gbak:         writing column IDUSER 
+09:29:01.402  5152  gbak:         writing column SERVER 
+09:29:01.402  5152  gbak:         writing column SSL 
+09:29:01.433  5152  gbak:         writing column LOGIN 
+09:29:01.433  5152  gbak:    writing table MESSAGEVIEW 
+09:29:01.433  5152  gbak:         writing column IDMESSAGE 
+09:29:01.433  5152  gbak:         writing column IDPARENT 
+09:29:01.433  5152  gbak:         writing column CREATED 
+09:29:01.433  5152  gbak:         writing column LASTCHANGED 
+09:29:01.433  5152  gbak:         writing column HEADERS 
+09:29:01.433  5152  gbak:         writing column BODY 
+09:29:01.433  5152  gbak:         writing column BODYTEXT 
+09:29:01.433  5152  gbak:         writing column SENT 
+09:29:01.433  5152  gbak:         writing column RECEIVED 
+09:29:01.433  5152  gbak:         writing column IDFOLDER 
+09:29:01.433  5152  gbak:         writing column IDACCOUNT 
+09:29:01.433  5152  gbak:         writing column MSGSIZE 
+09:29:01.433  5152  gbak:         writing column IDUSER 
+09:29:01.433  5152  gbak:         writing column SUBJECT 
+09:29:01.433  5152  gbak:         writing column STATUS 
+09:29:01.433  5152  gbak:         writing column UNREAD 
+09:29:01.433  5152  gbak:         writing column CHARSET 
+09:29:01.433  5152  gbak:         writing column FLAGGED 
+09:29:01.433  5152  gbak:         writing column TAGS 
+09:29:01.433  5152  gbak:         writing column PGPFLAGS 
+09:29:01.433  5152  gbak:         writing column MDNSENT 
+09:29:01.433  5152  gbak:         writing column IDMESSAGESTR 
+09:29:01.433  5152  gbak:         writing column IDTHREAD 
+09:29:01.433  5152  gbak:    writing table MESSAGEEMAILVIEW 
+09:29:01.433  5152  gbak:         writing column IDMESSAGE 
+09:29:01.449  5152  gbak:         writing column IDUSER 
+09:29:01.464  5152  gbak:         writing column EMAIL 
+09:29:01.464  5152  gbak:         writing column EMAILTYPE 
+09:29:01.464  5152  gbak:    writing table MAILRULEVIEW 
+09:29:01.464  5152  gbak:         writing column LASTCHANGED 
+09:29:01.464  5152  gbak:         writing column IDRULE 
+09:29:01.464  5152  gbak:         writing column IDUSER 
+09:29:01.464  5152  gbak:         writing column NAME 
+09:29:01.464  5152  gbak:         writing column ENABLED 
+09:29:01.464  5152  gbak:         writing column APPLYALL 
+09:29:01.464  5152  gbak:         writing column RULEINDEX 
+09:29:01.464  5152  gbak:    writing table MAILRULECONDITIONVIEW 
+09:29:01.464  5152  gbak:         writing column IDRULE 
+09:29:01.464  5152  gbak:         writing column IDCONDITION 
+09:29:01.464  5152  gbak:         writing column IDUSER 
+09:29:01.464  5152  gbak:         writing column FIELD 
+09:29:01.464  5152  gbak:         writing column NCHECK 
+09:29:01.464  5152  gbak:         writing column TEXT 
+09:29:01.464  5152  gbak:    writing table MAILRULEACTIONVIEW 
+09:29:01.464  5152  gbak:         writing column IDRULE 
+09:29:01.464  5152  gbak:         writing column IDFOLDER 
+09:29:01.464  5152  gbak:         writing column IDUSER 
+09:29:01.464  5152  gbak:         writing column NACTION 
+09:29:01.464  5152  gbak:    writing table NOTEUSERDATAVIEW 
+09:29:01.464  5152  gbak:         writing column IDNOTE 
+09:29:01.464  5152  gbak:         writing column SELECTEDTAB 
+09:29:01.464  5152  gbak:         writing column STRECT 
+09:29:01.464  5152  gbak:         writing column STCOLOR 
+09:29:01.464  5152  gbak:         writing column IDUSER 
+09:29:01.464  5152  gbak:         writing column EXPANDED 
+09:29:01.464  5152  gbak:         writing column NOTEINDEX 
+09:29:01.464  5152  gbak:         writing column STICKY 
+09:29:01.464  5152  gbak:         writing column STONTOP 
+09:29:01.464  5152  gbak:    writing table NOTEEDITVIEW 
+09:29:01.480  5152  gbak:         writing column IDNOTE 
+09:29:01.480  5152  gbak:         writing column IDPARENT 
+09:29:01.480  5152  gbak:         writing column READACCESS 
+09:29:01.480  5152  gbak:         writing column WRITEACCESS 
+09:29:01.480  5152  gbak:         writing column CREATED 
+09:29:01.480  5152  gbak:         writing column LASTCHANGED 
+09:29:01.480  5152  gbak:         writing column DELETED 
+09:29:01.480  5152  gbak:         writing column ICONINDEX 
+09:29:01.480  5152  gbak:         writing column IDNOTETREE 
+09:29:01.480  5152  gbak:         writing column IDCREATOR 
+09:29:01.480  5152  gbak:         writing column IDEDITOR 
+09:29:01.480  5152  gbak:         writing column STATUS 
+09:29:01.480  5152  gbak:         writing column TITLE 
+09:29:01.480  5152  gbak:         writing column TAGS 
+09:29:01.480  5152  gbak:         writing column PATH 
+09:29:01.480  5152  gbak:    writing table NOTEFULLVIEW 
+09:29:01.480  5152  gbak:         writing column IDNOTE 
+09:29:01.480  5152  gbak:         writing column IDPARENT 
+09:29:01.480  5152  gbak:         writing column CREATED 
+09:29:01.480  5152  gbak:         writing column LASTCHANGED 
+09:29:01.480  5152  gbak:         writing column SELECTEDTAB 
+09:29:01.480  5152  gbak:         writing column READACCESS 
+09:29:01.480  5152  gbak:         writing column WRITEACCESS 
+09:29:01.480  5152  gbak:         writing column STRECT 
+09:29:01.480  5152  gbak:         writing column ICONINDEX 
+09:29:01.480  5152  gbak:         writing column IDNOTETREE 
+09:29:01.496  5152  gbak:         writing column STCOLOR 
+09:29:01.511  5152  gbak:         writing column STATUS 
+09:29:01.511  5152  gbak:         writing column TITLE 
+09:29:01.511  5152  gbak:         writing column EXPANDED 
+09:29:01.511  5152  gbak:         writing column NOTEINDEX 
+09:29:01.511  5152  gbak:         writing column IDEDITOR 
+09:29:01.511  5152  gbak:         writing column TAGS 
+09:29:01.511  5152  gbak:         writing column STICKY 
+09:29:01.511  5152  gbak:         writing column STONTOP 
+09:29:01.511  5152  gbak:    writing table NOTETABUSERDATAVIEW 
+09:29:01.511  5152  gbak:         writing column IDNOTETAB 
+09:29:01.511  5152  gbak:         writing column CARPOS 
+09:29:01.511  5152  gbak:         writing column IDUSER 
+09:29:01.511  5152  gbak:         writing column TABINDEX 
+09:29:01.511  5152  gbak:    writing table NOTETABEDITVIEW 
+09:29:01.511  5152  gbak:         writing column IDNOTETAB 
+09:29:01.511  5152  gbak:         writing column IDNOTE 
+09:29:01.511  5152  gbak:         writing column READACCESS 
+09:29:01.511  5152  gbak:         writing column WRITEACCESS 
+09:29:01.511  5152  gbak:         writing column CREATED 
+09:29:01.511  5152  gbak:         writing column LASTCHANGED 
+09:29:01.511  5152  gbak:         writing column DELETED 
+09:29:01.511  5152  gbak:         writing column TEXT2 
+09:29:01.511  5152  gbak:         writing column FORMATEDTEXT 
+09:29:01.511  5152  gbak:         writing column COLOR 
+09:29:01.511  5152  gbak:         writing column IDCREATOR 
+09:29:01.511  5152  gbak:         writing column IDEDITOR 
+09:29:01.511  5152  gbak:         writing column STATUS 
+09:29:01.527  5152  gbak:         writing column NAME 
+09:29:01.527  5152  gbak:         writing column TEXT 
+09:29:01.527  5152  gbak:         writing column PATH 
+09:29:01.527  5152  gbak:    writing table NOTETABFULLVIEW 
+09:29:01.542  5152  gbak:         writing column IDNOTETAB 
+09:29:01.542  5152  gbak:         writing column IDNOTE 
+09:29:01.542  5152  gbak:         writing column LASTCHANGED 
+09:29:01.542  5152  gbak:         writing column FORMATEDTEXT 
+09:29:01.542  5152  gbak:         writing column READACCESS 
+09:29:01.542  5152  gbak:         writing column WRITEACCESS 
+09:29:01.542  5152  gbak:         writing column TEXT2 
+09:29:01.542  5152  gbak:         writing column COLOR 
+09:29:01.542  5152  gbak:         writing column CARPOS 
+09:29:01.542  5152  gbak:         writing column STATUS 
+09:29:01.542  5152  gbak:         writing column NAME 
+09:29:01.542  5152  gbak:         writing column TEXT 
+09:29:01.542  5152  gbak:         writing column TABINDEX 
+09:29:01.542  5152  gbak:         writing column IDEDITOR 
+09:29:01.542  5152  gbak:    writing table NOTETREEUSERDATAVIEW 
+09:29:01.542  5152  gbak:         writing column SELECTEDNOTE 
+09:29:01.542  5152  gbak:         writing column IDNOTETREE 
+09:29:01.542  5152  gbak:         writing column IDUSER 
+09:29:01.542  5152  gbak:         writing column TREEINDEX 
+09:29:01.542  5152  gbak:    writing table NOTETREEEDITVIEW 
+09:29:01.542  5152  gbak:         writing column READACCESS 
+09:29:01.542  5152  gbak:         writing column WRITEACCESS 
+09:29:01.542  5152  gbak:         writing column LASTCHANGED 
+09:29:01.542  5152  gbak:         writing column IDNOTETREE 
+09:29:01.542  5152  gbak:         writing column COLOR 
+09:29:01.542  5152  gbak:         writing column IDEDITOR 
+09:29:01.558  5152  gbak:         writing column NAME 
+09:29:01.574  5152  gbak:    writing table NOTETREEFULLVIEW 
+09:29:01.574  5152  gbak:         writing column LASTCHANGED 
+09:29:01.574  5152  gbak:         writing column SELECTEDNOTE 
+09:29:01.574  5152  gbak:         writing column READACCESS 
+09:29:01.574  5152  gbak:         writing column WRITEACCESS 
+09:29:01.574  5152  gbak:         writing column IDNOTETREE 
+09:29:01.574  5152  gbak:         writing column COLOR 
+09:29:01.574  5152  gbak:         writing column NAME 
+09:29:01.574  5152  gbak:         writing column TREEINDEX 
+09:29:01.574  5152  gbak:         writing column IDEDITOR 
+09:29:01.574  5152  gbak:    writing table PARAMVIEW 
+09:29:01.574  5152  gbak:         writing column TASKSHIDECAT 
+09:29:01.574  5152  gbak:         writing column TODOSHIDECAT 
+09:29:01.574  5152  gbak:         writing column CONTPRINTFIELDS 
+09:29:01.574  5152  gbak:         writing column SECDATA 
+09:29:01.574  5152  gbak:         writing column TODAYHIDECAT 
+09:29:01.574  5152  gbak:         writing column MAILDEFACCOUNT 
+09:29:01.574  5152  gbak:         writing column IDUSER 
+09:29:01.574  5152  gbak:         writing column VIEWMODE 
+09:29:01.574  5152  gbak:         writing column TASKSVIEWMODE 
+09:29:01.574  5152  gbak:         writing column TASKSTIMESCALE 
+09:29:01.574  5152  gbak:         writing column TASKSWVTIMESCALE 
+09:29:01.574  5152  gbak:         writing column TASKSHIDECOMPL 
+09:29:01.574  5152  gbak:         writing column TODOSVIEWMODE 
+09:29:01.574  5152  gbak:         writing column TODOSHIDECOMPL 
+09:29:01.589  5152  gbak:         writing column MAILHIDEREAD 
+09:29:01.589  5152  gbak:         writing column DROPBOXNAME 
+09:29:01.589  5152  gbak:         writing column DROPBOXREVISION 
+09:29:01.589  5152  gbak:         writing column DROPBOXTOKEN 
+09:29:01.589  5152  gbak:         writing column DROPBOXTOKENSECRET 
+09:29:01.589  5152  gbak:    writing table PASSENTRYFIELDUSERDATAVIEW 
+09:29:01.589  5152  gbak:         writing column IDFIELD 
+09:29:01.589  5152  gbak:         writing column IDUSER 
+09:29:01.605  5152  gbak:         writing column FIELDINDEX 
+09:29:01.605  5152  gbak:    writing table PASSENTRYFIELDFULLVIEW 
+09:29:01.605  5152  gbak:         writing column LASTCHANGED 
+09:29:01.605  5152  gbak:         writing column IDFIELD 
+09:29:01.605  5152  gbak:         writing column ENABLED 
+09:29:01.605  5152  gbak:         writing column NAME 
+09:29:01.605  5152  gbak:         writing column FIELDINDEX 
+09:29:01.605  5152  gbak:         writing column DEFFIELDINDEX 
+09:29:01.605  5152  gbak:    writing table PASSENTRYUSERDATAVIEW 
+09:29:01.605  5152  gbak:         writing column IDPASSENTRY 
+09:29:01.605  5152  gbak:         writing column IDUSER 
+09:29:01.605  5152  gbak:         writing column SELPAGE 
+09:29:01.605  5152  gbak:    writing table PASSENTRYEDITVIEW 
+09:29:01.605  5152  gbak:         writing column IDPASSENTRY 
+09:29:01.605  5152  gbak:         writing column READACCESS 
+09:29:01.605  5152  gbak:         writing column WRITEACCESS 
+09:29:01.605  5152  gbak:         writing column CREATED 
+09:29:01.605  5152  gbak:         writing column LASTCHANGED 
+09:29:01.605  5152  gbak:         writing column DELETED 
+09:29:01.605  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.605  5152  gbak:         writing column IDCREATOR 
+09:29:01.605  5152  gbak:         writing column IDEDITOR 
+09:29:01.605  5152  gbak:         writing column STATUS 
+09:29:01.605  5152  gbak:         writing column SUBJECT 
+09:29:01.605  5152  gbak:         writing column FIELDSDATA 
+09:29:01.605  5152  gbak:         writing column TAGS 
+09:29:01.636  5152  gbak:         writing column PATH 
+09:29:01.636  5152  gbak:    writing table PASSENTRYFULLVIEW 
+09:29:01.636  5152  gbak:         writing column IDPASSENTRY 
+09:29:01.636  5152  gbak:         writing column CREATED 
+09:29:01.636  5152  gbak:         writing column LASTCHANGED 
+09:29:01.636  5152  gbak:         writing column READACCESS 
+09:29:01.636  5152  gbak:         writing column WRITEACCESS 
+09:29:01.636  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.636  5152  gbak:         writing column STATUS 
+09:29:01.636  5152  gbak:         writing column SUBJECT 
+09:29:01.636  5152  gbak:         writing column FIELDSDATA 
+09:29:01.636  5152  gbak:         writing column SELPAGE 
+09:29:01.636  5152  gbak:         writing column IDEDITOR 
+09:29:01.636  5152  gbak:         writing column TAGS 
+09:29:01.636  5152  gbak:    writing table PASSGROUPUSERDATAVIEW 
+09:29:01.636  5152  gbak:         writing column IDPASSGROUP 
+09:29:01.636  5152  gbak:         writing column IDUSER 
+09:29:01.636  5152  gbak:         writing column GROUPINDEX 
+09:29:01.636  5152  gbak:         writing column EXPANDED 
+09:29:01.636  5152  gbak:    writing table PASSGROUPEDITVIEW 
+09:29:01.636  5152  gbak:         writing column IDPASSGROUP 
+09:29:01.636  5152  gbak:         writing column IDPARENT 
+09:29:01.636  5152  gbak:         writing column READACCESS 
+09:29:01.636  5152  gbak:         writing column WRITEACCESS 
+09:29:01.636  5152  gbak:         writing column CREATED 
+09:29:01.636  5152  gbak:         writing column LASTCHANGED 
+09:29:01.652  5152  gbak:         writing column DELETED 
+09:29:01.667  5152  gbak:         writing column ICONINDEX 
+09:29:01.667  5152  gbak:         writing column IDCREATOR 
+09:29:01.667  5152  gbak:         writing column IDEDITOR 
+09:29:01.667  5152  gbak:         writing column STATUS 
+09:29:01.667  5152  gbak:         writing column SUBJECT 
+09:29:01.667  5152  gbak:         writing column PATH 
+09:29:01.667  5152  gbak:    writing table PASSGROUPFULLVIEW 
+09:29:01.667  5152  gbak:         writing column IDPASSGROUP 
+09:29:01.667  5152  gbak:         writing column CREATED 
+09:29:01.667  5152  gbak:         writing column LASTCHANGED 
+09:29:01.667  5152  gbak:         writing column IDPARENT 
+09:29:01.667  5152  gbak:         writing column READACCESS 
+09:29:01.667  5152  gbak:         writing column WRITEACCESS 
+09:29:01.667  5152  gbak:         writing column ICONINDEX 
+09:29:01.667  5152  gbak:         writing column STATUS 
+09:29:01.667  5152  gbak:         writing column SUBJECT 
+09:29:01.667  5152  gbak:         writing column GROUPINDEX 
+09:29:01.667  5152  gbak:         writing column EXPANDED 
+09:29:01.667  5152  gbak:         writing column IDEDITOR 
+09:29:01.667  5152  gbak:    writing table PGPKEYVIEW 
+09:29:01.667  5152  gbak:         writing column IDKEY 
+09:29:01.667  5152  gbak:         writing column LASTCHANGED 
+09:29:01.667  5152  gbak:         writing column PUBLICDATA 
+09:29:01.667  5152  gbak:         writing column PRIVATEDATA 
+09:29:01.667  5152  gbak:         writing column IDUSER 
+09:29:01.667  5152  gbak:         writing column EMAILS 
+09:29:01.683  5152  gbak:    writing table REMINDERACTIVEVIEW 
+09:29:01.698  5152  gbak:         writing column IDTASK 
+09:29:01.698  5152  gbak:         writing column SHOWTIME 
+09:29:01.698  5152  gbak:         writing column IDREMINDER 
+09:29:01.698  5152  gbak:         writing column IDFIELD 
+09:29:01.698  5152  gbak:         writing column ITEMTYPE 
+09:29:01.698  5152  gbak:         writing column SOUNDTYPE 
+09:29:01.698  5152  gbak:         writing column SOUNDFILE 
+09:29:01.698  5152  gbak:         writing column MESSAGETYPE 
+09:29:01.698  5152  gbak:         writing column MESSAGETEXT 
+09:29:01.698  5152  gbak:         writing column RUNPROGRAM 
+09:29:01.698  5152  gbak:    writing table RECEIVEDMESSAGEVIEW 
+09:29:01.698  5152  gbak:         writing column RECDATE 
+09:29:01.698  5152  gbak:         writing column IDACCOUNT 
+09:29:01.698  5152  gbak:         writing column MSGSIZE 
+09:29:01.698  5152  gbak:         writing column IDUSER 
+09:29:01.698  5152  gbak:         writing column IDMESSAGE 
+09:29:01.698  5152  gbak:    writing table SYNCINFOVIEW 
+09:29:01.698  5152  gbak:         writing column IDRECORD 
+09:29:01.698  5152  gbak:         writing column IDLOCALRECORD 
+09:29:01.698  5152  gbak:         writing column LASTCHANGED 
+09:29:01.698  5152  gbak:         writing column IDDEVICE 
+09:29:01.698  5152  gbak:         writing column IDDATABASE 
+09:29:01.698  5152  gbak:         writing column HASH 
+09:29:01.698  5152  gbak:         writing column TAG 
+09:29:01.698  5152  gbak:         writing column IDUSER 
+09:29:01.698  5152  gbak:         writing column SYNCTYPE 
+09:29:01.714  5152  gbak:         writing column IDSTR 
+09:29:01.730  5152  gbak:    writing table TASKFIELDUSERDATAVIEW 
+09:29:01.730  5152  gbak:         writing column IDFIELD 
+09:29:01.730  5152  gbak:         writing column IDUSER 
+09:29:01.730  5152  gbak:         writing column FIELDINDEX 
+09:29:01.730  5152  gbak:    writing table TASKFIELDFULLVIEW 
+09:29:01.730  5152  gbak:         writing column LASTCHANGED 
+09:29:01.730  5152  gbak:         writing column IDFIELD 
+09:29:01.730  5152  gbak:         writing column ITEMTYPE 
+09:29:01.730  5152  gbak:         writing column NAME 
+09:29:01.730  5152  gbak:         writing column FIELDINDEX 
+09:29:01.730  5152  gbak:    writing table TASKEDITVIEW 
+09:29:01.730  5152  gbak:         writing column IDTASK 
+09:29:01.730  5152  gbak:         writing column IDPARENT 
+09:29:01.730  5152  gbak:         writing column READACCESS 
+09:29:01.730  5152  gbak:         writing column WRITEACCESS 
+09:29:01.730  5152  gbak:         writing column CREATED 
+09:29:01.730  5152  gbak:         writing column LASTCHANGED 
+09:29:01.730  5152  gbak:         writing column DELETED 
+09:29:01.730  5152  gbak:         writing column STARTTIME 
+09:29:01.730  5152  gbak:         writing column ENDTIME 
+09:29:01.730  5152  gbak:         writing column TEXT2 
+09:29:01.730  5152  gbak:         writing column COMPLETED 
+09:29:01.730  5152  gbak:         writing column IDCONTACT 
+09:29:01.730  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.730  5152  gbak:         writing column CATEGORY 
+09:29:01.730  5152  gbak:         writing column IDFIELD 
+09:29:01.745  5152  gbak:         writing column IDCREATOR 
+09:29:01.745  5152  gbak:         writing column IDEDITOR 
+09:29:01.745  5152  gbak:         writing column STATUS 
+09:29:01.761  5152  gbak:         writing column TITLE 
+09:29:01.761  5152  gbak:         writing column TEXT 
+09:29:01.761  5152  gbak:         writing column LOCATION 
+09:29:01.761  5152  gbak:         writing column PRIORITY 
+09:29:01.761  5152  gbak:         writing column COMPLETION 
+09:29:01.761  5152  gbak:         writing column EXCLUSIVE 
+09:29:01.761  5152  gbak:         writing column REPEATING 
+09:29:01.761  5152  gbak:         writing column ALLDAY 
+09:29:01.761  5152  gbak:         writing column TAGS 
+09:29:01.761  5152  gbak:         writing column FIELDSDATA 
+09:29:01.761  5152  gbak:         writing column PATH 
+09:29:01.761  5152  gbak:    writing table TASKFULLVIEW 
+09:29:01.761  5152  gbak:         writing column IDTASK 
+09:29:01.761  5152  gbak:         writing column IDPARENT 
+09:29:01.761  5152  gbak:         writing column CREATED 
+09:29:01.761  5152  gbak:         writing column LASTCHANGED 
+09:29:01.761  5152  gbak:         writing column STARTTIME 
+09:29:01.761  5152  gbak:         writing column ENDTIME 
+09:29:01.761  5152  gbak:         writing column COMPLETED 
+09:29:01.761  5152  gbak:         writing column IDCONTACT 
+09:29:01.761  5152  gbak:         writing column READACCESS 
+09:29:01.761  5152  gbak:         writing column WRITEACCESS 
+09:29:01.761  5152  gbak:         writing column TEXT2 
+09:29:01.761  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.761  5152  gbak:         writing column SHOWTIME 
+09:29:01.761  5152  gbak:         writing column CATEGORY 
+09:29:01.761  5152  gbak:         writing column IDFIELD 
+09:29:01.776  5152  gbak:         writing column IDREMINDER 
+09:29:01.792  5152  gbak:         writing column STATUS 
+09:29:01.792  5152  gbak:         writing column TITLE 
+09:29:01.792  5152  gbak:         writing column TEXT 
+09:29:01.792  5152  gbak:         writing column LOCATION 
+09:29:01.792  5152  gbak:         writing column PRIORITY 
+09:29:01.792  5152  gbak:         writing column COMPLETION 
+09:29:01.792  5152  gbak:         writing column EXCLUSIVE 
+09:29:01.792  5152  gbak:         writing column REPEATING 
+09:29:01.792  5152  gbak:         writing column ALLDAY 
+09:29:01.792  5152  gbak:         writing column IDEDITOR 
+09:29:01.792  5152  gbak:         writing column TAGS 
+09:29:01.792  5152  gbak:         writing column FIELDSDATA 
+09:29:01.792  5152  gbak:         writing column SOUNDTYPE 
+09:29:01.792  5152  gbak:         writing column SOUNDFILE 
+09:29:01.792  5152  gbak:         writing column MESSAGETYPE 
+09:29:01.792  5152  gbak:         writing column MESSAGETEXT 
+09:29:01.792  5152  gbak:         writing column RUNPROGRAM 
+09:29:01.792  5152  gbak:    writing table TEMPLATEVIEW 
+09:29:01.792  5152  gbak:         writing column LASTCHANGED 
+09:29:01.792  5152  gbak:         writing column TEXT 
+09:29:01.792  5152  gbak:         writing column IDTEMPLATE 
+09:29:01.792  5152  gbak:         writing column IDUSER 
+09:29:01.792  5152  gbak:         writing column TEMPLATETYPE 
+09:29:01.792  5152  gbak:         writing column NAME 
+09:29:01.792  5152  gbak:         writing column TEMPLATEINDEX 
+09:29:01.792  5152  gbak:         writing column TEMPLATEDEFAULT 
+09:29:01.808  5152  gbak:    writing table THREADVIEW 
+09:29:01.823  5152  gbak:         writing column LASTCHANGED 
+09:29:01.823  5152  gbak:         writing column PARAMS 
+09:29:01.823  5152  gbak:         writing column IDTHREAD 
+09:29:01.823  5152  gbak:         writing column ITEMTYPES 
+09:29:01.823  5152  gbak:         writing column IDUSER 
+09:29:01.823  5152  gbak:         writing column SYNCTYPE 
+09:29:01.823  5152  gbak:         writing column NAME 
+09:29:01.823  5152  gbak:         writing column URL 
+09:29:01.823  5152  gbak:         writing column LOGIN 
+09:29:01.823  5152  gbak:         writing column RUN 
+09:29:01.823  5152  gbak:         writing column RUNEVERY 
+09:29:01.823  5152  gbak:         writing column DIRECTION 
+09:29:01.823  5152  gbak:         writing column DELETEITEMS 
+09:29:01.823  5152  gbak:    writing table TODOUSERDATAVIEW 
+09:29:01.823  5152  gbak:         writing column IDTODO 
+09:29:01.823  5152  gbak:         writing column IDUSER 
+09:29:01.823  5152  gbak:         writing column EXPANDED 
+09:29:01.823  5152  gbak:         writing column TODOINDEX 
+09:29:01.823  5152  gbak:    writing table TODOEDITVIEW 
+09:29:01.823  5152  gbak:         writing column IDTODO 
+09:29:01.823  5152  gbak:         writing column IDPARENT 
+09:29:01.823  5152  gbak:         writing column READACCESS 
+09:29:01.823  5152  gbak:         writing column WRITEACCESS 
+09:29:01.823  5152  gbak:         writing column CREATED 
+09:29:01.823  5152  gbak:         writing column LASTCHANGED 
+09:29:01.823  5152  gbak:         writing column DELETED 
+09:29:01.823  5152  gbak:         writing column STARTTIME 
+09:29:01.839  5152  gbak:         writing column ENDTIME 
+09:29:01.839  5152  gbak:         writing column TEXT2 
+09:29:01.854  5152  gbak:         writing column COMPLETED 
+09:29:01.854  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.854  5152  gbak:         writing column CATEGORY 
+09:29:01.854  5152  gbak:         writing column IDLIST 
+09:29:01.854  5152  gbak:         writing column IDCREATOR 
+09:29:01.854  5152  gbak:         writing column IDEDITOR 
+09:29:01.854  5152  gbak:         writing column STATUS 
+09:29:01.854  5152  gbak:         writing column TITLE 
+09:29:01.854  5152  gbak:         writing column TEXT 
+09:29:01.854  5152  gbak:         writing column LOCATION 
+09:29:01.854  5152  gbak:         writing column PRIORITY 
+09:29:01.854  5152  gbak:         writing column COMPLETION 
+09:29:01.854  5152  gbak:         writing column SHOWINSCH 
+09:29:01.854  5152  gbak:         writing column TAGS 
+09:29:01.854  5152  gbak:         writing column FIELDSDATA 
+09:29:01.854  5152  gbak:         writing column PATH 
+09:29:01.854  5152  gbak:    writing table TODOFULLVIEW 
+09:29:01.854  5152  gbak:         writing column IDTODO 
+09:29:01.854  5152  gbak:         writing column IDPARENT 
+09:29:01.854  5152  gbak:         writing column CREATED 
+09:29:01.854  5152  gbak:         writing column LASTCHANGED 
+09:29:01.854  5152  gbak:         writing column STARTTIME 
+09:29:01.854  5152  gbak:         writing column ENDTIME 
+09:29:01.854  5152  gbak:         writing column COMPLETED 
+09:29:01.854  5152  gbak:         writing column READACCESS 
+09:29:01.854  5152  gbak:         writing column WRITEACCESS 
+09:29:01.854  5152  gbak:         writing column TEXT2 
+09:29:01.870  5152  gbak:         writing column FIELDSDATA2 
+09:29:01.870  5152  gbak:         writing column SHOWTIME 
+09:29:01.886  5152  gbak:         writing column CATEGORY 
+09:29:01.886  5152  gbak:         writing column IDLIST 
+09:29:01.886  5152  gbak:         writing column IDREMINDER 
+09:29:01.886  5152  gbak:         writing column STATUS 
+09:29:01.886  5152  gbak:         writing column TITLE 
+09:29:01.886  5152  gbak:         writing column TEXT 
+09:29:01.886  5152  gbak:         writing column LOCATION 
+09:29:01.886  5152  gbak:         writing column PRIORITY 
+09:29:01.886  5152  gbak:         writing column COMPLETION 
+09:29:01.886  5152  gbak:         writing column EXPANDED 
+09:29:01.886  5152  gbak:         writing column TODOINDEX 
+09:29:01.886  5152  gbak:         writing column SHOWINSCH 
+09:29:01.886  5152  gbak:         writing column IDEDITOR 
+09:29:01.886  5152  gbak:         writing column TAGS 
+09:29:01.886  5152  gbak:         writing column FIELDSDATA 
+09:29:01.886  5152  gbak:         writing column SOUNDTYPE 
+09:29:01.886  5152  gbak:         writing column SOUNDFILE 
+09:29:01.886  5152  gbak:         writing column MESSAGETYPE 
+09:29:01.886  5152  gbak:         writing column MESSAGETEXT 
+09:29:01.886  5152  gbak:         writing column RUNPROGRAM 
+09:29:01.886  5152  gbak:    writing table TODOLISTUSERDATAVIEW 
+09:29:01.886  5152  gbak:         writing column SELECTEDTODO 
+09:29:01.886  5152  gbak:         writing column IDTODOLIST 
+09:29:01.886  5152  gbak:         writing column IDUSER 
+09:29:01.886  5152  gbak:         writing column LISTINDEX 
+09:29:01.886  5152  gbak:    writing table TODOLISTEDITVIEW 
+09:29:01.901  5152  gbak:         writing column READACCESS 
+09:29:01.917  5152  gbak:         writing column WRITEACCESS 
+09:29:01.917  5152  gbak:         writing column LASTCHANGED 
+09:29:01.917  5152  gbak:         writing column IDTODOLIST 
+09:29:01.917  5152  gbak:         writing column COLOR 
+09:29:01.917  5152  gbak:         writing column IDEDITOR 
+09:29:01.917  5152  gbak:         writing column NAME 
+09:29:01.917  5152  gbak:    writing table TODOLISTFULLVIEW 
+09:29:01.917  5152  gbak:         writing column LASTCHANGED 
+09:29:01.917  5152  gbak:         writing column SELECTEDTODO 
+09:29:01.917  5152  gbak:         writing column READACCESS 
+09:29:01.917  5152  gbak:         writing column WRITEACCESS 
+09:29:01.917  5152  gbak:         writing column IDTODOLIST 
+09:29:01.917  5152  gbak:         writing column COLOR 
+09:29:01.917  5152  gbak:         writing column NAME 
+09:29:01.917  5152  gbak:         writing column LISTINDEX 
+09:29:01.917  5152  gbak:         writing column IDEDITOR 
+09:29:01.917  5152  gbak:    writing table REMINDERUSERDATAVIEW 
+09:29:01.917  5152  gbak:         writing column SHOWTIME 
+09:29:01.917  5152  gbak:         writing column IDREMINDER 
+09:29:01.917  5152  gbak:         writing column IDUSER 
+09:29:01.917  5152  gbak:         writing column STATUS 
+09:29:01.917  5152  gbak:         writing column REMINDIN 
+09:29:01.917  5152  gbak:    writing table REMINDEREDITVIEW 
+09:29:01.917  5152  gbak:         writing column IDTASK 
+09:29:01.917  5152  gbak:         writing column SHOWTIME 
+09:29:01.917  5152  gbak:         writing column IDREMINDER 
+09:29:01.932  5152  gbak:         writing column IDFIELD 
+09:29:01.948  5152  gbak:         writing column ITEMTYPE 
+09:29:01.948  5152  gbak:         writing column SOUNDTYPE 
+09:29:01.948  5152  gbak:         writing column SOUNDFILE 
+09:29:01.948  5152  gbak:         writing column MESSAGETYPE 
+09:29:01.948  5152  gbak:         writing column MESSAGETEXT 
+09:29:01.948  5152  gbak:         writing column RUNPROGRAM 
+09:29:01.948  5152  gbak:    writing table REMINDERFULLVIEW 
+09:29:01.948  5152  gbak:         writing column IDTASK 
+09:29:01.948  5152  gbak:         writing column REMSHOWTIME 
+09:29:01.948  5152  gbak:         writing column USERSHOWTIME 
+09:29:01.948  5152  gbak:         writing column IDREMINDER 
+09:29:01.948  5152  gbak:         writing column IDFIELD 
+09:29:01.948  5152  gbak:         writing column ITEMTYPE 
+09:29:01.948  5152  gbak:         writing column SOUNDTYPE 
+09:29:01.948  5152  gbak:         writing column SOUNDFILE 
+09:29:01.948  5152  gbak:         writing column MESSAGETYPE 
+09:29:01.948  5152  gbak:         writing column MESSAGETEXT 
+09:29:01.948  5152  gbak:         writing column RUNPROGRAM 
+09:29:01.948  5152  gbak:         writing column STATUS 
+09:29:01.948  5152  gbak:         writing column REMINDIN 
+09:29:01.948  5152  gbak:    writing table TRASHVIEW 
+09:29:01.948  5152  gbak:         writing column IDITEM 
+09:29:01.948  5152  gbak:         writing column IDPARENT 
+09:29:01.948  5152  gbak:         writing column CREATED 
+09:29:01.948  5152  gbak:         writing column LASTCHANGED 
+09:29:01.948  5152  gbak:         writing column DELETED 
+09:29:01.964  5152  gbak:         writing column ITEMTYPE 
+09:29:01.964  5152  gbak:         writing column SUBJECT 
+09:29:01.979  5152  gbak:         writing column PATH 
+09:29:01.979  5152  gbak:         writing column IDEDITOR 
+09:29:01.979  5152  gbak:    writing table VIEWPARAMVIEW 
+09:29:01.979  5152  gbak:         writing column IDPARENT 
+09:29:01.979  5152  gbak:         writing column SELECTEDITEM 
+09:29:01.979  5152  gbak:         writing column IDVIEW 
+09:29:01.979  5152  gbak:         writing column IDUSER 
+09:29:01.979  5152  gbak:         writing column SORTFIELDS 
+09:29:01.979  5152  gbak:    writing table USERVIEW 
+09:29:01.979  5152  gbak:         writing column NAME 
+09:29:01.979  5152  gbak:         writing column USERMASK 
+09:29:01.979  5152  gbak:         writing column FULLNAME 
+09:29:01.979  5152  gbak:writing types 
+09:29:01.979  5152  gbak:writing filters 
+09:29:01.979  5152  gbak:writing id generators 
+09:29:01.979  5152  gbak:    writing generator GEN_USERS_ID value 1 
+09:29:01.979  5152  gbak:writing stored procedures 
+09:29:01.979  5152  gbak:writing stored procedure CATEGORYITEMCOUNT 
+09:29:01.979  5152  gbak:writing parameter IDCATEGORY for stored procedure 
+09:29:01.979  5152  gbak:writing parameter ITEMCOUNT for stored procedure 
+09:29:01.979  5152  gbak:writing stored procedure EDITCHECK 
+09:29:01.979  5152  gbak:writing parameter WRITEACCESS for stored procedure 
+09:29:01.979  5152  gbak:writing parameter IDEDITOR for stored procedure 
+09:29:01.979  5152  gbak:writing stored procedure GROUPHASPARENT 
+09:29:01.979  5152  gbak:writing parameter IDCONTACT for stored procedure 
+09:29:01.995  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing parameter HASPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing stored procedure NEXTREMINDER 
+09:29:02.010  5152  gbak:writing parameter IT1 for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IT2 for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IT3 for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IT4 for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IDREMINDER for stored procedure 
+09:29:02.010  5152  gbak:writing parameter SHOWTIME for stored procedure 
+09:29:02.010  5152  gbak:writing stored procedure MAILFOLDERHASPARENT 
+09:29:02.010  5152  gbak:writing parameter IDFOLDER for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing parameter HASPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing stored procedure NOTEHASPARENT 
+09:29:02.010  5152  gbak:writing parameter IDNOTE for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing parameter HASPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing stored procedure PASSGROUPHASPARENT 
+09:29:02.010  5152  gbak:writing parameter IDPASSGROUP for stored procedure 
+09:29:02.010  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.010  5152  gbak:writing parameter HASPARENT for stored procedure 
+09:29:02.026  5152  gbak:writing stored procedure TODOHASPARENT 
+09:29:02.042  5152  gbak:writing parameter IDTODO for stored procedure 
+09:29:02.042  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.042  5152  gbak:writing parameter HASPARENT for stored procedure 
+09:29:02.042  5152  gbak:writing stored procedure SELECTSUBGROUPS 
+09:29:02.042  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.042  5152  gbak:writing parameter IDITEM for stored procedure 
+09:29:02.042  5152  gbak:writing stored procedure SELECTSUBNOTES 
+09:29:02.042  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.042  5152  gbak:writing parameter IDITEM for stored procedure 
+09:29:02.042  5152  gbak:writing stored procedure SELECTSUBPASSGROUPS 
+09:29:02.042  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.042  5152  gbak:writing parameter IDITEM for stored procedure 
+09:29:02.042  5152  gbak:writing stored procedure SELECTSUBTODOS 
+09:29:02.042  5152  gbak:writing parameter IDPARENT for stored procedure 
+09:29:02.042  5152  gbak:writing parameter IDITEM for stored procedure 
+09:29:02.042  5152  gbak:writing exceptions 
+09:29:02.042  5152  gbak:writing exception NORIGHTS 
+09:29:02.042  5152  gbak:writing exception NONOTE 
+09:29:02.042  5152  gbak:writing exception NONOTETREE 
+09:29:02.042  5152  gbak:writing exception NOTODOLIST 
+09:29:02.042  5152  gbak:writing exception NOMAILACCOUNT 
+09:29:02.042  5152  gbak:writing exception NOMAILFOLDER 
+09:29:02.057  5152  gbak:    writing index PK_VIEWPARAMS 
+09:29:02.073  5152  gbak:    writing data for table VIEWPARAMS 
+09:29:02.073  5152  gbak:5 records written 
+09:29:02.073  5152  gbak:    writing index PK_USERS 
+09:29:02.073  5152  gbak:    writing index USERS_IDX1 
+09:29:02.073  5152  gbak:    writing data for table USERS 
+09:29:02.073  5152  gbak:1 records written 
+09:29:02.073  5152  gbak:    writing index PK_TODOLISTUSERDATA 
+09:29:02.073  5152  gbak:    writing data for table TODOLISTUSERDATA 
+09:29:02.073  5152  gbak:0 records written 
+09:29:02.073  5152  gbak:    writing index PK_TODOLISTS 
+09:29:02.073  5152  gbak:    writing data for table TODOLISTS 
+09:29:02.073  5152  gbak:1 records written 
+09:29:02.073  5152  gbak:    writing index PK_TODOUSERDATA 
+09:29:02.073  5152  gbak:    writing data for table TODOUSERDATA 
+09:29:02.073  5152  gbak:5 records written 
+09:29:02.073  5152  gbak:    writing index PK_TODOS 
+09:29:02.073  5152  gbak:    writing index TODOS_IDX1 
+09:29:02.073  5152  gbak:    writing index TODOS_IDX2 
+09:29:02.073  5152  gbak:    writing index TODOS_IDX4 
+09:29:02.073  5152  gbak:    writing data for table TODOS 
+09:29:02.073  5152  gbak:6 records written 
+09:29:02.073  5152  gbak:    writing index PK_THREADS 
+09:29:02.073  5152  gbak:    writing data for table THREADS 
+09:29:02.073  5152  gbak:0 records written 
+09:29:02.073  5152  gbak:    writing index PK_TEMPLATES 
+09:29:02.073  5152  gbak:    writing data for table TEMPLATES 
+09:29:02.073  5152  gbak:0 records written 
+09:29:02.073  5152  gbak:    writing index PK_TASKS 
+09:29:02.073  5152  gbak:    writing index TASKS_IDX1 
+09:29:02.073  5152  gbak:    writing index TASKS_IDX2 
+09:29:02.088  5152  gbak:    writing index TASKS_IDX3 
+09:29:02.104  5152  gbak:    writing index TASKS_IDX5 
+09:29:02.104  5152  gbak:    writing index TASKS_IDX6 
+09:29:02.104  5152  gbak:    writing data for table TASKS 
+09:29:02.400  5152  gbak:20000 records written 
+09:29:02.463  5152  gbak:24128 records written 
+09:29:02.463  5152  gbak:    writing index PK_TASKFIELDUSERDATA 
+09:29:02.463  5152  gbak:    writing data for table TASKFIELDUSERDATA 
+09:29:02.463  5152  gbak:0 records written 
+09:29:02.463  5152  gbak:    writing index PK_TASKFIELDS 
+09:29:02.463  5152  gbak:    writing data for table TASKFIELDS 
+09:29:02.463  5152  gbak:0 records written 
+09:29:02.463  5152  gbak:    writing index PK_SYNCINFO 
+09:29:02.463  5152  gbak:    writing data for table SYNCINFO 
+09:29:02.463  5152  gbak:0 records written 
+09:29:02.463  5152  gbak:    writing data for table RECEIVEDMESSAGES 
+09:29:02.463  5152  gbak:0 records written 
+09:29:02.463  5152  gbak:    writing index PK_REPEATINFO 
+09:29:02.463  5152  gbak:    writing data for table REPEATINFO 
+09:29:02.463  5152  gbak:9 records written 
+09:29:02.463  5152  gbak:    writing index PK_REMINDERUSERDATA 
+09:29:02.463  5152  gbak:    writing index REMINDERUSERDATA_IDX1 
+09:29:02.463  5152  gbak:    writing index REMINDERUSERDATA_IDX2 
+09:29:02.463  5152  gbak:    writing data for table REMINDERUSERDATA 
+09:29:02.463  5152  gbak:45 records written 
+09:29:02.463  5152  gbak:    writing index PK_REMINDERS 
+09:29:02.463  5152  gbak:    writing index REMINDERS_IDX1 
+09:29:02.463  5152  gbak:    writing index REMINDERS_IDX2 
+09:29:02.463  5152  gbak:    writing data for table REMINDERS 
+09:29:02.525  5152  gbak:20000 records written 
+09:29:02.525  5152  gbak:23999 records written 
+09:29:02.525  5152  gbak:    writing index PK_PGPKEYS 
+09:29:02.525  5152  gbak:    writing data for table PGPKEYS 
+09:29:02.525  5152  gbak:0 records written 
+09:29:02.525  5152  gbak:    writing index PK_PASSGROUPUSERDATA 
+09:29:02.525  5152  gbak:    writing data for table PASSGROUPUSERDATA 
+09:29:02.525  5152  gbak:0 records written 
+09:29:02.525  5152  gbak:    writing index PK_PASSGROUPS 
+09:29:02.525  5152  gbak:    writing index PASSGROUPS_IDX1 
+09:29:02.525  5152  gbak:    writing index PASSGROUPS_IDX2 
+09:29:02.525  5152  gbak:    writing index PASSGROUPS_IDX3 
+09:29:02.525  5152  gbak:    writing data for table PASSGROUPS 
+09:29:02.525  5152  gbak:0 records written 
+09:29:02.525  5152  gbak:    writing index PK_PASSENTRYUSERDATA 
+09:29:02.525  5152  gbak:    writing data for table PASSENTRYUSERDATA 
+09:29:02.525  5152  gbak:0 records written 
+09:29:02.525  5152  gbak:    writing index PK_PASSENTRIES 
+09:29:02.525  5152  gbak:    writing index PASSENTRIES_IDX1 
+09:29:02.525  5152  gbak:    writing index PASSENTRIES_IDX2 
+09:29:02.525  5152  gbak:    writing data for table PASSENTRIES 
+09:29:02.525  5152  gbak:0 records written 
+09:29:02.525  5152  gbak:    writing index PK_PASSENTRYFIELDUSERDATA 
+09:29:02.541  5152  gbak:    writing data for table PASSENTRYFIELDUSERDATA 
+09:29:02.541  5152  gbak:0 records written 
+09:29:02.541  5152  gbak:    writing index PK_PASSENTRYFIELDS 
+09:29:02.541  5152  gbak:    writing data for table PASSENTRYFIELDS 
+09:29:02.541  5152  gbak:5 records written 
+09:29:02.541  5152  gbak:    writing index PK_PARAMS 
+09:29:02.541  5152  gbak:    writing data for table PARAMS 
+09:29:02.541  5152  gbak:1 records written 
+09:29:02.541  5152  gbak:    writing index PK_NOTEICONS 
+09:29:02.541  5152  gbak:    writing data for table NOTEICONS 
+09:29:02.541  5152  gbak:73 records written 
+09:29:02.541  5152  gbak:    writing index PK_NOTETREEUSERDATA 
+09:29:02.541  5152  gbak:    writing data for table NOTETREEUSERDATA 
+09:29:02.541  5152  gbak:1 records written 
+09:29:02.541  5152  gbak:    writing index PK_NOTETREES 
+09:29:02.541  5152  gbak:    writing data for table NOTETREES 
+09:29:02.541  5152  gbak:1 records written 
+09:29:02.541  5152  gbak:    writing index PK_NOTETABUSERDATA 
+09:29:02.541  5152  gbak:    writing data for table NOTETABUSERDATA 
+09:29:02.541  5152  gbak:1 records written 
+09:29:02.541  5152  gbak:    writing index PK_NOTETABS 
+09:29:02.541  5152  gbak:    writing index NOTETABS_IDX1 
+09:29:02.541  5152  gbak:    writing index NOTETABS_IDX2 
+09:29:02.541  5152  gbak:    writing index NOTETABS_IDX4 
+09:29:02.541  5152  gbak:    writing data for table NOTETABS 
+09:29:02.541  5152  gbak:1 records written 
+09:29:02.541  5152  gbak:    writing index PK_NOTEUSERDATA 
+09:29:02.541  5152  gbak:    writing data for table NOTEUSERDATA 
+09:29:02.556  5152  gbak:1 records written 
+09:29:02.556  5152  gbak:    writing index PK_NOTES 
+09:29:02.556  5152  gbak:    writing index NOTES_IDX1 
+09:29:02.556  5152  gbak:    writing index NOTES_IDX2 
+09:29:02.556  5152  gbak:    writing index NOTES_IDX4 
+09:29:02.556  5152  gbak:    writing data for table NOTES 
+09:29:02.556  5152  gbak:2 records written 
+09:29:02.572  5152  gbak:    writing data for table MAILRULEACTIONS 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing data for table MAILRULECONDITIONS 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index PK_MAILRULES 
+09:29:02.572  5152  gbak:    writing data for table MAILRULES 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index MESSAGEEMAILS_IDX1 
+09:29:02.572  5152  gbak:    writing index MESSAGEEMAILS_IDX2 
+09:29:02.572  5152  gbak:    writing data for table MESSAGEEMAILS 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index PK_MESSAGES 
+09:29:02.572  5152  gbak:    writing index MESSAGES_IDX1 
+09:29:02.572  5152  gbak:    writing index MESSAGES_IDX2 
+09:29:02.572  5152  gbak:    writing index MESSAGES_IDX3 
+09:29:02.572  5152  gbak:    writing index MESSAGES_IDX4 
+09:29:02.572  5152  gbak:    writing data for table MESSAGES 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index PK_MAILSMTPSERVERS 
+09:29:02.572  5152  gbak:    writing data for table MAILSMTPSERVERS 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index PK_MAILIDENTITIES 
+09:29:02.572  5152  gbak:    writing data for table MAILIDENTITIES 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index PK_MAILFOLDERS 
+09:29:02.572  5152  gbak:    writing data for table MAILFOLDERS 
+09:29:02.572  5152  gbak:0 records written 
+09:29:02.572  5152  gbak:    writing index PK_MAILACCOUNTS 
+09:29:02.588  5152  gbak:    writing data for table MAILACCOUNTS 
+09:29:02.603  5152  gbak:0 records written 
+09:29:02.603  5152  gbak:    writing index PK_LINKS 
+09:29:02.603  5152  gbak:    writing index LINKS_IDX1 
+09:29:02.603  5152  gbak:    writing index LINKS_IDX2 
+09:29:02.603  5152  gbak:    writing data for table LINKS 
+09:29:02.603  5152  gbak:21 records written 
+09:29:02.603  5152  gbak:    writing index PK_GROUPUSERDATA 
+09:29:02.603  5152  gbak:    writing data for table GROUPUSERDATA 
+09:29:02.603  5152  gbak:0 records written 
+09:29:02.603  5152  gbak:    writing index PK_GROUPS 
+09:29:02.603  5152  gbak:    writing index GROUPS_IDX1 
+09:29:02.603  5152  gbak:    writing index GROUPS_IDX2 
+09:29:02.603  5152  gbak:    writing index GROUPS_IDX4 
+09:29:02.603  5152  gbak:    writing index GROUPS_IDX5 
+09:29:02.603  5152  gbak:    writing data for table GROUPS 
+09:29:02.603  5152  gbak:2 records written 
+09:29:02.603  5152  gbak:    writing index PK_FIELDS 
+09:29:02.603  5152  gbak:    writing index FIELDS_IDX1 
+09:29:02.603  5152  gbak:    writing data for table FIELDS 
+09:29:02.603  5152  gbak:190 records written 
+09:29:02.603  5152  gbak:    writing data for table DBPARAMS 
+09:29:02.603  5152  gbak:1 records written 
+09:29:02.603  5152  gbak:    writing index PK_CONTACTSUSERDATA 
+09:29:02.603  5152  gbak:    writing data for table CONTACTUSERDATA 
+09:29:02.603  5152  gbak:0 records written 
+09:29:02.603  5152  gbak:    writing index PK_CONTACTS 
+09:29:02.603  5152  gbak:    writing index CONTACTS_IDX1 
+09:29:02.603  5152  gbak:    writing index CONTACTS_IDX3 
+09:29:02.603  5152  gbak:    writing index CONTACTS_IDX4 
+09:29:02.603  5152  gbak:    writing data for table CONTACTS 
+09:29:02.619  5152  gbak:1 records written 
+09:29:02.634  5152  gbak:    writing index PK_CONTACTFIELDUSERDATA 
+09:29:02.634  5152  gbak:    writing data for table CONTACTFIELDUSERDATA 
+09:29:02.634  5152  gbak:0 records written 
+09:29:02.634  5152  gbak:    writing index PK_CONTACTFIELDS 
+09:29:02.634  5152  gbak:    writing data for table CONTACTFIELDS 
+09:29:02.634  5152  gbak:72 records written 
+09:29:02.634  5152  gbak:    writing index PK_CATEGORIES 
+09:29:02.634  5152  gbak:    writing data for table CATEGORIES 
+09:29:02.634  5152  gbak:10 records written 
+09:29:02.634  5152  gbak:    writing index PK_ATTACHMENTS 
+09:29:02.634  5152  gbak:    writing index ATTACHMENTS_IDX1 
+09:29:02.634  5152  gbak:    writing data for table ATTACHMENTS 
+09:29:02.634  5152  gbak:0 records written 
+09:29:02.634  5152  gbak:    writing index PK_ASSIGNEES 
+09:29:02.634  5152  gbak:    writing index ASSIGNEES_IDX1 
+09:29:02.634  5152  gbak:    writing data for table ASSIGNEES 
+09:29:02.634  5152  gbak:0 records written 
+09:29:02.634  5152  gbak:writing triggers 
+09:29:02.634  5152  gbak:    writing trigger ATTACHMENTS_AI0 
+09:29:02.634  5152  gbak:    writing trigger ATTACHMENTS_BU0 
+09:29:02.634  5152  gbak:    writing trigger ATTACHMENTS_BD0 
+09:29:02.634  5152  gbak:    writing trigger CATEGORIES_AI0 
+09:29:02.634  5152  gbak:    writing trigger CATEGORIES_AU0 
+09:29:02.634  5152  gbak:    writing trigger CATEGORIES_BD0 
+09:29:02.634  5152  gbak:    writing trigger CONTACTFIELDS_AI0 
+09:29:02.634  5152  gbak:    writing trigger CONTACTFIELDS_AU0 
+09:29:02.634  5152  gbak:    writing trigger CONTACTFIELDS_AD0 
+09:29:02.634  5152  gbak:    writing trigger CONTACTFIELDUSERDATA_BI0 
+09:29:02.634  5152  gbak:    writing trigger CONTACTS_BI0 
+09:29:02.634  5152  gbak:    writing trigger CONTACTS_BU0 
+09:29:02.650  5152  gbak:    writing trigger CONTACTS_BD0 
+09:29:02.650  5152  gbak:    writing trigger CONTACTS_AD0 
+09:29:02.650  5152  gbak:    writing trigger CONTACTUSERDATA_BI0 
+09:29:02.650  5152  gbak:    writing trigger FIELDS_BI0 
+09:29:02.650  5152  gbak:    writing trigger GROUPS_BI0 
+09:29:02.650  5152  gbak:    writing trigger GROUPS_AI0 
+09:29:02.650  5152  gbak:    writing trigger GROUPS_BU0 
+09:29:02.650  5152  gbak:    writing trigger GROUPS_AU0 
+09:29:02.650  5152  gbak:    writing trigger GROUPS_BD0 
+09:29:02.650  5152  gbak:    writing trigger GROUPS_AD0 
+09:29:02.650  5152  gbak:    writing trigger GROUPUSERDATA_BI0 
+09:29:02.650  5152  gbak:    writing trigger MAILACCOUNTS_BI0 
+09:29:02.650  5152  gbak:    writing trigger MAILACCOUNTS_BD0 
+09:29:02.650  5152  gbak:    writing trigger MAILACCOUNTS_AD0 
+09:29:02.650  5152  gbak:    writing trigger MAILFOLDERS_BI0 
+09:29:02.650  5152  gbak:    writing trigger MAILFOLDERS_AI0 
+09:29:02.650  5152  gbak:    writing trigger MAILFOLDERS_BU0 
+09:29:02.650  5152  gbak:    writing trigger MAILFOLDERS_AU0 
+09:29:02.650  5152  gbak:    writing trigger MAILFOLDERS_AD0 
+09:29:02.650  5152  gbak:    writing trigger MAILIDENTITIES_BI0 
+09:29:02.650  5152  gbak:    writing trigger MAILIDENTITIES_BD0 
+09:29:02.650  5152  gbak:    writing trigger MAILSMTPSERVERS_BI0 
+09:29:02.650  5152  gbak:    writing trigger MESSAGES_BI0 
+09:29:02.650  5152  gbak:    writing trigger MESSAGES_BU0 
+09:29:02.650  5152  gbak:    writing trigger MESSAGES_BD0 
+09:29:02.666  5152  gbak:    writing trigger MESSAGEEMAILS_BI0 
+09:29:02.681  5152  gbak:    writing trigger MAILRULES_BI0 
+09:29:02.681  5152  gbak:    writing trigger MAILRULES_BD0 
+09:29:02.681  5152  gbak:    writing trigger MAILRULECONDITIONS_BI0 
+09:29:02.681  5152  gbak:    writing trigger MAILRULEACTIONS_BI0 
+09:29:02.681  5152  gbak:    writing trigger NOTES_BI0 
+09:29:02.681  5152  gbak:    writing trigger NOTES_AI0 
+09:29:02.681  5152  gbak:    writing trigger NOTES_BU0 
+09:29:02.681  5152  gbak:    writing trigger NOTES_AU0 
+09:29:02.681  5152  gbak:    writing trigger NOTES_BD0 
+09:29:02.681  5152  gbak:    writing trigger NOTES_AD0 
+09:29:02.681  5152  gbak:    writing trigger NOTEUSERDATA_BI0 
+09:29:02.681  5152  gbak:    writing trigger NOTETABS_BI0 
+09:29:02.681  5152  gbak:    writing trigger NOTETABS_BU0 
+09:29:02.681  5152  gbak:    writing trigger NOTETABS_AU0 
+09:29:02.681  5152  gbak:    writing trigger NOTETABS_BD0 
+09:29:02.681  5152  gbak:    writing trigger NOTETABS_AD0 
+09:29:02.681  5152  gbak:    writing trigger NOTETABUSERDATA_BI0 
+09:29:02.681  5152  gbak:    writing trigger NOTETREES_BI0 
+09:29:02.681  5152  gbak:    writing trigger NOTETREES_BU0 
+09:29:02.681  5152  gbak:    writing trigger NOTETREES_AU0 
+09:29:02.681  5152  gbak:    writing trigger NOTETREES_BD0 
+09:29:02.681  5152  gbak:    writing trigger NOTETREES_AD0 
+09:29:02.681  5152  gbak:    writing trigger NOTETREEUSERDATA_BI0 
+09:29:02.681  5152  gbak:    writing trigger PAPAMS_BI0 
+09:29:02.681  5152  gbak:    writing trigger PASSENTRYFIELDS_AI0 
+09:29:02.697  5152  gbak:    writing trigger PASSENTRYFIELDS_AU0 
+09:29:02.697  5152  gbak:    writing trigger PASSENTRYFIELDS_AD0 
+09:29:02.712  5152  gbak:    writing trigger PASSENTRYFIELDUSERDATA_BI0 
+09:29:02.712  5152  gbak:    writing trigger PASSENTRIES_BI0 
+09:29:02.712  5152  gbak:    writing trigger PASSENTRIES_BU0 
+09:29:02.712  5152  gbak:    writing trigger PASSENTRIES_BD0 
+09:29:02.712  5152  gbak:    writing trigger PASSENTRIES_AD0 
+09:29:02.712  5152  gbak:    writing trigger PASSENTRYUSERDATA_BI0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPS_BI0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPS_AI0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPS_BU0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPS_AU0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPS_BD0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPS_AD0 
+09:29:02.712  5152  gbak:    writing trigger PASSGROUPUSERDATA_BI0 
+09:29:02.712  5152  gbak:    writing trigger PGPKEYS_BI0 
+09:29:02.712  5152  gbak:    writing trigger REMINDERS_BI0 
+09:29:02.712  5152  gbak:    writing trigger REMINDERS_BU0 
+09:29:02.712  5152  gbak:    writing trigger REMINDERS_BD0 
+09:29:02.712  5152  gbak:    writing trigger REMINDERS_AD0 
+09:29:02.712  5152  gbak:    writing trigger REMINDERUSERDATA_BI0 
+09:29:02.712  5152  gbak:    writing trigger REMINDERUSERDATA_AU0 
+09:29:02.712  5152  gbak:    writing trigger RECEIVEDMESSAGES_BI0 
+09:29:02.712  5152  gbak:    writing trigger SYNCINFO_BI0 
+09:29:02.712  5152  gbak:    writing trigger TASKFIELDS_AI0 
+09:29:02.712  5152  gbak:    writing trigger TASKFIELDS_AU0 
+09:29:02.728  5152  gbak:    writing trigger TASKFIELDS_AD0 
+09:29:02.744  5152  gbak:    writing trigger TASKFIELDUSERDATA_BI0 
+09:29:02.744  5152  gbak:    writing trigger TASKS_BI0 
+09:29:02.744  5152  gbak:    writing trigger TASKS_BU0 
+09:29:02.744  5152  gbak:    writing trigger TASKS_BD0 
+09:29:02.744  5152  gbak:    writing trigger TASKS_AD0 
+09:29:02.744  5152  gbak:    writing trigger TEMPLATES_BI0 
+09:29:02.744  5152  gbak:    writing trigger THREADS_BI0 
+09:29:02.744  5152  gbak:    writing trigger TODOS_BI0 
+09:29:02.744  5152  gbak:    writing trigger TODOS_AI0 
+09:29:02.744  5152  gbak:    writing trigger TODOS_BU0 
+09:29:02.744  5152  gbak:    writing trigger TODOS_AU0 
+09:29:02.744  5152  gbak:    writing trigger TODOS_BD0 
+09:29:02.744  5152  gbak:    writing trigger TODOS_AD0 
+09:29:02.744  5152  gbak:    writing trigger TODOUSERDATA_BI0 
+09:29:02.744  5152  gbak:    writing trigger TODOLISTS_BI0 
+09:29:02.744  5152  gbak:    writing trigger TODOLISTS_BU0 
+09:29:02.744  5152  gbak:    writing trigger TODOLISTS_AU0 
+09:29:02.744  5152  gbak:    writing trigger TODOLISTS_BD0 
+09:29:02.744  5152  gbak:    writing trigger TODOLISTS_AD0 
+09:29:02.744  5152  gbak:    writing trigger TODOLISTUSERDATA_BI0 
+09:29:02.744  5152  gbak:    writing trigger VIEWPARAMS_BI0 
+09:29:02.744  5152  gbak:    writing trigger USERS_BI 
+09:29:02.744  5152  gbak:writing trigger messages 
+09:29:02.744  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.744  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.744  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.759  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user PUBLIC 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user PUBLIC 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user PUBLIC 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.775  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.790  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.806  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.822  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.837  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.853  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.853  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.853  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.868  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.884  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.900  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.915  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.931  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.946  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.962  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.978  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:02.993  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.009  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.024  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.040  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.056  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.056  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.056  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.056  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.056  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.071  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.087  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.087  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.087  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.102  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.118  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.134  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.149  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.165  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.180  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.196  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.212  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.227  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.243  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.258  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.274  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.290  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.290  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.290  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.305  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.321  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.321  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.336  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.352  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.368  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.383  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.399  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.414  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.414  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user SYSDBA 
+09:29:03.430  5152  gbak:    writing privilege for user GROUPS_AD0 
+09:29:03.430  5152  gbak:    writing privilege for user GROUPS_AD0 
+09:29:03.430  5152  gbak:    writing privilege for user GROUPS_BD0 
+09:29:03.430  5152  gbak:    writing privilege for user GROUPS_BD0 
+09:29:03.430  5152  gbak:    writing privilege for user MAILIDENTITIES_BD0 
+09:29:03.430  5152  gbak:    writing privilege for user MAILIDENTITIES_BD0 
+09:29:03.430  5152  gbak:    writing privilege for user GROUPS_AD0 
+09:29:03.430  5152  gbak:    writing privilege for user GROUPS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user GROUPS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user GROUPS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user NOTES_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user NOTES_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user NOTETABS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user NOTETABS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user NOTETREES_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user NOTETREES_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user GROUPS_BD0 
+09:29:03.446  5152  gbak:    writing privilege for user GROUPS_BD0 
+09:29:03.446  5152  gbak:    writing privilege for user REMINDERS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user REMINDERS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user TODOS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user TODOS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user TODOLISTS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user TODOLISTS_AD0 
+09:29:03.446  5152  gbak:    writing privilege for user PUBLIC 
+09:29:03.446  5152  gbak:writing table constraints 
+09:29:03.446  5152  gbak:writing constraint INTEG_1 
+09:29:03.446  5152  gbak:writing constraint INTEG_2 
+09:29:03.446  5152  gbak:writing constraint INTEG_3 
+09:29:03.446  5152  gbak:writing constraint INTEG_4 
+09:29:03.446  5152  gbak:writing constraint INTEG_5 
+09:29:03.461  5152  gbak:writing constraint INTEG_6 
+09:29:03.477  5152  gbak:writing constraint INTEG_7 
+09:29:03.477  5152  gbak:writing constraint INTEG_8 
+09:29:03.477  5152  gbak:writing constraint INTEG_9 
+09:29:03.477  5152  gbak:writing constraint INTEG_10 
+09:29:03.477  5152  gbak:writing constraint INTEG_11 
+09:29:03.477  5152  gbak:writing constraint INTEG_12 
+09:29:03.477  5152  gbak:writing constraint INTEG_13 
+09:29:03.477  5152  gbak:writing constraint INTEG_14 
+09:29:03.477  5152  gbak:writing constraint INTEG_15 
+09:29:03.477  5152  gbak:writing constraint INTEG_16 
+09:29:03.477  5152  gbak:writing constraint INTEG_17 
+09:29:03.477  5152  gbak:writing constraint INTEG_18 
+09:29:03.477  5152  gbak:writing constraint INTEG_19 
+09:29:03.477  5152  gbak:writing constraint INTEG_20 
+09:29:03.477  5152  gbak:writing constraint INTEG_21 
+09:29:03.477  5152  gbak:writing constraint INTEG_22 
+09:29:03.477  5152  gbak:writing constraint INTEG_23 
+09:29:03.477  5152  gbak:writing constraint INTEG_24 
+09:29:03.477  5152  gbak:writing constraint INTEG_25 
+09:29:03.477  5152  gbak:writing constraint INTEG_26 
+09:29:03.477  5152  gbak:writing constraint INTEG_27 
+09:29:03.477  5152  gbak:writing constraint INTEG_28 
+09:29:03.477  5152  gbak:writing constraint INTEG_29 
+09:29:03.477  5152  gbak:writing constraint INTEG_30 
+09:29:03.477  5152  gbak:writing constraint INTEG_31 
+09:29:03.477  5152  gbak:writing constraint INTEG_32 
+09:29:03.477  5152  gbak:writing constraint INTEG_33 
+09:29:03.477  5152  gbak:writing constraint INTEG_34 
+09:29:03.477  5152  gbak:writing constraint INTEG_35 
+09:29:03.477  5152  gbak:writing constraint INTEG_36 
+09:29:03.477  5152  gbak:writing constraint INTEG_37 
+09:29:03.492  5152  gbak:writing constraint INTEG_38 
+09:29:03.508  5152  gbak:writing constraint INTEG_39 
+09:29:03.508  5152  gbak:writing constraint INTEG_40 
+09:29:03.508  5152  gbak:writing constraint INTEG_41 
+09:29:03.508  5152  gbak:writing constraint INTEG_42 
+09:29:03.508  5152  gbak:writing constraint INTEG_43 
+09:29:03.508  5152  gbak:writing constraint PK_ASSIGNEES 
+09:29:03.508  5152  gbak:writing constraint PK_ATTACHMENTS 
+09:29:03.508  5152  gbak:writing constraint PK_CATEGORIES 
+09:29:03.508  5152  gbak:writing constraint PK_CONTACTFIELDS 
+09:29:03.508  5152  gbak:writing constraint PK_CONTACTFIELDUSERDATA 
+09:29:03.508  5152  gbak:writing constraint PK_CONTACTS 
+09:29:03.508  5152  gbak:writing constraint PK_CONTACTSUSERDATA 
+09:29:03.508  5152  gbak:writing constraint PK_FIELDS 
+09:29:03.508  5152  gbak:writing constraint PK_GROUPS 
+09:29:03.508  5152  gbak:writing constraint PK_GROUPUSERDATA 
+09:29:03.508  5152  gbak:writing constraint PK_LINKS 
+09:29:03.508  5152  gbak:writing constraint PK_MAILACCOUNTS 
+09:29:03.508  5152  gbak:writing constraint PK_MAILFOLDERS 
+09:29:03.508  5152  gbak:writing constraint PK_MAILIDENTITIES 
+09:29:03.508  5152  gbak:writing constraint PK_MAILSMTPSERVERS 
+09:29:03.508  5152  gbak:writing constraint PK_MESSAGES 
+09:29:03.508  5152  gbak:writing constraint PK_MAILRULES 
+09:29:03.508  5152  gbak:writing constraint PK_NOTES 
+09:29:03.508  5152  gbak:writing constraint PK_NOTEUSERDATA 
+09:29:03.508  5152  gbak:writing constraint PK_NOTETABS 
+09:29:03.508  5152  gbak:writing constraint PK_NOTETABUSERDATA 
+09:29:03.508  5152  gbak:writing constraint PK_NOTETREES 
+09:29:03.524  5152  gbak:writing constraint PK_NOTETREEUSERDATA 
+09:29:03.524  5152  gbak:writing constraint PK_NOTEICONS 
+09:29:03.524  5152  gbak:writing constraint PK_PARAMS 
+09:29:03.524  5152  gbak:writing constraint PK_PASSENTRYFIELDS 
+09:29:03.524  5152  gbak:writing constraint PK_PASSENTRYFIELDUSERDATA 
+09:29:03.524  5152  gbak:writing constraint PK_PASSENTRIES 
+09:29:03.524  5152  gbak:writing constraint PK_PASSENTRYUSERDATA 
+09:29:03.524  5152  gbak:writing constraint PK_PASSGROUPS 
+09:29:03.524  5152  gbak:writing constraint PK_PASSGROUPUSERDATA 
+09:29:03.524  5152  gbak:writing constraint PK_PGPKEYS 
+09:29:03.539  5152  gbak:writing constraint PK_REMINDERS 
+09:29:03.539  5152  gbak:writing constraint PK_REMINDERUSERDATA 
+09:29:03.539  5152  gbak:writing constraint PK_REPEATINFO 
+09:29:03.539  5152  gbak:writing constraint PK_SYNCINFO 
+09:29:03.539  5152  gbak:writing constraint PK_TASKFIELDS 
+09:29:03.539  5152  gbak:writing constraint PK_TASKFIELDUSERDATA 
+09:29:03.539  5152  gbak:writing constraint PK_TASKS 
+09:29:03.539  5152  gbak:writing constraint PK_TEMPLATES 
+09:29:03.539  5152  gbak:writing constraint PK_THREADS 
+09:29:03.539  5152  gbak:writing constraint PK_TODOS 
+09:29:03.539  5152  gbak:writing constraint PK_TODOUSERDATA 
+09:29:03.539  5152  gbak:writing constraint PK_TODOLISTS 
+09:29:03.539  5152  gbak:writing constraint PK_TODOLISTUSERDATA 
+09:29:03.539  5152  gbak:writing constraint PK_USERS 
+09:29:03.539  5152  gbak:writing constraint PK_VIEWPARAMS 
+09:29:03.539  5152  gbak:writing referential constraints 
+09:29:03.539  5152  gbak:writing check constraints 
+09:29:03.539  5152  gbak:writing SQL roles 
+09:29:03.555  5152  gbak:closing file, committing, and finishing. 4262400 bytes written 
+09:29:03.570  5152  
