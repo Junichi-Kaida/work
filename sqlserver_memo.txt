@@ -1,0 +1,17 @@
+　　SQL Serverエージェントのジョブ実行でリンクサーバへアクセス時にエラーが発生している。
+		Executed as user: NT SERVICE\SQLSERVERAGENT. SELECT @upd_date_ = UPDATE_DATE  FROM cust_tmr_performance.cust_tmr_performance.DATALINKAGE_UPD_DATE [SQLSTATE 01000]
+		 (Message 0)  SELECT @ins_count_ = count(*) FROM OB_DATA_LINKAGE.cust_tmr_datalinkage.cust_tmr_datalinkage.CUSTOMER_BUSINESS WHERE LAST_UPD_DATE = CLIENT_INS_DATE AND CLIENT_INS_DATE > '2018-12-21 14:51:36:247' [SQLSTATE 01000]
+		 (Message 0)  OLE DB provider "SQLNCLI11" for linked server "OB_DATA_LINKAGE" returned message "Invalid authorization specification". [SQLSTATE 01000]
+		 (Message 7412)  Cannot initialize the data source object of OLE DB provider "SQLNCLI11" for linked server "OB_DATA_LINKAGE". [SQLSTATE 42000]
+		 (Error 50000)  The OLE DB provider "SQLNCLI11" for linked server "OB_DATA_LINKAGE" reported an error. Authentication failed. [SQLSTATE 42000]
+		 (Error 7399)  Cannot initialize the data source object of OLE DB provider "SQLNCLI11" for linked server "OB_DATA_LINKAGE". [SQLSTATE 42000]
+		 (Error 7303)  OLE DB provider "SQLNCLI11" for linked server "OB_DATA_LINKAGE" returned message "Invalid authorization specification". [SQLSTATE 01000]
+		 (Error 7412).  The step failed.
+　　→原因としては、ジョブステップを実行するsqlエージェントアカウントがリンクサーバー上のアクセス許可を必要とするため。
+　　　調べた先の情報によると、下記の手順で解決するとのことだったが、リンクサーバーを右クリックしてプロパティを開いてもセキュリティタブが無かったので別の対応とした。
+　　　>>リンクサーバーを右クリックし、プロパティをクリックしてセキュリティタブに移動し、リンクサーバーで使用しているセキュリティコンテキストを確認し、SQLエージェントアカウントにリンクされたサーバー
+　　
+　　→別の対応
+　　　ジョブのプロパティ→ステップ→ジョブステップをダブルクリック→詳細設定タブ→実行時のユーザー→「ob_data_linkage」を入力してOK
+　　　
+　　　これでジョブのステップ実行がリンクサーバー上のアクセス権を持った「ob_data_linkage」で行われることになるため、ジョブ実行でエラーが発生しない。
